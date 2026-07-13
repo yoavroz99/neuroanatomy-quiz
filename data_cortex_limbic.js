@@ -12,7 +12,7 @@ window.QUESTIONS_CORTEX_LIMBIC = [
     "correctIndex": 0,
     "explanation": "ה-Central sulcus מפריד בין ה-Frontal lobe (רוסטרלית לחריץ) ל-Parietal lobe (קאודלית לו).",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 12,
       "section": "גבולות האונות"
     },
@@ -31,7 +31,7 @@ window.QUESTIONS_CORTEX_LIMBIC = [
     "correctIndex": 3,
     "explanation": "ה-Lateral fissure מגדיר את ה-Temporal lobe בחלקה הקדמי ומפריד בינה לבין ה-Frontal lobe.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 12,
       "section": "גבולות האונות"
     },
@@ -50,7 +50,7 @@ window.QUESTIONS_CORTEX_LIMBIC = [
     "correctIndex": 2,
     "explanation": "ל-Lateral fissure שלושה ענפים: Anterior ramus פונה קדימה, Ascending ramus פונה מעלה, Posterior ramus פונה לאחור.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 12,
       "section": "גבולות האונות"
     },
@@ -69,7 +69,7 @@ window.QUESTIONS_CORTEX_LIMBIC = [
     "correctIndex": 1,
     "explanation": "ה-Precentral gyrus הוא פיתול אנכי הנמצא צמוד וקדמית ל-Central sulcus, ומהווה את מיקום ה-Primary motor cortex.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 13,
       "section": "המשטח הלטרלי – אונה פרונטלית"
     },
@@ -88,7 +88,7 @@ window.QUESTIONS_CORTEX_LIMBIC = [
     "correctIndex": 0,
     "explanation": "אקסיטציה של אזורים ב-Precentral gyrus, מיקום ה-Primary motor cortex, מובילה לכיווץ שרירים בגוף.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 13,
       "section": "המשטח הלטרלי – אונה פרונטלית"
     },
@@ -107,7 +107,7 @@ window.QUESTIONS_CORTEX_LIMBIC = [
     "correctIndex": 2,
     "explanation": "ה-Pars orbitalis נמצא קדמית ומתחת ל-Anterior ramus, בקרבת ה-Orbit.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 13,
       "section": "המשטח הלטרלי – אונה פרונטלית"
     },
@@ -126,7 +126,7 @@ window.QUESTIONS_CORTEX_LIMBIC = [
     "correctIndex": 3,
     "explanation": "ה-Pars opercularis נמצא אחורית ל-Ascending ramus ומעל ה-Posterior ramus.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 13,
       "section": "המשטח הלטרלי – אונה פרונטלית"
     },
@@ -145,7 +145,7 @@ window.QUESTIONS_CORTEX_LIMBIC = [
     "correctIndex": 0,
     "explanation": "ה-Postcentral gyrus, הפיתול האנכי הצמוד והאחורי ל-Central sulcus, הוא מיקום ה-Primary somatosensory cortex.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 13,
       "section": "המשטח הלטרלי – אונה פריאטלית"
     },
@@ -164,7 +164,7 @@ window.QUESTIONS_CORTEX_LIMBIC = [
     "correctIndex": 1,
     "explanation": "ה-Intraparietal sulcus מחלק את יתר האונה הפריאטלית ל-Superior ו-Inferior parietal lobules.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 14,
       "section": "המשטח הלטרלי – אונה פריאטלית"
     },
@@ -183,7 +183,7 @@ window.QUESTIONS_CORTEX_LIMBIC = [
     "correctIndex": 2,
     "explanation": "ה-Angular gyrus נמצא קאודלית ל-Supramarginal gyrus בתוך ה-Inferior parietal lobule.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 14,
       "section": "המשטח הלטרלי – אונה פריאטלית"
     },
@@ -202,7 +202,7 @@ window.QUESTIONS_CORTEX_LIMBIC = [
     "correctIndex": 2,
     "explanation": "המכסה התחתון של האינסולה הוא ה-Superior temporal gyrus, הפיתול העליון של האונה הטמפורלית.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 15,
       "section": "Insula"
     },
@@ -221,7 +221,7 @@ window.QUESTIONS_CORTEX_LIMBIC = [
     "correctIndex": 3,
     "explanation": "המכסה העליון של האינסולה הוא ה-Inferior frontal gyrus, הפיתול התחתון של האונה הפרונטלית.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 15,
       "section": "Insula"
     },
@@ -240,7 +240,7 @@ window.QUESTIONS_CORTEX_LIMBIC = [
     "correctIndex": 2,
     "explanation": "באינסולה יש שלושה Short gyri קדמית לחריץ המרכזי, ושני Long gyri אחורית לו.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 15,
       "section": "Insula"
     },
@@ -259,7 +259,7 @@ window.QUESTIONS_CORTEX_LIMBIC = [
     "correctIndex": 2,
     "explanation": "ה-Limen הוא קודקוד האינסולה, הנמצא בחלקה הקדמי התחתון.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 15,
       "section": "Insula"
     },
@@ -278,7 +278,7 @@ window.QUESTIONS_CORTEX_LIMBIC = [
     "correctIndex": 0,
     "explanation": "בעומק ובשוליים של ה-Calcarine sulcus נמצא ה-Primary visual cortex, בעל ייצוג רטינוטופי לשדה הראייה.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 16,
       "section": "המשטח המדיאלי של ההמיספרה"
     },
@@ -297,7 +297,7 @@ window.QUESTIONS_CORTEX_LIMBIC = [
     "correctIndex": 0,
     "explanation": "ה-Cingulate gyrus נמצא מתחת ל-Cingulate sulcus ואינו משויך לאונה בודדת.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 16,
       "section": "המשטח המדיאלי של ההמיספרה"
     },
@@ -316,7 +316,7 @@ window.QUESTIONS_CORTEX_LIMBIC = [
     "correctIndex": 2,
     "explanation": "ה-Cuneus אזור דמוי-קונוס התחום בין Parieto-occipital sulcus ל-Calcarine sulcus, ושייך לאונה האוקסיפיטלית כיוון שהוא אחורי לחריץ הראשון.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 17,
       "section": "המשטח המדיאלי של ההמיספרה"
     },
@@ -335,7 +335,7 @@ window.QUESTIONS_CORTEX_LIMBIC = [
     "correctIndex": 0,
     "explanation": "ה-Precuneus נמצא קדמית ל-Cuneus, ותחום ע\"י Parieto-occipital sulcus ו-Paracentral lobule.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 17,
       "section": "המשטח המדיאלי של ההמיספרה"
     },
@@ -354,7 +354,7 @@ window.QUESTIONS_CORTEX_LIMBIC = [
     "correctIndex": 3,
     "explanation": "ה-Parahippocampal gyrus הוא פיתול שמקיף את ההיפוקמפוס, מבנה השייך למערכת הלימבית.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 17,
       "section": "המשטח המדיאלי – מבנים נוספים"
     },
@@ -373,7 +373,7 @@ window.QUESTIONS_CORTEX_LIMBIC = [
     "correctIndex": 0,
     "explanation": "ה-Uncus, בליטה בקצה הקדמי של ה-Parahippocampal gyrus, הוא מיקום ה-Primary olfactory cortex.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 17,
       "section": "המשטח המדיאלי – מבנים נוספים"
     },
@@ -392,7 +392,7 @@ window.QUESTIONS_CORTEX_LIMBIC = [
     "correctIndex": 2,
     "explanation": "ה-Rhinal sulcus תוחם את ה-Uncus וחלקים מה-Parahippocampal gyrus, וה-Collateral sulcus המשכי לו.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 17,
       "section": "המשטח המדיאלי – מבנים נוספים"
     },
@@ -411,7 +411,7 @@ window.QUESTIONS_CORTEX_LIMBIC = [
     "correctIndex": 3,
     "explanation": "Medial occipitotemporal gyrus = Fusiform gyrus, פיתול התחום בין ה-Collateral & Occipitotemporal sulci.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 17,
       "section": "המשטח המדיאלי – מבנים נוספים"
     },
@@ -430,7 +430,7 @@ window.QUESTIONS_CORTEX_LIMBIC = [
     "correctIndex": 2,
     "explanation": "ב-Fusiform gyrus נמצא ה-FFA, האזור האמון על זיהוי פרצופים.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 17,
       "section": "המשטח המדיאלי – מבנים נוספים"
     },
@@ -449,7 +449,7 @@ window.QUESTIONS_CORTEX_LIMBIC = [
     "correctIndex": 3,
     "explanation": "ה-Genu הוא החלק המכופף בקדמת ה-Corpus callosum, וה-Rostrum הצר יותר המשכי לו.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 18,
       "section": "מבנים תת-קורטיקליים במשטח המדיאלי"
     },
@@ -468,7 +468,7 @@ window.QUESTIONS_CORTEX_LIMBIC = [
     "correctIndex": 3,
     "explanation": "ה-Splenium הוא הקצה האחורי ביותר מבין ארבעת תתי-החלקים של ה-Corpus callosum.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 18,
       "section": "מבנים תת-קורטיקליים במשטח המדיאלי"
     },
@@ -487,7 +487,7 @@ window.QUESTIONS_CORTEX_LIMBIC = [
     "correctIndex": 0,
     "explanation": "ה-Fornix הוא אלומת סיבים השייכת למערכת הלימבית, ונמצא כאזור חומר לבן מתחת ל-Corpus callosum.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 18,
       "section": "מבנים תת-קורטיקליים במשטח המדיאלי"
     },
@@ -506,7 +506,7 @@ window.QUESTIONS_CORTEX_LIMBIC = [
     "correctIndex": 2,
     "explanation": "ה-Septum pellucidum מחיצה שנמתחת בין Corpus callosum ל-Fornix ומפרידה בין החדרים הלטרליים; מכילה חומר לבן וגם אפור.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 18,
       "section": "מבנים תת-קורטיקליים במשטח המדיאלי"
     },
@@ -525,7 +525,7 @@ window.QUESTIONS_CORTEX_LIMBIC = [
     "correctIndex": 0,
     "explanation": "רוב איברי החישה שולחים מידע קודם לתלמוס, אך חוש הריח יוצא דופן ומגיע ישירות לקורטקס דרך ה-Lateral olfactory stria.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 18,
       "section": "מבנים תת-קורטיקליים במשטח המדיאלי"
     },
@@ -544,7 +544,7 @@ window.QUESTIONS_CORTEX_LIMBIC = [
     "correctIndex": 3,
     "explanation": "ההיפותלמוס נמצא מתחת ל-Hypothalamic sulcus ותפקידו המרכזי הוא שמירה על הומאוסטזיס, כולל בקרה הורמונלית של הגוף.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 19,
       "section": "מבנים תת-קורטיקליים במשטח המדיאלי"
     },
@@ -563,7 +563,7 @@ window.QUESTIONS_CORTEX_LIMBIC = [
     "correctIndex": 1,
     "explanation": "ה-Posterior pituitary מפריש גם Oxytocin וגם Vasopressin (המכונה גם ADH), המגביר ספיגה חוזרת של מים בכליה.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 19,
       "section": "מבנים תת-קורטיקליים במשטח המדיאלי"
     },
@@ -582,7 +582,7 @@ window.QUESTIONS_CORTEX_LIMBIC = [
     "correctIndex": 1,
     "explanation": "ה-Anterior pituitary (Adenohypophysis) מתנהגת כמו בלוטה פריפרית ולא מעוצבבת ישירות ע\"י ההיפותלמוס.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 19,
       "section": "מבנים תת-קורטיקליים במשטח המדיאלי"
     },
@@ -601,7 +601,7 @@ window.QUESTIONS_CORTEX_LIMBIC = [
     "correctIndex": 1,
     "explanation": "ה-Pineal gland מפרישה את Melatonin, הרגיש לגירויים חיצוניים כמו אור וטמפרטורה.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 19,
       "section": "מבנים תת-קורטיקליים במשטח המדיאלי"
     },
@@ -620,7 +620,7 @@ window.QUESTIONS_CORTEX_LIMBIC = [
     "correctIndex": 3,
     "explanation": "מידע אולפקטורי עובר מה-Bulb דרך ה-Tract ורק ל-Lateral olfactory stria, המקשרת בין ה-Tract לקורטקס.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 20,
       "section": "המשטח התחתון של ההמיספרה"
     },
@@ -639,7 +639,7 @@ window.QUESTIONS_CORTEX_LIMBIC = [
     "correctIndex": 2,
     "explanation": "ה-Gyrus rectus הוא פיתול ישר בתחתית האונה הפרונטלית, מדיאלית למסילת ההרחה.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 21,
       "section": "המשטח התחתון – מבנים נוספים"
     },
@@ -658,7 +658,7 @@ window.QUESTIONS_CORTEX_LIMBIC = [
     "correctIndex": 3,
     "explanation": "ה-Mammillary bodies הם שני מבנים עגולים וצמודים השייכים להיפותלמוס, ובולטים במשטח התחתון.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 21,
       "section": "המשטח התחתון – מבנים נוספים"
     },
@@ -677,7 +677,7 @@ window.QUESTIONS_CORTEX_LIMBIC = [
     "correctIndex": 0,
     "explanation": "ה-Molecular layer צמודה לפיה מאטר, ואין בה כמעט גופי תאים אלא אקסונים ועצים דנדריטיים המגיעים משכבות אחרות.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 26,
       "section": "שכבות הנאוקורטקס"
     },
@@ -696,7 +696,7 @@ window.QUESTIONS_CORTEX_LIMBIC = [
     "correctIndex": 1,
     "explanation": "ה-External pyramidal layer, בעלת תאים גדולים דמויי-משולש, אחראית על הוצאת פלט להמיספרה השנייה.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 26,
       "section": "שכבות הנאוקורטקס"
     },
@@ -715,7 +715,7 @@ window.QUESTIONS_CORTEX_LIMBIC = [
     "correctIndex": 3,
     "explanation": "ה-Internal granular layer (שכבה 4), מגורענת וצפופה, אחראית על קליטת מידע מהתלמוס.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 26,
       "section": "שכבות הנאוקורטקס"
     },
@@ -734,7 +734,7 @@ window.QUESTIONS_CORTEX_LIMBIC = [
     "correctIndex": 1,
     "explanation": "ה-Internal pyramidal layer (שכבה 5), בעלת תאים גדולים דמויי-משולש, מוציאה פלט לגזע המוח ולחוט השדרה.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 26,
       "section": "שכבות הנאוקורטקס"
     },
@@ -753,7 +753,7 @@ window.QUESTIONS_CORTEX_LIMBIC = [
     "correctIndex": 0,
     "explanation": "ל-Archicortex, הכולל את ה-Hippocampus, יש שלוש שכבות בלבד: מולקולרית, פירמידלית ופולימורפית, ללא שכבה גרנולרית.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 26,
       "section": "שאר חלקי הקורטקס"
     },
@@ -772,7 +772,7 @@ window.QUESTIONS_CORTEX_LIMBIC = [
     "correctIndex": 0,
     "explanation": "ה-Paleocortex, שכולל בין היתר את מערכת ההרחה, ה-Parahippocampal gyrus וה-Uncus, בעל 4-5 שכבות בלבד.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 26,
       "section": "שאר חלקי הקורטקס"
     },
@@ -791,7 +791,7 @@ window.QUESTIONS_CORTEX_LIMBIC = [
     "correctIndex": 0,
     "explanation": "מפת ברודמן מבוססת על אנטומיה מיקרוסקופית של העמודים הקורטיקליים - עובי השכבות ופיזור התאים - ולא על אנטומיה גסה.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 27,
       "section": "היסטולוגיה של הקורטקס"
     },
@@ -810,7 +810,7 @@ window.QUESTIONS_CORTEX_LIMBIC = [
     "correctIndex": 0,
     "explanation": "האזור לא מקבל כמעט מידע סנסורי מהתלמוס, ולכן שכבה 4 (Internal granular) שלו כמעט לא קיימת - מכאן הכינוי 'אגרנולרי'.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 27,
       "section": "התאמה בין מבנה לתפקיד"
     },
@@ -829,7 +829,7 @@ window.QUESTIONS_CORTEX_LIMBIC = [
     "correctIndex": 2,
     "explanation": "שכבה 5 בקורטקס המוטורי הראשוני מאופיינת בתאי Betz, תאים פירמידליים גדולים וייחודיים.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 27,
       "section": "התאמה בין מבנה לתפקיד"
     },
@@ -848,7 +848,7 @@ window.QUESTIONS_CORTEX_LIMBIC = [
     "correctIndex": 3,
     "explanation": "אזורים אסוציאטיביים מקבלים אינפוטים מסוגים ואזורים שונים, ועושים אינטגרציה של המידע לצורך ייצוג מורכב.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 28,
       "section": "לוקליזציה פונקציונלית של הקורטקס"
     },
@@ -867,7 +867,7 @@ window.QUESTIONS_CORTEX_LIMBIC = [
     "correctIndex": 2,
     "explanation": "ה-Premotor cortex אחראי על התנעת תכניות מוטוריות שכבר נלמדו ואינן דורשות מחשבה רבה בביצוען.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 29,
       "section": "המערכת המוטורית"
     },
@@ -886,7 +886,7 @@ window.QUESTIONS_CORTEX_LIMBIC = [
     "correctIndex": 1,
     "explanation": "ה-SMA מעורב בתכנון ובציפייה לפעולה, ומפעיל בזמן הנכון את ה-Premotor cortex.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 30,
       "section": "המערכת המוטורית"
     },
@@ -905,7 +905,7 @@ window.QUESTIONS_CORTEX_LIMBIC = [
     "correctIndex": 3,
     "explanation": "ה-Anterior cingulate cortex, הנמצא מעל ה-Corpus callosum, אמון על זיהוי ותיקון טעויות ממגוון חושים, ולכן נחשב אסוציאטיבי.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 30,
       "section": "המערכת המוטורית"
     },
@@ -924,7 +924,7 @@ window.QUESTIONS_CORTEX_LIMBIC = [
     "correctIndex": 1,
     "explanation": "סנכרון שתי העיניים דורש הפעלה מתואמת של שישה שרירים בכל עין, המעוצבבים ע\"י שלושה עצבים קרניאליים - יכולת גבוהה שהופכת את האזור לאסוציאטיבי.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 30,
       "section": "המערכת המוטורית"
     },
@@ -943,7 +943,7 @@ window.QUESTIONS_CORTEX_LIMBIC = [
     "correctIndex": 2,
     "explanation": "Hemispatial cortical neglect נובע מפגיעה בקורטקס סומטו-סנסורי שניוני ובא לידי ביטוי גם בהזנחה מוטורית, כמו ציור חלקי של שעון.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 31,
       "section": "המערכת הסומטו-סנסורית"
     },
@@ -962,7 +962,7 @@ window.QUESTIONS_CORTEX_LIMBIC = [
     "correctIndex": 1,
     "explanation": "Astereognosis נובעת מפגיעה שניונית (לא אסוציאטיבית) בקורטקס הסומטו-סנסורי, כשהייצוג הראשוני עדיין תקין.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 31,
       "section": "המערכת הסומטו-סנסורית"
     },
@@ -981,7 +981,7 @@ window.QUESTIONS_CORTEX_LIMBIC = [
     "correctIndex": 0,
     "explanation": "הארגון הסומטוטופי (Somatotopic) מסדר את האזורים הפונקציונליים בקורטקס בהתאמה לאיברי הגוף שהם מייצגים.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 31,
       "section": "המערכת הסומטו-סנסורית"
     },
@@ -1000,7 +1000,7 @@ window.QUESTIONS_CORTEX_LIMBIC = [
     "correctIndex": 2,
     "explanation": "ה-Homunculus מתאר את המבנה הסומטוטופי שבו גודל הייצוג פרופורציונלי למידת השליטה או הרגישות, כמו הייצוג הגדול של כפות הידיים.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 31,
       "section": "המערכת הסומטו-סנסורית"
     },
@@ -1019,7 +1019,7 @@ window.QUESTIONS_CORTEX_LIMBIC = [
     "correctIndex": 0,
     "explanation": "V1 נמצא ב-BA17, בעומק ובשוליים של ה-Calcarine sulcus, ומכונה גם Striate cortex.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 32,
       "section": "המערכת הויזואלית"
     },
@@ -1038,7 +1038,7 @@ window.QUESTIONS_CORTEX_LIMBIC = [
     "correctIndex": 1,
     "explanation": "ה-Stria of Gennari מייצג את שכבה 4 של V1, אליה מגיעים אקסונים עשירים עם מידע ויזואלי מהתלמוס.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 32,
       "section": "המערכת הויזואלית"
     },
@@ -1057,7 +1057,7 @@ window.QUESTIONS_CORTEX_LIMBIC = [
     "correctIndex": 0,
     "explanation": "בכיאזמה האופטית עובר חלק מהמידע צד, כך שאחריה כל שדה הראייה הימני עובר להמיספרה השמאלית.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 32,
       "section": "הלטרליות של הראייה"
     },
@@ -1076,7 +1076,7 @@ window.QUESTIONS_CORTEX_LIMBIC = [
     "correctIndex": 3,
     "explanation": "המידע מגיע לגרעין ה-Lateral geniculate body/nucleus (LGB/LGN) בתלמוס, ומשם ל-V1 דרך ה-Optic radiation.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 33,
       "section": "הלטרליות של הראייה"
     },
@@ -1095,7 +1095,7 @@ window.QUESTIONS_CORTEX_LIMBIC = [
     "correctIndex": 3,
     "explanation": "Meyer's loop הוא מבנה הולכה לא יעיל, שבו אקסונים המוליכים מידע על שדה הראייה העליון מתקדמים רוסטרלית באונה הטמפורלית לפני שהם פונים לאונה האוקסיפיטלית.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 34,
       "section": "הלטרליות של הראייה"
     },
@@ -1114,7 +1114,7 @@ window.QUESTIONS_CORTEX_LIMBIC = [
     "correctIndex": 3,
     "explanation": "Simple cells מגיבים לקווים באוריינטציה ובמיקום מסוימים, בעוד Complex cells מגיבים לכל קו באוריינטציה המתאימה בלי תלות במיקום.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 34,
       "section": "הרכבת הייצוג הויזואלי הגבוה"
     },
@@ -1133,7 +1133,7 @@ window.QUESTIONS_CORTEX_LIMBIC = [
     "correctIndex": 3,
     "explanation": "הערוץ הדורסלי נכנס לאונה הפריאטלית ועוסק בשאלת המיקום, לעומת הערוץ הוונטרלי הנכנס לאונה הטמפורלית ועוסק בזיהוי הגירוי.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 34,
       "section": "הרכבת הייצוג הויזואלי הגבוה"
     },
@@ -1152,7 +1152,7 @@ window.QUESTIONS_CORTEX_LIMBIC = [
     "correctIndex": 0,
     "explanation": "בפרוסופגנוזיה הייצוג הראשוני של הפרצוף תקין, אך לא ניתן להרכיב ייצוג גבוה שלו כתוצאה מהפרעה ב-Fusiform face area.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 35,
       "section": "Visual Agnosia"
     },
@@ -1171,7 +1171,7 @@ window.QUESTIONS_CORTEX_LIMBIC = [
     "correctIndex": 0,
     "explanation": "למרות שהאדם חווה עיוורון מודע עקב פגיעה באזורים הויזואליים הגבוהים, רפלקסים העוברים דרך גזע המוח אינם תלויים בקורטקס.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 35,
       "section": "Visual Agnosia"
     },
@@ -1190,7 +1190,7 @@ window.QUESTIONS_CORTEX_LIMBIC = [
     "correctIndex": 2,
     "explanation": "הקורטקס הגוסטטורי הראשוני נמצא ב-BA43, בקרבת האזור הקורטיקלי שקולט מידע סומטו-סנסורי מהפנים.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 35,
       "section": "מערכת הטעם"
     },
@@ -1209,7 +1209,7 @@ window.QUESTIONS_CORTEX_LIMBIC = [
     "correctIndex": 0,
     "explanation": "הארגון בקורטקס האודיטורי הוא בעל אופי טונוטופי אלכסוני, לפי תדרי הצליל.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 36,
       "section": "מערכת השמיעה"
     },
@@ -1228,7 +1228,7 @@ window.QUESTIONS_CORTEX_LIMBIC = [
     "correctIndex": 1,
     "explanation": "ה-BA41 וה-BA42, המכונים גם Heschl's convolutions, הם מיקום הקורטקס האודיטורי הראשוני.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 36,
       "section": "מערכת השמיעה"
     },
@@ -1247,7 +1247,7 @@ window.QUESTIONS_CORTEX_LIMBIC = [
     "correctIndex": 3,
     "explanation": "ה-DLPFC אחראי על זכרון העבודה, התנהגות מוכוונת מטרה וקבלת החלטות.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 36,
       "section": "Prefrontal cortex"
     },
@@ -1266,7 +1266,7 @@ window.QUESTIONS_CORTEX_LIMBIC = [
     "correctIndex": 2,
     "explanation": "ה-VMPFC (הקורטקס האורביטופרונטלי) אחראי על יכולות חברתיות וויסות רגשי, ומיאלינם מתרחש בגילאים 2-4.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 36,
       "section": "Prefrontal cortex"
     },
@@ -1285,7 +1285,7 @@ window.QUESTIONS_CORTEX_LIMBIC = [
     "correctIndex": 2,
     "explanation": "אזור ברוקה (BA44 ו-BA45) נמצא ב-Pars opercularis & triangularis של ה-Inferior frontal gyrus.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 37,
       "section": "אזורי שפה"
     },
@@ -1304,7 +1304,7 @@ window.QUESTIONS_CORTEX_LIMBIC = [
     "correctIndex": 1,
     "explanation": "אזור וורניקה הוא האזור ההכרחי להבנת שפה, ומכונה Receptive speech area.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 37,
       "section": "אזורי שפה"
     },
@@ -1323,7 +1323,7 @@ window.QUESTIONS_CORTEX_LIMBIC = [
     "correctIndex": 1,
     "explanation": "בין אזור ברוקה לאזור וורניקה מקשרת אלומה ייעודית של סיבים בשם Arcuate fasciculus, נחוצה לשילוב בין הבנת שפה ליצירתה.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 37,
       "section": "אזורי שפה"
     },
@@ -1342,7 +1342,7 @@ window.QUESTIONS_CORTEX_LIMBIC = [
     "correctIndex": 2,
     "explanation": "Paul Broca היה הראשון שתיאר את האונה הלימבית, כאזור בין ה-Cingulate gyrus, ה-Parahippocampal gyrus וה-Hippocampus.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 72,
       "section": "המערכת הלימבית"
     },
@@ -1361,7 +1361,7 @@ window.QUESTIONS_CORTEX_LIMBIC = [
     "correctIndex": 1,
     "explanation": "בשנת 1937 הציע James Papez תיאור שכלל את ההיפותלמוס, האמיגדלה ומסילות סיבים לבנים המקשרות בין האזורים הלימביים.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 72,
       "section": "המערכת הלימבית"
     },
@@ -1380,7 +1380,7 @@ window.QUESTIONS_CORTEX_LIMBIC = [
     "correctIndex": 3,
     "explanation": "Paul MacLean תיאר לראשונה בשנת 1952 את המערכת הלימבית כמערכת מורכבת של קשרים.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 72,
       "section": "המערכת הלימבית"
     },
@@ -1399,7 +1399,7 @@ window.QUESTIONS_CORTEX_LIMBIC = [
     "correctIndex": 0,
     "explanation": "ההיפוקמפוס הוא קורטקס קדום עם שלוש שכבות בלבד, בשונה מששת שכבות הנאוקורטקס.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 72,
       "section": "Hippocampus"
     },
@@ -1418,7 +1418,7 @@ window.QUESTIONS_CORTEX_LIMBIC = [
     "correctIndex": 2,
     "explanation": "ה-Alveus מצפה באופן צמוד את ה-Pes hippocampus ונכנס פנימה לעומק החומר האפור בצורה ספירלית.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 72,
       "section": "Hippocampus"
     },
@@ -1437,7 +1437,7 @@ window.QUESTIONS_CORTEX_LIMBIC = [
     "correctIndex": 0,
     "explanation": "רצף ההולכה מההיפוקמפוס הוא Alveus הממשיך ל-Fimbria וממנה ל-Fornix; ה-Cingulum אינו חלק מרצף זה.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 72,
       "section": "Hippocampus"
     },
@@ -1456,7 +1456,7 @@ window.QUESTIONS_CORTEX_LIMBIC = [
     "correctIndex": 0,
     "explanation": "מההיפוקמפוס יש מעבר מידע ל-Mammillary bodies, זוג גרעינים של ההיפותלמוס, דרך ה-Fornix.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 72,
       "section": "Hippocampus"
     },
@@ -1475,7 +1475,7 @@ window.QUESTIONS_CORTEX_LIMBIC = [
     "correctIndex": 2,
     "explanation": "ההיפוקמפוס אחראי על גיבוש הזיכרון מטווח קצר לארוך, ועל למידה מרחבית - הודגם במחקר נהגי המוניות בלונדון.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 73,
       "section": "Hippocampus"
     },
@@ -1494,7 +1494,7 @@ window.QUESTIONS_CORTEX_LIMBIC = [
     "correctIndex": 1,
     "explanation": "לאחר ניתוח להסרת ההיפוקמפוס בעקבות אפילפסיה, זכר H.M. את העבר אך לא הצליח ליצור זיכרונות חדשים.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 73,
       "section": "Hippocampus"
     },
@@ -1513,7 +1513,7 @@ window.QUESTIONS_CORTEX_LIMBIC = [
     "correctIndex": 1,
     "explanation": "זמן גיבוש הזיכרון יכול לארוך בין שבועיים לחודשיים-שלושה, ובמהלכו המידע עובר מההיפוקמפוס לקורטקסים אסוציאטיביים.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 73,
       "section": "Hippocampus"
     },
@@ -1532,7 +1532,7 @@ window.QUESTIONS_CORTEX_LIMBIC = [
     "correctIndex": 1,
     "explanation": "ה-Hippocampal commissure יעילה עד כדי כך שהיא מעבירה נזק בין הצדדים, ולכן פגיעה חד-צדדית עלולה לגרום לאובדן זיכרון כללי.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 73,
       "section": "מסילות שקשורות להיפוקמפוס"
     },
@@ -1551,7 +1551,7 @@ window.QUESTIONS_CORTEX_LIMBIC = [
     "correctIndex": 0,
     "explanation": "הקיצור CA בא מהביטוי Cornu Ammonis, המתאר את הסידור הספירלי של החומר האפור והלבן בהיפוקמפוס.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 73,
       "section": "Hippocampus"
     },
@@ -1570,7 +1570,7 @@ window.QUESTIONS_CORTEX_LIMBIC = [
     "correctIndex": 3,
     "explanation": "Anterograde amnesia היא שכחון של דברים חדשים, בניגוד ל-Retrograde amnesia שהיא שכחון של דברים ישנים.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 73,
       "section": "פתולוגיות"
     },
@@ -1589,7 +1589,7 @@ window.QUESTIONS_CORTEX_LIMBIC = [
     "correctIndex": 0,
     "explanation": "מחלות נוירודגנרטיביות באות לידי ביטוי ב-Gyri דלים עם Sulci רחבים והיפוקמפוס דק.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 73,
       "section": "פתולוגיות"
     },
@@ -1608,7 +1608,7 @@ window.QUESTIONS_CORTEX_LIMBIC = [
     "correctIndex": 2,
     "explanation": "האמיגדלה אחראית על פחד וחרדה, כולל עיבוד זיכרונות הקשורים לפחד.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 74,
       "section": "Amygdala"
     },
@@ -1627,7 +1627,7 @@ window.QUESTIONS_CORTEX_LIMBIC = [
     "correctIndex": 1,
     "explanation": "היכולת לפעול ללא סינון תלמי מאפשרת תגובה מהירה, למשל בריחה מנחש, במחיר של פחות דיוק בפרטים.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 74,
       "section": "Amygdala"
     },
@@ -1646,7 +1646,7 @@ window.QUESTIONS_CORTEX_LIMBIC = [
     "correctIndex": 1,
     "explanation": "האמיגדלה מזרימה יותר דם לשרירים על חשבון העור, כדי להכין את השרירים לפעילות מאומצת ולמנוע דימום מפציעה שטחית.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 74,
       "section": "Amygdala"
     },
@@ -1665,7 +1665,7 @@ window.QUESTIONS_CORTEX_LIMBIC = [
     "correctIndex": 2,
     "explanation": "לאמיגדלה יש מעורבות ב-PTSD, תסמונת של חוויית אירועים מעוררי חרדה חוזרת גם בהיעדר הגירוי המקורי.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 74,
       "section": "Amygdala"
     },
@@ -1684,7 +1684,7 @@ window.QUESTIONS_CORTEX_LIMBIC = [
     "correctIndex": 3,
     "explanation": "ה-Habenular nucleus הוא גרעין באפיתלמוס הקשור להתמכרויות ולמערכת ה-Reward.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 74,
       "section": "Habenular nucleus"
     },
@@ -1703,7 +1703,7 @@ window.QUESTIONS_CORTEX_LIMBIC = [
     "correctIndex": 1,
     "explanation": "ה-Nucleus accumbens ממוקם בנקודת המפגש בין ה-Caudate לבין ה-Putamen, וגם לו יש קשר להתמכרויות.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 74,
       "section": "Nucleus accumbens"
     },
@@ -1722,7 +1722,7 @@ window.QUESTIONS_CORTEX_LIMBIC = [
     "correctIndex": 1,
     "explanation": "ה-Mammillothalamic tract מקשרת בין התלמוס ל-Mammillary bodies, הגרעינים הקוגניטיביים של ההיפותלמוס.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 75,
       "section": "מסילות נוספות במערכת הלימבית"
     },
@@ -1741,7 +1741,7 @@ window.QUESTIONS_CORTEX_LIMBIC = [
     "correctIndex": 0,
     "explanation": "ה-Stria medullaris thalami מקשרת בין ה-Habenular nuclei ל-Septal area, ותורמת לאגרסיביות של אנשים בתהליכי גמילה.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 75,
       "section": "מסילות נוספות במערכת הלימבית"
     },
@@ -1760,7 +1760,7 @@ window.QUESTIONS_CORTEX_LIMBIC = [
     "correctIndex": 3,
     "explanation": "ה-Stria terminalis מקשרת בין האמיגדלה לבין ה-Septal area והאזורים הקדמיים של ההיפותלמוס.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 75,
       "section": "מסילות נוספות במערכת הלימבית"
     },
@@ -1779,7 +1779,7 @@ window.QUESTIONS_CORTEX_LIMBIC = [
     "correctIndex": 0,
     "explanation": "ה-Precommissural fornix מוביל לגרעינים הספטליים (Septal nuclei / Septal area) הנמצאים ב-Subcallosal area, הקשורים להתנהגות אגרסיבית ועצבנית.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 73,
       "section": "מסילות שקשורות להיפוקמפוס"
     },

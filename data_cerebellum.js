@@ -12,7 +12,7 @@ window.QUESTIONS_CEREBELLUM = [
     "correctIndex": 2,
     "explanation": "בטבלת ההשוואה בין הצרבלום לסרברום מצוין שלצרבלום יש 3 שכבות קורטיקליות (לעומת 6 בסרברום).",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 90,
       "section": "יש כמה נקודות דמיון ושוני בין הצרבלום לסרברום"
     },
@@ -31,7 +31,7 @@ window.QUESTIONS_CEREBELLUM = [
     "correctIndex": 0,
     "explanation": "לפי טבלת ההשוואה, בעוד הסרברום מעצבב את הגוף באופן קונטרה-לטרלי, הצרבלום מעצבב באופן איפסי-לטרלי.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 90,
       "section": "יש כמה נקודות דמיון ושוני בין הצרבלום לסרברום"
     },
@@ -50,7 +50,7 @@ window.QUESTIONS_CEREBELLUM = [
     "correctIndex": 3,
     "explanation": "בצרבלום החריצים נקראים Fissures והבליטות נקראות Folia, בשונה מהסרברום שבו הם Sulci ו-Gyri.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 90,
       "section": "יש כמה נקודות דמיון ושוני בין הצרבלום לסרברום"
     },
@@ -69,7 +69,7 @@ window.QUESTIONS_CEREBELLUM = [
     "correctIndex": 3,
     "explanation": "ה-Primary fissure הוא החריץ המפריד בין האונה הקדמית לאונה האחורית של הצרבלום.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 90,
       "section": "החלוקה האנטומית של הצרבלום"
     },
@@ -88,7 +88,7 @@ window.QUESTIONS_CEREBELLUM = [
     "correctIndex": 1,
     "explanation": "ה-Vermis הוא מבנה על קו האמצע שמקיף כמעט את כל הצרבלום, אך אינו סוגר מעגל שלם.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 90,
       "section": "החלוקה האנטומית של הצרבלום"
     },
@@ -107,7 +107,7 @@ window.QUESTIONS_CEREBELLUM = [
     "correctIndex": 2,
     "explanation": "במבט אינפריורי/אנטריורי על הצרבלום ניתן לראות את חלל החדר הרביעי (4th ventricle).",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 91,
       "section": "החלוקה האנטומית של הצרבלום"
     },
@@ -126,7 +126,7 @@ window.QUESTIONS_CEREBELLUM = [
     "correctIndex": 3,
     "explanation": "ה-Tonsils הן זוג בליטות באונה הפוסטריורית שחובקות את המדולה אובלונגטה מאחור.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 91,
       "section": "החלוקה האנטומית של הצרבלום"
     },
@@ -145,7 +145,7 @@ window.QUESTIONS_CEREBELLUM = [
     "correctIndex": 0,
     "explanation": "ה-Lingula הוא הקצה האנטריורי של ה-Vermis, שאינו נסגר עד הסוף בין חלקו העליון לתחתון.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 91,
       "section": "החלוקה האנטומית של הצרבלום"
     },
@@ -164,7 +164,7 @@ window.QUESTIONS_CEREBELLUM = [
     "correctIndex": 1,
     "explanation": "ה-Nodule הוא הקצה הפוסטריורי של ה-Vermis, והוא קצת יותר גדול מאשר ה-Lingula.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 91,
       "section": "החלוקה האנטומית של הצרבלום"
     },
@@ -183,7 +183,7 @@ window.QUESTIONS_CEREBELLUM = [
     "correctIndex": 0,
     "explanation": "ה-Flocculus הוא מבנה דמוי-כנף שמתחבר אל ה-Nodule של ה-Vermis.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 91,
       "section": "החלוקה האנטומית של הצרבלום"
     },
@@ -202,7 +202,7 @@ window.QUESTIONS_CEREBELLUM = [
     "correctIndex": 3,
     "explanation": "ה-Flocculo-nodular lobe כוללת את ה-Nodule ואת שני ה-Flocculi.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 91,
       "section": "החלוקה האנטומית של הצרבלום"
     },
@@ -221,7 +221,7 @@ window.QUESTIONS_CEREBELLUM = [
     "correctIndex": 0,
     "explanation": "בחתך מידסגיטלי רואים סידור ייחודי בצורת תפרחות, ומכאן הכינוי Arbor vitae ('עץ החיים').",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 91,
       "section": "חתך מידסגיטלי בצרבלום"
     },
@@ -240,7 +240,7 @@ window.QUESTIONS_CEREBELLUM = [
     "correctIndex": 1,
     "explanation": "ה-Superior cerebellar peduncle היא הרגל העליונה, המקשרת את הצרבלום ל-Midbrain.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 92,
       "section": "החיבורים הפיזיים בין הצרבלום לגזע המוח"
     },
@@ -259,7 +259,7 @@ window.QUESTIONS_CEREBELLUM = [
     "correctIndex": 2,
     "explanation": "ה-Middle cerebellar peduncle היא הרגל האמצעית והעבה ביותר, ומקשרת את הצרבלום לפונס.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 92,
       "section": "החיבורים הפיזיים בין הצרבלום לגזע המוח"
     },
@@ -278,7 +278,7 @@ window.QUESTIONS_CEREBELLUM = [
     "correctIndex": 3,
     "explanation": "סיבי ה-Inferior cerebellar peduncle נמצאים יחסית מדיאלית, ובדרכם מהמדולה אובלונגטה לצרבלום הם מטפסים מעל הסיבים של ה-Superior cerebellar peduncle.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 92,
       "section": "החיבורים הפיזיים בין הצרבלום לגזע המוח"
     },
@@ -297,7 +297,7 @@ window.QUESTIONS_CEREBELLUM = [
     "correctIndex": 0,
     "explanation": "השכבה האמצעית כוללת את גופי תאי הפורקינייה, הגדולים יחסית, ובעלי עץ דנדריטי רחב העולה אל השכבה המולקולרית.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 92,
       "section": "שכבות הצרבלום"
     },
@@ -316,7 +316,7 @@ window.QUESTIONS_CEREBELLUM = [
     "correctIndex": 2,
     "explanation": "השכבה הגרנולרית כוללת הרבה מאוד גופי תאים קטנים וצפופים.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 92,
       "section": "שכבות הצרבלום"
     },
@@ -335,7 +335,7 @@ window.QUESTIONS_CEREBELLUM = [
     "correctIndex": 3,
     "explanation": "ריבוי התאים בשכבה הגרנולרית, בנוסף לקפלים העמוקים של הצרבלום, הם שני הגורמים העיקריים לכך.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 92,
       "section": "שכבות הצרבלום"
     },
@@ -354,7 +354,7 @@ window.QUESTIONS_CEREBELLUM = [
     "correctIndex": 1,
     "explanation": "הצרבלום כולל בעיקר מסילות אינהיביטוריות שפועלות על בסיס הנוירוטרנסמיטר GABA.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 92,
       "section": "שכבות הצרבלום"
     },
@@ -373,7 +373,7 @@ window.QUESTIONS_CEREBELLUM = [
     "correctIndex": 0,
     "explanation": "ה-Climbing fibers מגיעים בעיקר מהמדולה אובלונגטה דרך ה-Inferior cerebellar peduncle, נכנסים לשכבה העמוקה ומטפסים עד לסינפסה בשכבה המולקולרית.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 93,
       "section": "סיבים הנכנסים לצרבלום דרך ה-Cerebellar peduncles"
     },
@@ -392,7 +392,7 @@ window.QUESTIONS_CEREBELLUM = [
     "correctIndex": 3,
     "explanation": "ה-Mossy fibers, המגיעים בעיקר מהפונס דרך ה-Middle cerebellar peduncle, עושים סינפסה בעיקר בשכבה הגרנולרית.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 93,
       "section": "סיבים הנכנסים לצרבלום דרך ה-Cerebellar peduncles"
     },
@@ -411,7 +411,7 @@ window.QUESTIONS_CEREBELLUM = [
     "correctIndex": 1,
     "explanation": "הקורטקס קונטרה-לטרלי לצרבלום, כך שבדרך מהקורטקס לצרבלום המידע עובר צד; לעומת זאת בדרך מהפריפריה לצרבלום המידע נשאר באותו צד, כי הצרבלום איפסי-לטרלי לגוף.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 93,
       "section": "פעילות הצרבלום"
     },
@@ -430,7 +430,7 @@ window.QUESTIONS_CEREBELLUM = [
     "correctIndex": 1,
     "explanation": "מידע על התוכנית המוטורית מגיע מהקורטקס לפונס, ומשם ה-Mossy fibers של ה-Middle cerebellar peduncle נכנסים לצרבלום ועושים סינפסה בשכבה הגרנולרית.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 93,
       "section": "פעילות הצרבלום"
     },
@@ -449,7 +449,7 @@ window.QUESTIONS_CEREBELLUM = [
     "correctIndex": 0,
     "explanation": "לאחר אינטגרציה בצרבלום, הפקודה המדייקת עולה דרך ה-Superior cerebellar peduncles ומגיעה בסופו של דבר לקורטקס.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 93,
       "section": "פעילות הצרבלום"
     },
@@ -468,7 +468,7 @@ window.QUESTIONS_CEREBELLUM = [
     "correctIndex": 1,
     "explanation": "ה-Dentate nucleus הוא הגרעין הגדול ביותר מבין הגרעינים העמוקים של הצרבלום, ויש לו צורה משוננת.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 94,
       "section": "הגרעינים העמוקים של הצרבלום"
     },
@@ -487,7 +487,7 @@ window.QUESTIONS_CEREBELLUM = [
     "correctIndex": 1,
     "explanation": "ה-Interposed nucleus מורכב משני גרעינים צמודים, Globose ו-Emboliform, שמתייחסים אליהם באדם כאל גרעין אחד.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 94,
       "section": "הגרעינים העמוקים של הצרבלום"
     },
@@ -506,7 +506,7 @@ window.QUESTIONS_CEREBELLUM = [
     "correctIndex": 1,
     "explanation": "ה-Vestibulocerebellum (הידוע גם כ-Archicerebellum) צמוד ל-Flocculonodular lobe ואחראי על שיווי המשקל הבסיסי ביותר של הגוף.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 94,
       "section": "אנטומיה פונקציונלית"
     },
@@ -525,7 +525,7 @@ window.QUESTIONS_CEREBELLUM = [
     "correctIndex": 3,
     "explanation": "ה-Spinocerebellum (הידוע גם כ-Paleocerebellum) כולל את הוורמיס ואת ה-Paravermis הצמוד אליו לטרלית, ואחראי על סנכרון שרירים אגוניסטים ואנטגוניסטים.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 94,
       "section": "אנטומיה פונקציונלית"
     },
@@ -544,7 +544,7 @@ window.QUESTIONS_CEREBELLUM = [
     "correctIndex": 1,
     "explanation": "ה-Cerebrocerebellum (הידוע גם כ-Neocerebellum) כולל את רוב שטח ההמיספרות, הכי מפותח אצל האדם, ונמצא בתקשורת הישירה ביותר עם הסרברום.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 94,
       "section": "אנטומיה פונקציונלית"
     },
@@ -563,7 +563,7 @@ window.QUESTIONS_CEREBELLUM = [
     "correctIndex": 2,
     "explanation": "ניתן לבקש מהמטופל לגעת באף; אנשים עם הפרעות בצרבלום יתקשו לבצע את התנועה בצורה מדויקת.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 95,
       "section": "סיכום פתולוגיות מה-CBL"
     },
@@ -582,7 +582,7 @@ window.QUESTIONS_CEREBELLUM = [
     "correctIndex": 2,
     "explanation": "מקור הפגיעה ב-Cerebellar (truncal) ataxia הוא פגיעה ב-Vermis.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 95,
       "section": "סיכום פתולוגיות מה-CBL"
     },
@@ -601,7 +601,7 @@ window.QUESTIONS_CEREBELLUM = [
     "correctIndex": 2,
     "explanation": "פגיעה המאפיינת אנשים המתמודדים עם אלכוהוליזם כרוני היא Cerebellar (truncal) ataxia, שמקורה בפגיעה ב-Vermis.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 95,
       "section": "סיכום פתולוגיות מה-CBL"
     },
@@ -620,7 +620,7 @@ window.QUESTIONS_CEREBELLUM = [
     "correctIndex": 0,
     "explanation": "ב-Cerebellar hemisphere tumor הפגיעה בקורדינציה היא בין קבוצות שרירים באותו צד של הגוף, כך שאדם עם גידול בצרבלום ימין יילך בלי להזיז את זרוע ימין.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 95,
       "section": "סיכום פתולוגיות מה-CBL"
     },

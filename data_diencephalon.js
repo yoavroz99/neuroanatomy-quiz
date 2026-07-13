@@ -12,7 +12,7 @@ window.QUESTIONS_DIENCEPHALON = [
     "correctIndex": 1,
     "explanation": "התלמוס מהווה את תחנת הממסר של המוח, מרכז אליו את כל האינפורמציה החושית מלבד הריח.",
     "reference": {
-      "doc": "הדיאנצפלון",
+      "doc": "מישל מנשורוב דיאנצפלון",
       "page": 1,
       "section": "התלמוס"
     },
@@ -31,7 +31,7 @@ window.QUESTIONS_DIENCEPHALON = [
     "correctIndex": 2,
     "explanation": "התלמוס מרכז את כל האינפורמציה החושית שנכנסת אל המוח, מלבד חוש הריח.",
     "reference": {
-      "doc": "הדיאנצפלון",
+      "doc": "מישל מנשורוב דיאנצפלון",
       "page": 1,
       "section": "התלמוס"
     },
@@ -50,7 +50,7 @@ window.QUESTIONS_DIENCEPHALON = [
     "correctIndex": 1,
     "explanation": "ה-stratum zonale הוא חומר לבן שעוטף את התלמוס מלמעלה.",
     "reference": {
-      "doc": "הדיאנצפלון",
+      "doc": "מישל מנשורוב דיאנצפלון",
       "page": 2,
       "section": "החומר הלבן של התלמוס"
     },
@@ -69,7 +69,7 @@ window.QUESTIONS_DIENCEPHALON = [
     "correctIndex": 0,
     "explanation": "ה-internal medullary lamina דמוי האות Y, ויוצר חלוקה של התלמוס לגרעינים קדמיים, מדיאליים ולטרליים.",
     "reference": {
-      "doc": "הדיאנצפלון",
+      "doc": "מישל מנשורוב דיאנצפלון",
       "page": 2,
       "section": "החומר הלבן של התלמוס"
     },
@@ -88,7 +88,7 @@ window.QUESTIONS_DIENCEPHALON = [
     "correctIndex": 3,
     "explanation": "ה-Reticular nucleus הוא גרעין אינהיביטורי שעושה אינטגרציה של הקלט והפלט של התלמוס ומווסת את פעילותו, ללא הוצאת פלט מהמערכת הדיאנצפלית.",
     "reference": {
-      "doc": "הדיאנצפלון",
+      "doc": "מישל מנשורוב דיאנצפלון",
       "page": 2,
       "section": "החומר האפור של התלמוס"
     },
@@ -107,7 +107,7 @@ window.QUESTIONS_DIENCEPHALON = [
     "correctIndex": 3,
     "explanation": "הגרעינים הקדמיים מעורבים בעיקר בתפקודים של המערכת הלימבית, כמו למידה וזיכרון.",
     "reference": {
-      "doc": "הדיאנצפלון",
+      "doc": "מישל מנשורוב דיאנצפלון",
       "page": 2,
       "section": "החומר האפור של התלמוס"
     },
@@ -126,7 +126,7 @@ window.QUESTIONS_DIENCEPHALON = [
     "correctIndex": 2,
     "explanation": "הקשרים המרכזיים של הגרעינים המדיאליים הם עם ה-prefrontal cortex, ויש להם תפקודים דומים.",
     "reference": {
-      "doc": "הדיאנצפלון",
+      "doc": "מישל מנשורוב דיאנצפלון",
       "page": 2,
       "section": "החומר האפור של התלמוס"
     },
@@ -145,7 +145,7 @@ window.QUESTIONS_DIENCEPHALON = [
     "correctIndex": 1,
     "explanation": "מידע תחושתי מהפנים מגיע אל גרעין ה-VPM, בעוד מידע מהגוף מגיע אל ה-VPL.",
     "reference": {
-      "doc": "הדיאנצפלון",
+      "doc": "מישל מנשורוב דיאנצפלון",
       "page": 3,
       "section": "Lateral nuclei"
     },
@@ -164,7 +164,7 @@ window.QUESTIONS_DIENCEPHALON = [
     "correctIndex": 0,
     "explanation": "הגרעינים VL ו-VA מעורבים במסלולי התנועה של גרעיני הבסיס ומפעילים אזורים מוטוריים בקורטקס.",
     "reference": {
-      "doc": "הדיאנצפלון",
+      "doc": "מישל מנשורוב דיאנצפלון",
       "page": 3,
       "section": "Lateral nuclei"
     },
@@ -183,7 +183,7 @@ window.QUESTIONS_DIENCEPHALON = [
     "correctIndex": 1,
     "explanation": "ה-Pulvinar הוא גרעין בולט בחלקו האחורי של התלמוס, מעורב במערכת הרבייה ובהפניית קשב.",
     "reference": {
-      "doc": "הדיאנצפלון",
+      "doc": "מישל מנשורוב דיאנצפלון",
       "page": 3,
       "section": "Pulvinar"
     },
@@ -202,7 +202,7 @@ window.QUESTIONS_DIENCEPHALON = [
     "correctIndex": 0,
     "explanation": "MGB (Medial geniculate body) הוא חלק ממערכת השמיעה, בעוד LGB שייך למערכת הראייה.",
     "reference": {
-      "doc": "הדיאנצפלון",
+      "doc": "מישל מנשורוב דיאנצפלון",
       "page": 3,
       "section": "Medial & Lateral geniculate body"
     },
@@ -221,7 +221,7 @@ window.QUESTIONS_DIENCEPHALON = [
     "correctIndex": 3,
     "explanation": "ה-LGB וה-MGB נמצאים בחלקו האחורי של התלמוס ולעתים מתייחסים אליהם בשם הכולל מטה-תלמוס.",
     "reference": {
-      "doc": "הדיאנצפלון",
+      "doc": "מישל מנשורוב דיאנצפלון",
       "page": 3,
       "section": "Medial & Lateral geniculate body"
     },
@@ -240,7 +240,7 @@ window.QUESTIONS_DIENCEPHALON = [
     "correctIndex": 0,
     "explanation": "ה-STN הוא גרעין תת-קורטיקלי הנמצא מתחת לתלמוס, כחלק מהסאב-תלמוס.",
     "reference": {
-      "doc": "הדיאנצפלון",
+      "doc": "מישל מנשורוב דיאנצפלון",
       "page": 3,
       "section": "סאב-תלמוס"
     },
@@ -259,7 +259,7 @@ window.QUESTIONS_DIENCEPHALON = [
     "correctIndex": 3,
     "explanation": "ה-STN מפעיל גרעינים שמדכאים את הגרעינים המוטוריים בתלמוס, ובכך מביא להפחתת תנועה.",
     "reference": {
-      "doc": "הדיאנצפלון",
+      "doc": "מישל מנשורוב דיאנצפלון",
       "page": 4,
       "section": "תפקיד ה-STN"
     },
@@ -278,7 +278,7 @@ window.QUESTIONS_DIENCEPHALON = [
     "correctIndex": 2,
     "explanation": "מדכאי התלמוס כוללים את גרעין ה-Globus Pallidus Internus ואת ה-Substantia nigra pars reticulata, שעושים אינהיביציה לגרעינים המוטוריים של התלמוס.",
     "reference": {
-      "doc": "הדיאנצפלון",
+      "doc": "מישל מנשורוב דיאנצפלון",
       "page": 4,
       "section": "מדכאי תלמוס"
     },
@@ -297,7 +297,7 @@ window.QUESTIONS_DIENCEPHALON = [
     "correctIndex": 2,
     "explanation": "במעגל הישיר, הסטריאטום מבצע אינהיביציה למדכאי התלמוס ובכך מסיר את הדיכוי מהתלמוס ומאפשר תנועה.",
     "reference": {
-      "doc": "הדיאנצפלון",
+      "doc": "מישל מנשורוב דיאנצפלון",
       "page": 4,
       "section": "מעגלי גרעיני הבסיס"
     },
@@ -316,7 +316,7 @@ window.QUESTIONS_DIENCEPHALON = [
     "correctIndex": 1,
     "explanation": "במעגל העקיף מוסר הדיכוי מה-Subthalamic nucleus, שמפעיל את מדכאי התלמוס ומביא להפחתת תנועה.",
     "reference": {
-      "doc": "הדיאנצפלון",
+      "doc": "מישל מנשורוב דיאנצפלון",
       "page": 4,
       "section": "מעגלי גרעיני הבסיס"
     },
@@ -335,7 +335,7 @@ window.QUESTIONS_DIENCEPHALON = [
     "correctIndex": 3,
     "explanation": "ב-DBS משתילים נוירוסטימולטור ששולח פולסים חשמליים לגירוי ה-Subthalamic nucleus, ומביא להפחתה של סימפטומים מוטוריים.",
     "reference": {
-      "doc": "הדיאנצפלון",
+      "doc": "מישל מנשורוב דיאנצפלון",
       "page": 4,
       "section": "Deep Brain Stimulation"
     },
@@ -354,7 +354,7 @@ window.QUESTIONS_DIENCEPHALON = [
     "correctIndex": 2,
     "explanation": "רוב המידע מגיע אל ההבנולה דרך Stria medullaris המקשרת בינה לבין ה-Septal area.",
     "reference": {
-      "doc": "הדיאנצפלון",
+      "doc": "מישל מנשורוב דיאנצפלון",
       "page": 5,
       "section": "Habenula"
     },
@@ -373,7 +373,7 @@ window.QUESTIONS_DIENCEPHALON = [
     "correctIndex": 1,
     "explanation": "גרעיני ההבנולה בשתי ההמיספרות מקושרים דרך ה-Habenular commissure, אחת מחמש מערכות הסיבים הקומיסורליות.",
     "reference": {
-      "doc": "הדיאנצפלון",
+      "doc": "מישל מנשורוב דיאנצפלון",
       "page": 5,
       "section": "Habenula"
     },
@@ -392,7 +392,7 @@ window.QUESTIONS_DIENCEPHALON = [
     "correctIndex": 0,
     "explanation": "מעבר המידע על האור מצד לצד, שבזכותו האישון מצטמצם בשתי העיניים, מתבצע דרך ה-posterior commissure.",
     "reference": {
-      "doc": "הדיאנצפלון",
+      "doc": "מישל מנשורוב דיאנצפלון",
       "page": 5,
       "section": "posterior commissure"
     },
@@ -411,7 +411,7 @@ window.QUESTIONS_DIENCEPHALON = [
     "correctIndex": 0,
     "explanation": "הבלוטה הפניאלית נמצאת בחלקו האחורי של הדיאנצפלון, מתחת לספליניום של הקורפוס קולוסום.",
     "reference": {
-      "doc": "הדיאנצפלון",
+      "doc": "מישל מנשורוב דיאנצפלון",
       "page": 5,
       "section": "pineal gland"
     },
@@ -430,7 +430,7 @@ window.QUESTIONS_DIENCEPHALON = [
     "correctIndex": 0,
     "explanation": "הבלוטה הפניאלית מסנכרנת את המחזור הצירקדי על-ידי הפרשת ההורמון מלטונין.",
     "reference": {
-      "doc": "הדיאנצפלון",
+      "doc": "מישל מנשורוב דיאנצפלון",
       "page": 6,
       "section": "pineal gland"
     },
@@ -449,7 +449,7 @@ window.QUESTIONS_DIENCEPHALON = [
     "correctIndex": 3,
     "explanation": "ה-Retinohypothalamic tract היא המסילה שדרכה מידע על אור מגיע מהרשתית אל ה-SCN, ובהמשך אל בלוטת הפינאל.",
     "reference": {
-      "doc": "הדיאנצפלון",
+      "doc": "מישל מנשורוב דיאנצפלון",
       "page": 6,
       "section": "סנכרון השעון הביולוגי"
     },
@@ -468,7 +468,7 @@ window.QUESTIONS_DIENCEPHALON = [
     "correctIndex": 0,
     "explanation": "ה-SCN שייך להיפותלמוס ונמצא מעל הכיאזמה האופטית (Optic chiasm).",
     "reference": {
-      "doc": "הדיאנצפלון",
+      "doc": "מישל מנשורוב דיאנצפלון",
       "page": 6,
       "section": "סנכרון השעון הביולוגי"
     },
@@ -487,7 +487,7 @@ window.QUESTIONS_DIENCEPHALON = [
     "correctIndex": 0,
     "explanation": "ההיפותלמוס מהווה את החלק התחתון ביותר של הדיאנצפלון ואת רצפת החדר השלישי.",
     "reference": {
-      "doc": "הדיאנצפלון",
+      "doc": "מישל מנשורוב דיאנצפלון",
       "page": 6,
       "section": "היפותלמוס"
     },
@@ -506,7 +506,7 @@ window.QUESTIONS_DIENCEPHALON = [
     "correctIndex": 0,
     "explanation": "ה-preoptic area הוא האזור בהיפותלמוס האחראי לנתר את טמפרטורת הגוף.",
     "reference": {
-      "doc": "הדיאנצפלון",
+      "doc": "מישל מנשורוב דיאנצפלון",
       "page": 6,
       "section": "תפקידי ההיפותלמוס"
     },
@@ -525,7 +525,7 @@ window.QUESTIONS_DIENCEPHALON = [
     "correctIndex": 3,
     "explanation": "ב-Circumventricular organs מחסום הדם-מוח יותר מתירני, ומתאפשר מעבר חלקי של חומרים בין הדם למוח.",
     "reference": {
-      "doc": "הדיאנצפלון",
+      "doc": "מישל מנשורוב דיאנצפלון",
       "page": 6,
       "section": "circumventricular organs"
     },
@@ -544,7 +544,7 @@ window.QUESTIONS_DIENCEPHALON = [
     "correctIndex": 0,
     "explanation": "ה-Area postrema הוא מרכז ההקאה של המוח, הנמצא ברצפת החדר הרביעי.",
     "reference": {
-      "doc": "הדיאנצפלון",
+      "doc": "מישל מנשורוב דיאנצפלון",
       "page": 7,
       "section": "איברי חישה"
     },
@@ -563,7 +563,7 @@ window.QUESTIONS_DIENCEPHALON = [
     "correctIndex": 3,
     "explanation": "ה-Subfornical organ ממוקם מתחת לפורניקס ותפקידו לחוש רמות של הורמונים בזרם הדם.",
     "reference": {
-      "doc": "הדיאנצפלון",
+      "doc": "מישל מנשורוב דיאנצפלון",
       "page": 7,
       "section": "איברי חישה"
     },
@@ -582,7 +582,7 @@ window.QUESTIONS_DIENCEPHALON = [
     "correctIndex": 0,
     "explanation": "ה-OVLT נמצא סמוך ל-Lamina terminalis ותפקידו לחוש את טמפרטורת הדם וכן רמות נתרן או לחץ אוסמוטי.",
     "reference": {
-      "doc": "הדיאנצפלון",
+      "doc": "מישל מנשורוב דיאנצפלון",
       "page": 7,
       "section": "איברי חישה"
     },
@@ -601,7 +601,7 @@ window.QUESTIONS_DIENCEPHALON = [
     "correctIndex": 0,
     "explanation": "כאשר ה-preoptic area מזהה עלייה בטמפרטורה, ההיפותלמוס הקדמי מפעיל מנגנונים של איבוד חום כמו הזעה והרחבת כלי דם.",
     "reference": {
-      "doc": "הדיאנצפלון",
+      "doc": "מישל מנשורוב דיאנצפלון",
       "page": 7,
       "section": "שיווי משקל בין ההיפותלמוס הקדמי והאחורי"
     },
@@ -620,7 +620,7 @@ window.QUESTIONS_DIENCEPHALON = [
     "correctIndex": 1,
     "explanation": "בירידת טמפרטורה, ההיפותלמוס האחורי מפעיל מנגנונים של שימור או ייצור חום, כמו כיווץ כלי דם או רעד.",
     "reference": {
-      "doc": "הדיאנצפלון",
+      "doc": "מישל מנשורוב דיאנצפלון",
       "page": 7,
       "section": "שיווי משקל בין ההיפותלמוס הקדמי והאחורי"
     },
@@ -639,7 +639,7 @@ window.QUESTIONS_DIENCEPHALON = [
     "correctIndex": 2,
     "explanation": "בלוטת ההיפופיזה מחוברת להיפותלמוס דרך גבעול הנקרא infundibulum.",
     "reference": {
-      "doc": "הדיאנצפלון",
+      "doc": "מישל מנשורוב דיאנצפלון",
       "page": 8,
       "section": "בלוטת ההיפופיזה"
     },
@@ -658,7 +658,7 @@ window.QUESTIONS_DIENCEPHALON = [
     "correctIndex": 3,
     "explanation": "ההיפופיזה האחורית (נוירו-היפופיזה) היא חלק ישיר מההיפותלמוס, ומקורה העוברי מוחי - היא מתפתחת מהדיאנצפלון.",
     "reference": {
-      "doc": "הדיאנצפלון",
+      "doc": "מישל מנשורוב דיאנצפלון",
       "page": 8,
       "section": "בלוטת ההיפופיזה"
     },
@@ -677,7 +677,7 @@ window.QUESTIONS_DIENCEPHALON = [
     "correctIndex": 1,
     "explanation": "ההיפופיזה הקדמית אינה מתפתחת מה-Neural tube אלא מאקטודרם לא נוירונלי, אותו מקור עוברי ממנו מתפתח הלוע.",
     "reference": {
-      "doc": "הדיאנצפלון",
+      "doc": "מישל מנשורוב דיאנצפלון",
       "page": 8,
       "section": "בלוטת ההיפופיזה"
     },
@@ -696,7 +696,7 @@ window.QUESTIONS_DIENCEPHALON = [
     "correctIndex": 0,
     "explanation": "ואזופרסין מיוצר בעיקר ב-Supraoptic nucleus, ומשוחרר מהנוירו-היפופיזה.",
     "reference": {
-      "doc": "הדיאנצפלון",
+      "doc": "מישל מנשורוב דיאנצפלון",
       "page": 8,
       "section": "ההיפופיזה האחורית"
     },
@@ -715,7 +715,7 @@ window.QUESTIONS_DIENCEPHALON = [
     "correctIndex": 2,
     "explanation": "אוקסיטוצין מיוצר בעיקר ב-Paraventricular nucleus, ומשוחרר מהנוירו-היפופיזה.",
     "reference": {
-      "doc": "הדיאנצפלון",
+      "doc": "מישל מנשורוב דיאנצפלון",
       "page": 8,
       "section": "ההיפופיזה האחורית"
     },
@@ -734,7 +734,7 @@ window.QUESTIONS_DIENCEPHALON = [
     "correctIndex": 0,
     "explanation": "ואזופרסין (ADH) משפיע על לחץ הדם בכך שהוא מונע השתנה, וכך משפיע על כמות המים בדם.",
     "reference": {
-      "doc": "הדיאנצפלון",
+      "doc": "מישל מנשורוב דיאנצפלון",
       "page": 8,
       "section": "ההיפופיזה האחורית"
     },
@@ -753,7 +753,7 @@ window.QUESTIONS_DIENCEPHALON = [
     "correctIndex": 1,
     "explanation": "תפקידו המרכזי של אוקסיטוצין הוא לגרום להתכווצויות של הרחם בזמן לידה, והוא מעורב גם בהפרשת חלב ובפעילות מינית.",
     "reference": {
-      "doc": "הדיאנצפלון",
+      "doc": "מישל מנשורוב דיאנצפלון",
       "page": 8,
       "section": "ההיפופיזה האחורית"
     },
@@ -772,7 +772,7 @@ window.QUESTIONS_DIENCEPHALON = [
     "correctIndex": 3,
     "explanation": "ההיפופיזה הקדמית אינה נשלטת על-ידי ההיפותלמוס באמצעות עיצבוב ישיר, אלא בצורה וסקולרית דרך זרם הדם (Hypothalamo-Hypophyseal System).",
     "reference": {
-      "doc": "הדיאנצפלון",
+      "doc": "מישל מנשורוב דיאנצפלון",
       "page": 8,
       "section": "ההיפופיזה הקדמית"
     },
@@ -791,7 +791,7 @@ window.QUESTIONS_DIENCEPHALON = [
     "correctIndex": 0,
     "explanation": "ההיפותלמוס מפריש הורמונים לזרם הדם באזור הנקרא Median eminence, משם הם מגיעים דרך Portal veins להיפופיזה הקדמית.",
     "reference": {
-      "doc": "הדיאנצפלון",
+      "doc": "מישל מנשורוב דיאנצפלון",
       "page": 8,
       "section": "ההיפופיזה הקדמית"
     },
@@ -810,7 +810,7 @@ window.QUESTIONS_DIENCEPHALON = [
     "correctIndex": 0,
     "explanation": "בציר ה-HPA ההיפותלמוס מפריש CRH (Corticotropin Releasing Hormone), שגורם להיפופיזה הקדמית להפריש ACTH.",
     "reference": {
-      "doc": "הדיאנצפלון",
+      "doc": "מישל מנשורוב דיאנצפלון",
       "page": 9,
       "section": "דוגמאות להשפעת ההיפותלמוס על ההיפופיזה הקדמית"
     },
@@ -829,7 +829,7 @@ window.QUESTIONS_DIENCEPHALON = [
     "correctIndex": 1,
     "explanation": "לציר ה-HPA יש מנגנון של איזון חוזר שלילי - כאשר יש רמות גבוהות של קורטיזול, ההיפותלמוס יפריש פחות CRH.",
     "reference": {
-      "doc": "הדיאנצפלון",
+      "doc": "מישל מנשורוב דיאנצפלון",
       "page": 9,
       "section": "דוגמאות להשפעת ההיפותלמוס על ההיפופיזה הקדמית"
     },
@@ -848,7 +848,7 @@ window.QUESTIONS_DIENCEPHALON = [
     "correctIndex": 0,
     "explanation": "ההיפותלמוס מפריש Thyrotropin Releasing Hormone (TRH) שגורם להיפופיזה הקדמית להפריש Thyroid Stimulating Hormone (TSH).",
     "reference": {
-      "doc": "הדיאנצפלון",
+      "doc": "מישל מנשורוב דיאנצפלון",
       "page": 9,
       "section": "דוגמאות להשפעת ההיפותלמוס על ההיפופיזה הקדמית"
     },
@@ -867,7 +867,7 @@ window.QUESTIONS_DIENCEPHALON = [
     "correctIndex": 0,
     "explanation": "במחלת השימוטו יש תת פעילות של בלוטת התריס, ורואים רמות הולכות וגדלות של TSH בדם ללא הפרשת טירוקסין - מה שמהווה מרקר למחלה.",
     "reference": {
-      "doc": "הדיאנצפלון",
+      "doc": "מישל מנשורוב דיאנצפלון",
       "page": 9,
       "section": "דוגמאות להשפעת ההיפותלמוס על ההיפופיזה הקדמית"
     },
@@ -886,7 +886,7 @@ window.QUESTIONS_DIENCEPHALON = [
     "correctIndex": 0,
     "explanation": "ההיפותלמוס מפריש Gonadotropin Releasing Hormone שיביא להפרשה של ההורמונים LH ו-FSH מההיפופיזה הקדמית.",
     "reference": {
-      "doc": "הדיאנצפלון",
+      "doc": "מישל מנשורוב דיאנצפלון",
       "page": 9,
       "section": "דוגמאות להשפעת ההיפותלמוס על ההיפופיזה הקדמית"
     },
@@ -905,7 +905,7 @@ window.QUESTIONS_DIENCEPHALON = [
     "correctIndex": 0,
     "explanation": "ה-Optic tract נמשך מה-Optic chiasm ומסתיים ב-Lateral geniculate body.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 39,
       "section": "חתך 1 - האספקט הוונטרלי"
     },
@@ -924,7 +924,7 @@ window.QUESTIONS_DIENCEPHALON = [
     "correctIndex": 1,
     "explanation": "צמוד ל-Infundibulum (גזע בלוטת ההיפופיזה) ניתן לראות את שני ה-Mamillary bodies.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 39,
       "section": "חתך 1 - האספקט הוונטרלי"
     },
@@ -943,7 +943,7 @@ window.QUESTIONS_DIENCEPHALON = [
     "correctIndex": 0,
     "explanation": "שני ה-Habenular triangles נראים צמודים בקו האמצע לבלוטת הפינאל (Pineal gland) במבט הדורסלי.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 41,
       "section": "חתך 2 - האספקט הדורסלי"
     },
@@ -962,7 +962,7 @@ window.QUESTIONS_DIENCEPHALON = [
     "correctIndex": 2,
     "explanation": "גרעיני ה-Medial & lateral geniculate bodies נמצאים לטרלית ל-Habenular trigone.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 41,
       "section": "חתך 2 - האספקט הדורסלי"
     },

@@ -12,7 +12,7 @@ window.QUESTIONS_BASAL_GANGLIA = [
     "correctIndex": 0,
     "explanation": "בעבר כונו 'basal ganglia' אך השם עודכן ל-'basal nuclei' משום שצבר חומר אפור ב-CNS נקרא גרעין.",
     "reference": {
-      "doc": "גרעיני בסיס - חירות",
+      "doc": "גרעיני בסיס חירות 2022",
       "page": 1,
       "section": "מבוא"
     },
@@ -31,7 +31,7 @@ window.QUESTIONS_BASAL_GANGLIA = [
     "correctIndex": 2,
     "explanation": "גרעיני הבסיס הם חלק מהמערכת האקסטרה-פרמידלית, מערכת שאינה שולטת ישירות בכיווץ השרירים אלא באיכות התנועה.",
     "reference": {
-      "doc": "גרעיני בסיס - חירות",
+      "doc": "גרעיני בסיס חירות 2022",
       "page": 1,
       "section": "מבוא"
     },
@@ -50,7 +50,7 @@ window.QUESTIONS_BASAL_GANGLIA = [
     "correctIndex": 0,
     "explanation": "פגיעה במע' אקסטרה פרמידלית לא תגרום לשיתוק, אלא לפגיעה באיכות ובדיוק התנועה כמו קורדינציה.",
     "reference": {
-      "doc": "גרעיני בסיס - חירות",
+      "doc": "גרעיני בסיס חירות 2022",
       "page": 1,
       "section": "מבוא"
     },
@@ -69,7 +69,7 @@ window.QUESTIONS_BASAL_GANGLIA = [
     "correctIndex": 0,
     "explanation": "תפקיד גרעיני הבסיס הוא לסייע לקורטקס בהתחלה של תנועה ובסיום של תנועה, לאחר שהקורטקס החליט על כך.",
     "reference": {
-      "doc": "גרעיני בסיס - חירות",
+      "doc": "גרעיני בסיס חירות 2022",
       "page": 1,
       "section": "מבוא"
     },
@@ -88,7 +88,7 @@ window.QUESTIONS_BASAL_GANGLIA = [
     "correctIndex": 3,
     "explanation": "ה-Neostriatum (Striatum) מורכב מה-Caudate nucleus וה-Putamen.",
     "reference": {
-      "doc": "גרעיני בסיס - חירות",
+      "doc": "גרעיני בסיס חירות 2022",
       "page": 1,
       "section": "מרכיבי גרעיני הבסיס"
     },
@@ -107,7 +107,7 @@ window.QUESTIONS_BASAL_GANGLIA = [
     "correctIndex": 1,
     "explanation": "ה-Neostriatum הוא החלק שמקבל את ההחלטות במע' גרעיני הבסיס והוא זה שמתקשר עם הקורטקס.",
     "reference": {
-      "doc": "גרעיני בסיס - חירות",
+      "doc": "גרעיני בסיס חירות 2022",
       "page": 1,
       "section": "מרכיבי גרעיני הבסיס"
     },
@@ -126,7 +126,7 @@ window.QUESTIONS_BASAL_GANGLIA = [
     "correctIndex": 0,
     "explanation": "ה-Paleostriatum מורכב מ-Globus pallidus external segment (GPe) ו-Globus pallidus internal segment (GPi).",
     "reference": {
-      "doc": "גרעיני בסיס - חירות",
+      "doc": "גרעיני בסיס חירות 2022",
       "page": 1,
       "section": "מרכיבי גרעיני הבסיס"
     },
@@ -145,7 +145,7 @@ window.QUESTIONS_BASAL_GANGLIA = [
     "correctIndex": 2,
     "explanation": "ה-Paleostriatum הוא חלק קדום יותר שמבצע את ההחלטות של ה-Neostriatum.",
     "reference": {
-      "doc": "גרעיני בסיס - חירות",
+      "doc": "גרעיני בסיס חירות 2022",
       "page": 1,
       "section": "מרכיבי גרעיני הבסיס"
     },
@@ -164,7 +164,7 @@ window.QUESTIONS_BASAL_GANGLIA = [
     "correctIndex": 2,
     "explanation": "שני חלקי ה-Globus pallidus (GPe, GPi) יחד עם ה-Putamen מהווים את גרעין ה-Lentiform.",
     "reference": {
-      "doc": "גרעיני בסיס - חירות",
+      "doc": "גרעיני בסיס חירות 2022",
       "page": 1,
       "section": "מרכיבי גרעיני הבסיס"
     },
@@ -183,7 +183,7 @@ window.QUESTIONS_BASAL_GANGLIA = [
     "correctIndex": 3,
     "explanation": "בתוך גרעין ה-Lentiform, ה-Putamen כהה יותר בגלל אספקת דם עשירה יותר, כך שקל להפריד בין החלקים.",
     "reference": {
-      "doc": "גרעיני בסיס - חירות",
+      "doc": "גרעיני בסיס חירות 2022",
       "page": 1,
       "section": "מרכיבי גרעיני הבסיס"
     },
@@ -202,7 +202,7 @@ window.QUESTIONS_BASAL_GANGLIA = [
     "correctIndex": 2,
     "explanation": "חלק ה-Substantia Nigra נמצא בגזע המוח ונראה כפס כהה.",
     "reference": {
-      "doc": "גרעיני בסיס - חירות",
+      "doc": "גרעיני בסיס חירות 2022",
       "page": 1,
       "section": "מרכיבי גרעיני הבסיס"
     },
@@ -221,7 +221,7 @@ window.QUESTIONS_BASAL_GANGLIA = [
     "correctIndex": 1,
     "explanation": "Pars compacta (SNc) עשיר מאוד בנוירו-טרנסמיטור דופמין והוא זה שאחראי לצבע השחור של ה-Substantia Nigra.",
     "reference": {
-      "doc": "גרעיני בסיס - חירות",
+      "doc": "גרעיני בסיס חירות 2022",
       "page": 1,
       "section": "מרכיבי גרעיני הבסיס"
     },
@@ -240,7 +240,7 @@ window.QUESTIONS_BASAL_GANGLIA = [
     "correctIndex": 2,
     "explanation": "Pars reticulata (SNr) עשיר מאוד ב-GABA.",
     "reference": {
-      "doc": "גרעיני בסיס - חירות",
+      "doc": "גרעיני בסיס חירות 2022",
       "page": 1,
       "section": "מרכיבי גרעיני הבסיס"
     },
@@ -259,7 +259,7 @@ window.QUESTIONS_BASAL_GANGLIA = [
     "correctIndex": 2,
     "explanation": "ה-Subthalamic nucleus (STN) שייך במקורו העוברי לדיאנצפלון.",
     "reference": {
-      "doc": "גרעיני בסיס - חירות",
+      "doc": "גרעיני בסיס חירות 2022",
       "page": 1,
       "section": "מרכיבי גרעיני הבסיס"
     },
@@ -278,7 +278,7 @@ window.QUESTIONS_BASAL_GANGLIA = [
     "correctIndex": 0,
     "explanation": "ה-STN נמצא בין ה-Substantia Nigra לתלמוס, וצורתו אליפטית ודקה.",
     "reference": {
-      "doc": "גרעיני בסיס - חירות",
+      "doc": "גרעיני בסיס חירות 2022",
       "page": 1,
       "section": "מרכיבי גרעיני הבסיס"
     },
@@ -297,7 +297,7 @@ window.QUESTIONS_BASAL_GANGLIA = [
     "correctIndex": 2,
     "explanation": "GABA גורם לדיכוי פעילות.",
     "reference": {
-      "doc": "גרעיני בסיס - חירות",
+      "doc": "גרעיני בסיס חירות 2022",
       "page": 1,
       "section": "נוירוטרנסמיטורים של גרעיני הבסיס"
     },
@@ -316,7 +316,7 @@ window.QUESTIONS_BASAL_GANGLIA = [
     "correctIndex": 0,
     "explanation": "גלוטאמאט גורם להגברת פעילות.",
     "reference": {
-      "doc": "גרעיני בסיס - חירות",
+      "doc": "גרעיני בסיס חירות 2022",
       "page": 1,
       "section": "נוירוטרנסמיטורים של גרעיני הבסיס"
     },
@@ -335,7 +335,7 @@ window.QUESTIONS_BASAL_GANGLIA = [
     "correctIndex": 1,
     "explanation": "במסלול הישיר, נוירונים אקסיטטוריים שגוף התא שלהם בקורטקס הולכים להפעיל את ה-Putamen.",
     "reference": {
-      "doc": "גרעיני בסיס - חירות",
+      "doc": "גרעיני בסיס חירות 2022",
       "page": 2,
       "section": "המסלול הישיר"
     },
@@ -354,7 +354,7 @@ window.QUESTIONS_BASAL_GANGLIA = [
     "correctIndex": 0,
     "explanation": "הסיבים האינהיביטוריים מהפוטמן הולכים ל-GPi ול-SNr ומדכאים את פעילותם.",
     "reference": {
-      "doc": "גרעיני בסיס - חירות",
+      "doc": "גרעיני בסיס חירות 2022",
       "page": 2,
       "section": "המסלול הישיר"
     },
@@ -373,7 +373,7 @@ window.QUESTIONS_BASAL_GANGLIA = [
     "correctIndex": 2,
     "explanation": "במעגל הישיר ישנה דיס-אינהיבציה של הפעילות התלמוקורטיקלית, המהווה מעגל משוב חיובי שמגביר את הפעילות המוטורית.",
     "reference": {
-      "doc": "גרעיני בסיס - חירות",
+      "doc": "גרעיני בסיס חירות 2022",
       "page": 2,
       "section": "המסלול הישיר"
     },
@@ -392,7 +392,7 @@ window.QUESTIONS_BASAL_GANGLIA = [
     "correctIndex": 3,
     "explanation": "במסלול העקיף, הנוירונים האינהיביטוריים ב-Putamen מדכאים את הנוירונים האינהיביטוריים ב-GPe.",
     "reference": {
-      "doc": "גרעיני בסיס - חירות",
+      "doc": "גרעיני בסיס חירות 2022",
       "page": 2,
       "section": "המסלול העקיף"
     },
@@ -411,7 +411,7 @@ window.QUESTIONS_BASAL_GANGLIA = [
     "correctIndex": 1,
     "explanation": "הקשר בין GPe לגרעין הסב-תלמי מדוכא, ולכן הגרעין הסב-תלמי נמצא בדיס-אינהיבציה.",
     "reference": {
-      "doc": "גרעיני בסיס - חירות",
+      "doc": "גרעיני בסיס חירות 2022",
       "page": 2,
       "section": "המסלול העקיף"
     },
@@ -430,7 +430,7 @@ window.QUESTIONS_BASAL_GANGLIA = [
     "correctIndex": 0,
     "explanation": "הגרעין הסב-תלמי מפעיל את מדכאי התלמוס: GPi ו-SNr.",
     "reference": {
-      "doc": "גרעיני בסיס - חירות",
+      "doc": "גרעיני בסיס חירות 2022",
       "page": 2,
       "section": "המסלול העקיף"
     },
@@ -449,7 +449,7 @@ window.QUESTIONS_BASAL_GANGLIA = [
     "correctIndex": 3,
     "explanation": "במסלול העקיף ישנה אינהיביציה של התלמוס, מעגל משוב שלילי שמפחית את הפעילות התלמוקורטיקלית ולכן את התנועה.",
     "reference": {
-      "doc": "גרעיני בסיס - חירות",
+      "doc": "גרעיני בסיס חירות 2022",
       "page": 2,
       "section": "המסלול העקיף"
     },
@@ -468,7 +468,7 @@ window.QUESTIONS_BASAL_GANGLIA = [
     "correctIndex": 1,
     "explanation": "ההבדל בין המבנים המשתתפים ב-2 המסלולים הוא שהמסלול העקיף כולל את ה-STN בעוד שהישיר לא.",
     "reference": {
-      "doc": "גרעיני בסיס - חירות",
+      "doc": "גרעיני בסיס חירות 2022",
       "page": 2,
       "section": "מסלולים של גרעיני הבסיס"
     },
@@ -487,7 +487,7 @@ window.QUESTIONS_BASAL_GANGLIA = [
     "correctIndex": 3,
     "explanation": "SNr ו-GPi מקורם באותה רקמה עוברית ולכן תפקידם הפונקציונלי דומה: מקבלים מידע מאותו מקום ושולחים לאותו מקום.",
     "reference": {
-      "doc": "גרעיני בסיס - חירות",
+      "doc": "גרעיני בסיס חירות 2022",
       "page": 2,
       "section": "מסלולים של גרעיני הבסיס"
     },
@@ -506,7 +506,7 @@ window.QUESTIONS_BASAL_GANGLIA = [
     "correctIndex": 2,
     "explanation": "תאי המסלול הישיר בעלי רצפטור D1, רצפטור אקסיטטורי בתגובה לדופמין.",
     "reference": {
-      "doc": "גרעיני בסיס - חירות",
+      "doc": "גרעיני בסיס חירות 2022",
       "page": 3,
       "section": "Substantia Nigra compacta (SNc)"
     },
@@ -525,7 +525,7 @@ window.QUESTIONS_BASAL_GANGLIA = [
     "correctIndex": 2,
     "explanation": "תאי המסלול העקיף בעלי רצפטור D2, רצפטור אינהיביטורי בתגובה לדופמין.",
     "reference": {
-      "doc": "גרעיני בסיס - חירות",
+      "doc": "גרעיני בסיס חירות 2022",
       "page": 3,
       "section": "Substantia Nigra compacta (SNc)"
     },
@@ -544,7 +544,7 @@ window.QUESTIONS_BASAL_GANGLIA = [
     "correctIndex": 0,
     "explanation": "בשני המסלולים ה-SNc והדופמין מגבירים תנועה - דרך הפעלת המסלול הישיר ודיכוי המסלול העקיף.",
     "reference": {
-      "doc": "גרעיני בסיס - חירות",
+      "doc": "גרעיני בסיס חירות 2022",
       "page": 3,
       "section": "Substantia Nigra compacta (SNc)"
     },
@@ -563,7 +563,7 @@ window.QUESTIONS_BASAL_GANGLIA = [
     "correctIndex": 1,
     "explanation": "אובדן התאים מייצרי דופמין באזור ה-SNc גורם למחלת הפרקינסון, המתאפיינת בהפחתת תנועה.",
     "reference": {
-      "doc": "גרעיני בסיס - חירות",
+      "doc": "גרעיני בסיס חירות 2022",
       "page": 3,
       "section": "מחלת הפרקינסון"
     },
@@ -582,7 +582,7 @@ window.QUESTIONS_BASAL_GANGLIA = [
     "correctIndex": 1,
     "explanation": "הסימפטומים מופיעים כאשר כמות התאים מייצרי הדופמין מגיעה ל-15-20% מכמותם התקינה.",
     "reference": {
-      "doc": "גרעיני בסיס - חירות",
+      "doc": "גרעיני בסיס חירות 2022",
       "page": 3,
       "section": "מחלת הפרקינסון"
     },
@@ -601,7 +601,7 @@ window.QUESTIONS_BASAL_GANGLIA = [
     "correctIndex": 2,
     "explanation": "תרופות לפרקינסון כמו L-dopa פועלות ע\"י העלאת כמות הדופמין באזור ה-SNc, אך בשלב מסוים מתפתחת עמידות כנגדן.",
     "reference": {
-      "doc": "גרעיני בסיס - חירות",
+      "doc": "גרעיני בסיס חירות 2022",
       "page": 3,
       "section": "מחלת הפרקינסון"
     },
@@ -620,7 +620,7 @@ window.QUESTIONS_BASAL_GANGLIA = [
     "correctIndex": 1,
     "explanation": "חלק מהתרופות לטיפול בסכיזופרניה פועלות ע\"י הורדת רמות הדופמין, ותרופות עם פעילות לא סלקטיבית עלולות לגרום לתסמינים דמויי פרקינסון.",
     "reference": {
-      "doc": "גרעיני בסיס - חירות",
+      "doc": "גרעיני בסיס חירות 2022",
       "page": 3,
       "section": "מחלת הפרקינסון"
     },
@@ -639,7 +639,7 @@ window.QUESTIONS_BASAL_GANGLIA = [
     "correctIndex": 0,
     "explanation": "מחלת ההנטינגטון היא מחלה גנטית שמופיעה באזור גיל 40, והיא פרוגרסיבית וקטלנית.",
     "reference": {
-      "doc": "גרעיני בסיס - חירות",
+      "doc": "גרעיני בסיס חירות 2022",
       "page": 3,
       "section": "מחלת הנטיגטון"
     },
@@ -658,7 +658,7 @@ window.QUESTIONS_BASAL_GANGLIA = [
     "correctIndex": 2,
     "explanation": "מחלת ההנטינגטון מאופיינת בתנועה מרובה דמוית ריקוד, כוריאה.",
     "reference": {
-      "doc": "גרעיני בסיס - חירות",
+      "doc": "גרעיני בסיס חירות 2022",
       "page": 3,
       "section": "מחלת הנטיגטון"
     },
@@ -677,7 +677,7 @@ window.QUESTIONS_BASAL_GANGLIA = [
     "correctIndex": 1,
     "explanation": "לא ברור בוודאות היכן במסלול מתרחשת הפגיעה, אך לפי התיאוריה הרווחת המקור הוא בפגיעה ברצפטורי D2 במסלול העקיף.",
     "reference": {
-      "doc": "גרעיני בסיס - חירות",
+      "doc": "גרעיני בסיס חירות 2022",
       "page": 3,
       "section": "מחלת הנטיגטון"
     },
@@ -696,7 +696,7 @@ window.QUESTIONS_BASAL_GANGLIA = [
     "correctIndex": 3,
     "explanation": "לא קיימת תרופה להנטינגטון כך שהטיפול מבוסס על טיפול סימפטומטי בלבד.",
     "reference": {
-      "doc": "גרעיני בסיס - חירות",
+      "doc": "גרעיני בסיס חירות 2022",
       "page": 3,
       "section": "מחלת הנטיגטון"
     },
@@ -715,7 +715,7 @@ window.QUESTIONS_BASAL_GANGLIA = [
     "correctIndex": 3,
     "explanation": "מקור הפגיעה ב-Hemi-ballismus הוא בגרעין הסב-תלמי (המסלול העקיף).",
     "reference": {
-      "doc": "גרעיני בסיס - חירות",
+      "doc": "גרעיני בסיס חירות 2022",
       "page": 3,
       "section": "מחלת Hemi-ballismus"
     },
@@ -734,7 +734,7 @@ window.QUESTIONS_BASAL_GANGLIA = [
     "correctIndex": 2,
     "explanation": "בהמיבליסמוס התנועה אינה דמוית ריקוד אלא תנועות מהירות - בליסטיות.",
     "reference": {
-      "doc": "גרעיני בסיס - חירות",
+      "doc": "גרעיני בסיס חירות 2022",
       "page": 3,
       "section": "מחלת Hemi-ballismus"
     },
@@ -753,7 +753,7 @@ window.QUESTIONS_BASAL_GANGLIA = [
     "correctIndex": 1,
     "explanation": "מקור הפגיעה ב-Hemi-ballismus הוא בגרעין הסב-תלמי, והפגיעה תתבטא בחצי הגוף הקונטרה-לטרלי.",
     "reference": {
-      "doc": "גרעיני בסיס - חירות",
+      "doc": "גרעיני בסיס חירות 2022",
       "page": 3,
       "section": "מחלת Hemi-ballismus"
     },
@@ -772,7 +772,7 @@ window.QUESTIONS_BASAL_GANGLIA = [
     "correctIndex": 1,
     "explanation": "אם שני הגרעינים הסב-תלמיים נפגעים (מצב נדיר), נקבל מחלה שמתבטאת בשני הצדדים - Ballismus.",
     "reference": {
-      "doc": "גרעיני בסיס - חירות",
+      "doc": "גרעיני בסיס חירות 2022",
       "page": 3,
       "section": "מחלת Hemi-ballismus"
     },
@@ -791,7 +791,7 @@ window.QUESTIONS_BASAL_GANGLIA = [
     "correctIndex": 0,
     "explanation": "בתקופת הינקות המעגל הפעיל הוא המעגל הישיר; הבשלת המעגל העקיף, שמפחית תנועה, מתרחשת מאוחר יותר.",
     "reference": {
-      "doc": "גרעיני בסיס - חירות",
+      "doc": "גרעיני בסיס חירות 2022",
       "page": 3,
       "section": "מחלת Hemi-ballismus"
     },
@@ -810,7 +810,7 @@ window.QUESTIONS_BASAL_GANGLIA = [
     "correctIndex": 3,
     "explanation": "תפקיד המעגל העקיף הוא הפחתת התנועות הספונטניות בזמן מנוחה.",
     "reference": {
-      "doc": "גרעיני בסיס - חירות",
+      "doc": "גרעיני בסיס חירות 2022",
       "page": 3,
       "section": "מחלת Hemi-ballismus"
     },
@@ -829,7 +829,7 @@ window.QUESTIONS_BASAL_GANGLIA = [
     "correctIndex": 2,
     "explanation": "מלבד מעורבותם בתנועה, לגרעיני הבסיס ישנה השפעה על רגשות והיווצרות מחלת הדיכאון; חולי פרקינסון והנטינגטון סובלים משיעורי דיכאון/התאבדות גבוהים במיוחד.",
     "reference": {
-      "doc": "גרעיני בסיס - חירות",
+      "doc": "גרעיני בסיס חירות 2022",
       "page": 3,
       "section": "מחלת Hemi-ballismus"
     },
@@ -848,7 +848,7 @@ window.QUESTIONS_BASAL_GANGLIA = [
     "correctIndex": 3,
     "explanation": "גרעיני הבסיס מקבלים אספקת דם מה-Middle cerebral artery, ושבצים בעורק זה יכולים לגרום לפגיעה כמו מחלת ה-Hemi-ballismus.",
     "reference": {
-      "doc": "גרעיני בסיס - חירות",
+      "doc": "גרעיני בסיס חירות 2022",
       "page": 4,
       "section": "אספקת הדם לגרעיני הבסיס"
     },
@@ -867,7 +867,7 @@ window.QUESTIONS_BASAL_GANGLIA = [
     "correctIndex": 1,
     "explanation": "ה-Lentiform nucleus הוא גרעין גדול של חומר אפור, השייך לגרעיני הבסיס.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 44,
       "section": "חלוקה אנטומית בחתך הוריזונטלי"
     },
@@ -886,7 +886,7 @@ window.QUESTIONS_BASAL_GANGLIA = [
     "correctIndex": 0,
     "explanation": "ה-Internal capsule הוא אזור חומר לבן שנמצא מדיאלית ללנטיפורם, לעומת ה-External capsule שנמצא לטרלית לו.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 44,
       "section": "חלוקה אנטומית בחתך הוריזונטלי"
     },
@@ -905,7 +905,7 @@ window.QUESTIONS_BASAL_GANGLIA = [
     "correctIndex": 2,
     "explanation": "הזרוע האנטריורית של ה-Internal capsule תחומה בין ה-Lentiform לבין ה-Caudate nucleus, והזרוע הפוסטריורית בינו לבין התלמוס.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 45,
       "section": "חלוקה אנטומית בחתך הוריזונטלי"
     },
@@ -924,7 +924,7 @@ window.QUESTIONS_BASAL_GANGLIA = [
     "correctIndex": 1,
     "explanation": "במערכת גרעיני הבסיס, פגיעה תגרום להפרעות מוטוריות מאוד ספציפיות שקל יותר לבחון ולמדוד, בשונה מהמערכת הלימבית.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 68,
       "section": "המערכת הלימבית"
     },

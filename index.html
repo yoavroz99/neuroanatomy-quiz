@@ -647,46 +647,90 @@ function Header({ view, onGoHome, onChangeTab }) {
 // ---------- Home screen ----------
 
 function Home({ onStart }) {
-  const [selectedTopic, setSelectedTopic] = React.useState("all");
-  const [mode, setMode] = React.useState(null);
-
-  const allCount = React.useMemo(() => getAllQuestions().length, []);
+  const allTopicKeys = React.useMemo(() => TOPICS.map((t) => t.key), []);
+  const [selectedTopics, setSelectedTopics] = React.useState(() => new Set(allTopicKeys));
+  const [totalCount, setTotalCount] = React.useState(20);
+  const didInit = React.useRef(false);
 
   function countFor(key) {
-    if (key === "all") return allCount;
     return getTopicPool(key).length;
   }
 
-  function handleModeClick(m) {
-    setMode(m);
-    if (m === "exam") {
-      onStart({ mode: "exam", topic: "all" });
+  const allQuestionsCount = React.useMemo(() => getAllQuestions().length, []);
+
+  const available = React.useMemo(() => {
+    let sum = 0;
+    selectedTopics.forEach((key) => { sum += countFor(key); });
+    return sum;
+  }, [selectedTopics]);
+
+  React.useEffect(() => {
+    if (!didInit.current) {
+      didInit.current = true;
+      setTotalCount(Math.max(1, Math.min(20, available || 1)));
       return;
     }
-    onStart({ mode: m, topic: selectedTopic });
+    setTotalCount((prev) => {
+      if (available <= 0) return prev;
+      return Math.max(1, Math.min(prev, available));
+    });
+  }, [available]);
+
+  function toggleTopic(key) {
+    setSelectedTopics((prev) => {
+      const next = new Set(prev);
+      if (next.has(key)) next.delete(key);
+      else next.add(key);
+      return next;
+    });
   }
+
+  function toggleAll() {
+    setSelectedTopics((prev) => (
+      prev.size === allTopicKeys.length ? new Set() : new Set(allTopicKeys)
+    ));
+  }
+
+  function handleCountChange(e) {
+    const v = parseInt(e.target.value, 10);
+    const max = Math.max(1, available);
+    if (isNaN(v)) { setTotalCount(1); return; }
+    setTotalCount(Math.max(1, Math.min(v, max)));
+  }
+
+  function startPractice() {
+    if (selectedTopics.size === 0 || available === 0) return;
+    onStart({ mode: "practice", topics: Array.from(selectedTopics), total: totalCount });
+  }
+
+  function startExam() {
+    onStart({ mode: "exam" });
+  }
+
+  const allSelected = selectedTopics.size === allTopicKeys.length;
+  const practiceDisabled = selectedTopics.size === 0;
 
   return (
     <div className="card">
       <h1>כלי תרגול בנוירואנטומיה</h1>
       <p className="subtitle">
-        בחרו נושא ומצב תרגול. כל השאלות כוללות הסבר ומקור לחזרה על החומר.
+        בחרו נושאים ומצב תרגול. כל השאלות כוללות הסבר ומקור לחזרה על החומר.
       </p>
 
-      <div className="section-label">נושא</div>
+      <div className="section-label">נושאים (לתרגול)</div>
       <div className="topic-grid">
         <div
-          className={"topic-card" + (selectedTopic === "all" ? " selected" : "")}
-          onClick={() => setSelectedTopic("all")}
+          className={"topic-card" + (allSelected ? " selected" : "")}
+          onClick={toggleAll}
         >
           כל הנושאים
-          <span className="count">{countFor("all")} שאלות</span>
+          <span className="count">{allQuestionsCount} שאלות</span>
         </div>
         {TOPICS.map((t) => (
           <div
             key={t.key}
-            className={"topic-card" + (selectedTopic === t.key ? " selected" : "")}
-            onClick={() => setSelectedTopic(t.key)}
+            className={"topic-card" + (selectedTopics.has(t.key) ? " selected" : "")}
+            onClick={() => toggleTopic(t.key)}
           >
             {t.label}
             <span className="count">{countFor(t.key)} שאלות</span>
@@ -694,19 +738,42 @@ function Home({ onStart }) {
         ))}
       </div>
 
+      <div className="section-label">כמה שאלות בסך הכול?</div>
+      <div style={{ display: "flex", alignItems: "center", gap: "12px", marginBottom: "6px", flexWrap: "wrap" }}>
+        <input
+          type="number"
+          min={1}
+          max={Math.max(1, available)}
+          value={totalCount}
+          onChange={handleCountChange}
+          style={{
+            width: "90px",
+            padding: "10px 12px",
+            borderRadius: "10px",
+            border: "1.5px solid var(--border)",
+            background: "var(--bg-elevated)",
+            color: "var(--text)",
+            fontSize: "0.95rem",
+            fontFamily: "inherit",
+          }}
+        />
+        <span style={{ color: "var(--text-dim)", fontSize: "0.85rem" }}>
+          מתוך {available} שאלות זמינות בנושאים שנבחרו
+        </span>
+      </div>
+
       <div className="section-label">מצב תרגול</div>
       <div className="mode-grid">
-        <div className="mode-card" onClick={() => handleModeClick("practice")}>
+        <div
+          className="mode-card"
+          onClick={startPractice}
+          style={practiceDisabled ? { opacity: 0.45, cursor: "not-allowed" } : undefined}
+        >
           <span className="icon">📘</span>
           <h3>תרגול</h3>
           <p>משוב מיידי אחרי כל שאלה — נכון/לא נכון, הסבר ומקור.</p>
         </div>
-        <div className="mode-card" onClick={() => handleModeClick("test")}>
-          <span className="icon">📝</span>
-          <h3>מבחן תרגול</h3>
-          <p>ללא משוב תוך כדי — תוצאות מלאות בסוף בלבד.</p>
-        </div>
-        <div className="mode-card" onClick={() => handleModeClick("exam")}>
+        <div className="mode-card" onClick={startExam}>
           <span className="icon">🎯</span>
           <h3>{EXAM.label}</h3>
           <p>{EXAM.size} שאלות אקראיות מכל הנושאים, בדיוק כמו במבחן האמיתי.</p>
@@ -718,13 +785,55 @@ function Home({ onStart }) {
 
 // ---------- Quiz engine (practice / test / exam) ----------
 
-function buildQuestionSet(mode, topic) {
-  if (mode === "exam") {
-    const pool = shuffleArray(getAllQuestions());
-    return pool.slice(0, Math.min(EXAM.size, pool.length));
+function buildExamSet() {
+  const pool = shuffleArray(getAllQuestions());
+  return pool.slice(0, Math.min(EXAM.size, pool.length));
+}
+
+// Draws `total` questions spread as evenly as possible across `topicKeys`.
+// base = floor(total / k), remainder distributed round-robin; if a topic
+// can't fill its allotment, the shortfall is redistributed among the
+// remaining topics (never exceeding any topic's available count).
+function buildEvenSpreadSet(topicKeys, total) {
+  const keys = topicKeys.slice();
+  const k = keys.length;
+  if (k === 0 || total <= 0) return [];
+
+  const shuffledPools = {};
+  keys.forEach((key) => { shuffledPools[key] = shuffleArray(getTopicPool(key)); });
+
+  const alloc = {};
+  keys.forEach((key) => { alloc[key] = 0; });
+
+  let remaining = Math.min(total, keys.reduce((s, key) => s + shuffledPools[key].length, 0));
+  let active = keys.filter((key) => shuffledPools[key].length > 0);
+
+  while (remaining > 0 && active.length > 0) {
+    const base = Math.floor(remaining / active.length);
+    const extra = remaining % active.length;
+    let allocatedThisRound = 0;
+    const stillActive = [];
+
+    active.forEach((key, i) => {
+      const cap = shuffledPools[key].length - alloc[key];
+      let want = base + (i < extra ? 1 : 0);
+      if (want > cap) want = cap;
+      if (want < 0) want = 0;
+      alloc[key] += want;
+      allocatedThisRound += want;
+      if (shuffledPools[key].length - alloc[key] > 0) stillActive.push(key);
+    });
+
+    remaining -= allocatedThisRound;
+    if (allocatedThisRound === 0) break; // no topic has any capacity left
+    active = stillActive;
   }
-  const pool = topic === "all" ? getAllQuestions() : getTopicPool(topic);
-  return shuffleArray(pool);
+
+  let combined = [];
+  keys.forEach((key) => {
+    combined = combined.concat(shuffledPools[key].slice(0, alloc[key]));
+  });
+  return shuffleArray(combined);
 }
 
 function Quiz({ session, onFinish, onExit }) {
@@ -790,10 +899,16 @@ function Quiz({ session, onFinish, onExit }) {
       <div className="quiz-header">
         <div className="quiz-progress">
           שאלה {idx + 1} / {questions.length}
-          {mode !== "exam" && session.topic && session.topic !== "all" && (
+          {mode === "exam" && <span className="topic-chip">{EXAM.label}</span>}
+          {mode !== "exam" && session.topics && session.topics.length === 1 && (
+            <span className="topic-chip">{topicLabel(session.topics[0])}</span>
+          )}
+          {mode !== "exam" && session.topics && session.topics.length > 1 && (
+            <span className="topic-chip">{session.topics.length} נושאים</span>
+          )}
+          {mode !== "exam" && !session.topics && session.topic && session.topic !== "all" && (
             <span className="topic-chip">{topicLabel(session.topic)}</span>
           )}
-          {mode === "exam" && <span className="topic-chip">{EXAM.label}</span>}
           {!isPracticeMode && (
             <span className="topic-chip">נענו {answeredCount}/{questions.length}</span>
           )}
@@ -896,7 +1011,7 @@ function Results({ result, onRetryMistakes, onGoHome }) {
     <div className="card">
       <h1>תוצאות</h1>
       <p className="subtitle">
-        {mode === "exam" ? EXAM.label : mode === "test" ? "מבחן תרגול" : "תרגול"} — סיכום הריצה
+        {mode === "exam" ? EXAM.label : "תרגול"} — סיכום הריצה
       </p>
 
       <div className="results-summary">
@@ -1112,13 +1227,23 @@ function App() {
   const [session, setSession] = React.useState(null);
   const [result, setResult] = React.useState(null);
 
-  function startQuiz({ mode, topic }) {
-    const questions = buildQuestionSet(mode, topic);
+  function startQuiz(opts) {
+    let questions;
+    let sessionExtra;
+
+    if (opts.mode === "exam") {
+      questions = buildExamSet();
+      sessionExtra = { topic: "all" };
+    } else {
+      questions = buildEvenSpreadSet(opts.topics, opts.total);
+      sessionExtra = { topics: opts.topics, total: opts.total };
+    }
+
     if (questions.length === 0) {
-      window.alert("אין שאלות זמינות לנושא זה כרגע.");
+      window.alert("אין שאלות זמינות לבחירה זו כרגע.");
       return;
     }
-    setSession({ mode, topic, questions, isRetry: false });
+    setSession({ mode: opts.mode, questions, isRetry: false, ...sessionExtra });
     setResult(null);
     setView("quiz");
   }

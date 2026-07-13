@@ -12,7 +12,7 @@ window.QUESTIONS_BRAINSTEM_CN = [
     "correctIndex": 2,
     "explanation": "ה-Midbrain מתפתח מה-Mesencephalon, בעוד ה-Pons וה-Medulla oblongata מתפתחים מה-Hindbrain.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 54,
       "section": "גזע המוח - מבוא"
     },
@@ -31,7 +31,7 @@ window.QUESTIONS_BRAINSTEM_CN = [
     "correctIndex": 0,
     "explanation": "המדולה אובלונגטה היא המשכית לחוט השדרה, והגבול ביניהם הוא ה-Foramen magnum.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 55,
       "section": "חתך 1 – האספקט הוונטרלי"
     },
@@ -50,7 +50,7 @@ window.QUESTIONS_BRAINSTEM_CN = [
     "correctIndex": 1,
     "explanation": "ה-CN4 Trochlear nerve הוא היחיד שיוצא מהחלק הדורסלי של גזע המוח.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 54,
       "section": "חתך 1 – האספקט הוונטרלי"
     },
@@ -69,7 +69,7 @@ window.QUESTIONS_BRAINSTEM_CN = [
     "correctIndex": 1,
     "explanation": "CN3 יוצא מגזע המוח מתוך ה-Interpeduncular fossa, החלל שבין שני ה-Cerebral peduncles.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 54,
       "section": "חתך 1 – האספקט הוונטרלי"
     },
@@ -88,7 +88,7 @@ window.QUESTIONS_BRAINSTEM_CN = [
     "correctIndex": 0,
     "explanation": "יש שלושה זוגות Cerebellar peduncles (Superior, Middle, Inferior) שמקשרים בין גזע המוח לצרבלום.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 55,
       "section": "חתך 1 – האספקט הוונטרלי"
     },
@@ -107,7 +107,7 @@ window.QUESTIONS_BRAINSTEM_CN = [
     "correctIndex": 0,
     "explanation": "CN5 Trigeminal nerve יוצא מהפונס ותוחם את ה-Basilar part שלו.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 55,
       "section": "חתך 1 – האספקט הוונטרלי"
     },
@@ -126,7 +126,7 @@ window.QUESTIONS_BRAINSTEM_CN = [
     "correctIndex": 3,
     "explanation": "CN12 יוצא החוצה מדיאלית יחסית, בין ה-Pyramid ל-Olive.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 55,
       "section": "חתך 1 – האספקט הוונטרלי"
     },
@@ -145,7 +145,7 @@ window.QUESTIONS_BRAINSTEM_CN = [
     "correctIndex": 3,
     "explanation": "מלמעלה למטה, בין Olive ל-Inferior cerebellar peduncle יוצאים CN9 Glossopharyngeal, CN10 Vagus ו-CN11 Accessory.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 55,
       "section": "חתך 1 – האספקט הוונטרלי"
     },
@@ -164,7 +164,7 @@ window.QUESTIONS_BRAINSTEM_CN = [
     "correctIndex": 1,
     "explanation": "בין שני ה-Thalami, במבט דורסלי, נמצא החדר השלישי.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 56,
       "section": "חתך 2 – האספקט הדורסלי"
     },
@@ -183,7 +183,7 @@ window.QUESTIONS_BRAINSTEM_CN = [
     "correctIndex": 0,
     "explanation": "ה-MGB (Medial geniculate body) שייך למערכת השמיעה, בעוד ה-LGB (Lateral) שייך לראייה.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 56,
       "section": "חתך 2 – האספקט הדורסלי"
     },
@@ -202,7 +202,7 @@ window.QUESTIONS_BRAINSTEM_CN = [
     "correctIndex": 3,
     "explanation": "ה-Superior colliculi שייכים למערכת הראייה ואחראים על רפלקסים ברמת גזע המוח.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 56,
       "section": "חתך 2 – האספקט הדורסלי"
     },
@@ -221,7 +221,7 @@ window.QUESTIONS_BRAINSTEM_CN = [
     "correctIndex": 3,
     "explanation": "הבליטה נוצרת ע\"י סיבים של ה-Facial nerve שעוברים מתחת לפני השטח באזור ה-Medial eminence.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 57,
       "section": "חתך 2 – האספקט הדורסלי"
     },
@@ -240,7 +240,7 @@ window.QUESTIONS_BRAINSTEM_CN = [
     "correctIndex": 0,
     "explanation": "ה-Vestibular area, לטרלית ל-Medial eminence, אחראית על שיווי משקל.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 57,
       "section": "חתך 2 – האספקט הדורסלי"
     },
@@ -259,7 +259,7 @@ window.QUESTIONS_BRAINSTEM_CN = [
     "correctIndex": 1,
     "explanation": "הצבע מתקבל כתוצר לוואי של ייצור נוראדרנלין, כתוצאה מריכוז גבוה של נוירונים נוראדרנרגיים באזור.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 58,
       "section": "חתך 2 – האספקט הדורסלי"
     },
@@ -278,7 +278,7 @@ window.QUESTIONS_BRAINSTEM_CN = [
     "correctIndex": 1,
     "explanation": "ה-Superior cerebellar peduncle הוא הקישור השלישי בין הצרבלום וגזע המוח, ומקשר אותו ל-Midbrain.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 58,
       "section": "חתך 2 – האספקט הדורסלי"
     },
@@ -297,7 +297,7 @@ window.QUESTIONS_BRAINSTEM_CN = [
     "correctIndex": 3,
     "explanation": "ה-Cerebral aqueduct הוא מיצר שעובר דרך ה-Midbrain ומקשר בין החדר השלישי לחדר הרביעי.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 59,
       "section": "חתך 3 – מידסגיטלי"
     },
@@ -316,7 +316,7 @@ window.QUESTIONS_BRAINSTEM_CN = [
     "correctIndex": 2,
     "explanation": "ה-Median aperture of Magendie הוא פתח ניקוז אי-זוגי של החדר הרביעי, הנמצא על קו האמצע.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 59,
       "section": "חתך 3 – מידסגיטלי"
     },
@@ -335,7 +335,7 @@ window.QUESTIONS_BRAINSTEM_CN = [
     "correctIndex": 3,
     "explanation": "ה-Periaqueductal grey (PAG) הוא גרעין חומר אפור שמקיף את ה-Cerebral aqueduct.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 60,
       "section": "חתך 4 – חתך רוחב דרך ה-Midbrain"
     },
@@ -354,7 +354,7 @@ window.QUESTIONS_BRAINSTEM_CN = [
     "correctIndex": 3,
     "explanation": "ה-Substantia nigra כולל נוירונים דופמינרגיים, המעניקים לו את צבעו השחור.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 60,
       "section": "חתך 4 – חתך רוחב דרך ה-Midbrain"
     },
@@ -373,7 +373,7 @@ window.QUESTIONS_BRAINSTEM_CN = [
     "correctIndex": 2,
     "explanation": "ה-Red nuclei נצבעים באדום בגלל הריכוז הגבוה של ברזל באזור זה.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 60,
       "section": "חתך 4 – חתך רוחב דרך ה-Midbrain"
     },
@@ -392,7 +392,7 @@ window.QUESTIONS_BRAINSTEM_CN = [
     "correctIndex": 2,
     "explanation": "חתך עם גרעין CN3 ה-Interpeduncular fossa הוא בגובה ה-Superior colliculi, וחתך עם גרעין CN4 הוא בגובה ה-Inferior colliculi.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 61,
       "section": "חתך 4 – חתך רוחב דרך ה-Midbrain"
     },
@@ -411,7 +411,7 @@ window.QUESTIONS_BRAINSTEM_CN = [
     "correctIndex": 1,
     "explanation": "מדיאלית ל-CN5 יש את ה-Basilar part of pons, ולטרלית אליו יש את ה-Middle cerebellar peduncle.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 62,
       "section": "חתך 5 – חתך רוחב דרך ה-Pons"
     },
@@ -430,7 +430,7 @@ window.QUESTIONS_BRAINSTEM_CN = [
     "correctIndex": 3,
     "explanation": "סיבי CN7 מקיפים דורסלית את הגרעין של CN6 Abducent n. בדרכם לפני השטח, ויוצרים בכך את ה-Facial colliculi.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 62,
       "section": "חתך 5 – חתך רוחב דרך ה-Pons"
     },
@@ -449,7 +449,7 @@ window.QUESTIONS_BRAINSTEM_CN = [
     "correctIndex": 2,
     "explanation": "CN1 Olfactory מגיע מהטלנצפלון ו-CN2 Optic מגיע מהדיאנצפלון, ושניהם אינם עוברים דרך גזע המוח.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 76,
       "section": "העצבים הקרניאליים - מבוא"
     },
@@ -468,7 +468,7 @@ window.QUESTIONS_BRAINSTEM_CN = [
     "correctIndex": 0,
     "explanation": "CN1 מתפתח מה-Telencephalon, כמו הקורטקס, ולכן אינו עובר דרך גזע המוח.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 76,
       "section": "CNI – Olfactory nerve"
     },
@@ -487,7 +487,7 @@ window.QUESTIONS_BRAINSTEM_CN = [
     "correctIndex": 2,
     "explanation": "CNII Optic n. יוצא מהרשתית, ששייכת ל-CNS, ומגיע ישירות למבנים של הדיאנצפלון.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 76,
       "section": "CNII – Optic nerve"
     },
@@ -506,7 +506,7 @@ window.QUESTIONS_BRAINSTEM_CN = [
     "correctIndex": 0,
     "explanation": "לאחר ה-Optic chiasm, המידע ב-Optic tracts כבר מחולק לימין ולשמאל לפי שדות ראייה, ולא לפי העין שקלטה אותו.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 76,
       "section": "CNII – Optic nerve"
     },
@@ -525,7 +525,7 @@ window.QUESTIONS_BRAINSTEM_CN = [
     "correctIndex": 1,
     "explanation": "פגיעה שמשפיעה על עין ולא על שדה ראייה מסוים התרחשה לפני חציית המידע בכיאזמה, וגורמת לעיוורון מלא בעין אחת.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 77,
       "section": "CNII – Optic nerve"
     },
@@ -544,7 +544,7 @@ window.QUESTIONS_BRAINSTEM_CN = [
     "correctIndex": 3,
     "explanation": "שדות הראייה הלטרליים נקלטים בצד הנזאלי של הרשתית וחוצים צד בכיאזמה, ולכן פגיעה בכיאזמה גורמת לעיוורון שלהם.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 77,
       "section": "CNII – Optic nerve"
     },
@@ -563,7 +563,7 @@ window.QUESTIONS_BRAINSTEM_CN = [
     "correctIndex": 2,
     "explanation": "פגיעה טמפורלית שמשפיעה על סיבי Meyer's loop הקונטרה-לטרליים גורמת לרוב לעיוורון ברבע שדה הראייה העליון.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 77,
       "section": "CNII – Optic nerve"
     },
@@ -582,7 +582,7 @@ window.QUESTIONS_BRAINSTEM_CN = [
     "correctIndex": 2,
     "explanation": "ה-Medial rectus מבצע Adduction וה-Lateral rectus מבצע Abduction.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 78,
       "section": "תנועת גלגל העין"
     },
@@ -601,7 +601,7 @@ window.QUESTIONS_BRAINSTEM_CN = [
     "correctIndex": 3,
     "explanation": "ה-Superior oblique מזיז את העין בצורה אלכסונית לכיוון אינפריו-לטרלי.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 78,
       "section": "תנועת גלגל העין"
     },
@@ -620,7 +620,7 @@ window.QUESTIONS_BRAINSTEM_CN = [
     "correctIndex": 3,
     "explanation": "CN3 מעצבב ארבעה שרירי עין: Superior, Inferior, Medial rectus ו-Inferior oblique, בנוסף ל-Levator palpebrae superioris.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 78,
       "section": "CNIII – Oculomotor nerve"
     },
@@ -639,7 +639,7 @@ window.QUESTIONS_BRAINSTEM_CN = [
     "correctIndex": 3,
     "explanation": "מרכיב זה מעורב ברפלקס האישון, שגורם להתכווצות מסונכרנת של האישונים כתגובה לאור.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 78,
       "section": "CNIII – Oculomotor nerve"
     },
@@ -658,7 +658,7 @@ window.QUESTIONS_BRAINSTEM_CN = [
     "correctIndex": 1,
     "explanation": "CN4 הוא עצב מוטורי טהור שמעצבב את שריר ה-Superior oblique בלבד.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 79,
       "section": "CNIV – Trochlear nerve"
     },
@@ -677,7 +677,7 @@ window.QUESTIONS_BRAINSTEM_CN = [
     "correctIndex": 0,
     "explanation": "CN6 Abducent nerve הוא העצב המדיאלי ביותר שיוצא מגזע המוח דרך ה-Pontomedullary sulcus.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 79,
       "section": "CNVI – Abducent nerve"
     },
@@ -696,7 +696,7 @@ window.QUESTIONS_BRAINSTEM_CN = [
     "correctIndex": 1,
     "explanation": "CN6 מעצבב אך ורק את שריר ה-Lateral rectus, האחראי על Abduction.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 79,
       "section": "CNVI – Abducent nerve"
     },
@@ -715,7 +715,7 @@ window.QUESTIONS_BRAINSTEM_CN = [
     "correctIndex": 0,
     "explanation": "סנכרון תנועות העיניים בין שני הצדדים מתבצע ברמת ה-Frontal eye field בקורטקס.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 79,
       "section": "CNVI – Abducent nerve"
     },
@@ -734,7 +734,7 @@ window.QUESTIONS_BRAINSTEM_CN = [
     "correctIndex": 0,
     "explanation": "ל-V3 Mandibular nerve יש בנוסף למרכיב הסנסורי גם מרכיב מוטורי שמעצבב את שרירי הלעיסה.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 79,
       "section": "CNV – Trigeminal nerve"
     },
@@ -753,7 +753,7 @@ window.QUESTIONS_BRAINSTEM_CN = [
     "correctIndex": 2,
     "explanation": "V2 Maxillary nerve מביא תחושה מהשליש האמצעי של הפנים, לרבות השפתיים העליונות.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 79,
       "section": "CNV – Trigeminal nerve"
     },
@@ -772,7 +772,7 @@ window.QUESTIONS_BRAINSTEM_CN = [
     "correctIndex": 0,
     "explanation": "CNVII הוא העצב האמצעי שיוצא מגזע המוח דרך ה-Pontomedullary sulcus.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 79,
       "section": "CNVII – Facial nerve"
     },
@@ -791,7 +791,7 @@ window.QUESTIONS_BRAINSTEM_CN = [
     "correctIndex": 1,
     "explanation": "המרכיב הסנסורי של CNVII מביא תחושת טעם (לא מגע) מ-2/3 הקדמיים של הלשון.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 79,
       "section": "CNVII – Facial nerve"
     },
@@ -810,7 +810,7 @@ window.QUESTIONS_BRAINSTEM_CN = [
     "correctIndex": 0,
     "explanation": "פגיעה בעצב הקרניאלי עצמו, כמו דלקת, גורמת לשיתוק של חצי פנים המכונה Bell's palsy.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 80,
       "section": "לטרליות של עצבוב הפנים"
     },
@@ -829,7 +829,7 @@ window.QUESTIONS_BRAINSTEM_CN = [
     "correctIndex": 1,
     "explanation": "בזכות עצבוב בי-לטרלי לחצי הפנים העליון, פגיעה קורטיקלית חד-צדדית עלולה לגרום לשיתוק רבע פנים תחתון בלבד.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 80,
       "section": "לטרליות של עצבוב הפנים"
     },
@@ -848,7 +848,7 @@ window.QUESTIONS_BRAINSTEM_CN = [
     "correctIndex": 0,
     "explanation": "הרכיב הוסטיבולרי מביא מידע על שיווי משקל מה-Semicircular canals באוזן הפנימית.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 80,
       "section": "CNVIII – Vestibulocochlear nerve"
     },
@@ -867,7 +867,7 @@ window.QUESTIONS_BRAINSTEM_CN = [
     "correctIndex": 2,
     "explanation": "המרכיב האוטונומי של CN9 חש את הרכב הדם ב-Carotid body.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 80,
       "section": "CNIX – Glossopharyngeal nerve"
     },
@@ -886,7 +886,7 @@ window.QUESTIONS_BRAINSTEM_CN = [
     "correctIndex": 0,
     "explanation": "CNX מגיע בעיקר ללב ולמערכת העיכול, ומהווה את מקור העצבוב הפרא-סימפתטי העיקרי שלהם.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 81,
       "section": "CNX – Vagus nerve"
     },
@@ -905,7 +905,7 @@ window.QUESTIONS_BRAINSTEM_CN = [
     "correctIndex": 3,
     "explanation": "CN11 אינו מתנהג כמו עצב קרניאלי קלאסי, כיוון שמקורו בחוט השדרה, והוא עולה רוסטרלית דרך ה-Foramen magnum.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 81,
       "section": "CNXI – Accessory nerve"
     },
@@ -924,7 +924,7 @@ window.QUESTIONS_BRAINSTEM_CN = [
     "correctIndex": 0,
     "explanation": "CNXII Hypoglossal nerve אחראי על העצבוב המוטורי של כל הלשון.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 81,
       "section": "CNXII – Hypoglossal nerve"
     },
@@ -943,7 +943,7 @@ window.QUESTIONS_BRAINSTEM_CN = [
     "correctIndex": 3,
     "explanation": "CNV3 Mandibular nerve מספק עצבוב סומטו-סנסורי ל-2/3 הקדמיים של הלשון.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 81,
       "section": "CNXII – Hypoglossal nerve"
     },
@@ -962,7 +962,7 @@ window.QUESTIONS_BRAINSTEM_CN = [
     "correctIndex": 0,
     "explanation": "CNIX Glossopharyngeal n. מספק לשליש האחורי של הלשון גם עצבוב סומטו-סנסורי וגם עצבוב סנסורי של טעם.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 82,
       "section": "סיכום – העצבים הקרניאליים"
     },

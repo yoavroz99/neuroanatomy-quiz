@@ -12,7 +12,7 @@ window.QUESTIONS_VASC_WHITE = [
     "correctIndex": 3,
     "explanation": "כלי הדם במוח הם Continuous, ובין תאי האנדותל יש Tight junctions שמונעים מעבר חומרים - זהו המבנה שיוצר את ה-BBB.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 83,
       "section": "אספקת הדם למערכת העצבים המרכזית"
     },
@@ -31,7 +31,7 @@ window.QUESTIONS_VASC_WHITE = [
     "correctIndex": 1,
     "explanation": "בעבר חשבו ששלוחות האסטרוציטים יוצרות את המחסום הפיזי, אך כיום ידוע שתפקידם בעיקר בתיווך סיגנלים שמשרים את התפתחות ה-BBB, ופחות ביצירת המחסום עצמו.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 83,
       "section": "אספקת הדם למערכת העצבים המרכזית"
     },
@@ -50,7 +50,7 @@ window.QUESTIONS_VASC_WHITE = [
     "correctIndex": 3,
     "explanation": "ה-Circumventricular organs הם מבנים בהם ה-BBB יותר מתירני, בהתאמה לתפקיד האזור (כגון הפרשה או חישת מצב הדם).",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 83,
       "section": "אספקת הדם למערכת העצבים המרכזית"
     },
@@ -69,7 +69,7 @@ window.QUESTIONS_VASC_WHITE = [
     "correctIndex": 2,
     "explanation": "האספקה הקדמית למוח מגיעה מה-Internal carotid artery, פיצול של ה-Common carotid artery.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 83,
       "section": "אספקת הדם למערכת העצבים המרכזית"
     },
@@ -88,7 +88,7 @@ window.QUESTIONS_VASC_WHITE = [
     "correctIndex": 1,
     "explanation": "ה-Internal carotid artery נכנס לגולגולת דרך ה-Carotid canal, הנמצא בקרבת הפתח של עצב הראייה.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 84,
       "section": "האספקה הקדמית"
     },
@@ -107,7 +107,7 @@ window.QUESTIONS_VASC_WHITE = [
     "correctIndex": 1,
     "explanation": "בניגוד ל-Internal carotid, ה-External carotid artery מספק דם למבנים חיצוניים לגולגולת.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 83,
       "section": "אספקת הדם למערכת העצבים המרכזית"
     },
@@ -126,7 +126,7 @@ window.QUESTIONS_VASC_WHITE = [
     "correctIndex": 3,
     "explanation": "ה-ACA מטפס מעל ה-Corpus callosum ומתקדם אחורה לכל אורכו, כך שניתן לראותו במבט עליון דרך ה-Longitudinal fissure.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 84,
       "section": "האספקה הקדמית"
     },
@@ -145,7 +145,7 @@ window.QUESTIONS_VASC_WHITE = [
     "correctIndex": 0,
     "explanation": "ה-MCA עובר בין האונה הפרונטלית לטמפורלית בתוך ה-Lateral fissure, ואז יוצא למשטח הלטרלי ומתפצל לענפים רבים.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 84,
       "section": "האספקה הקדמית"
     },
@@ -164,7 +164,7 @@ window.QUESTIONS_VASC_WHITE = [
     "correctIndex": 0,
     "explanation": "ה-MCA ופיצוליו מספקים את גרעיני הבסיס, את האינסולה ואת המשטח הלטרלי של ההמיספרה.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 84,
       "section": "האספקה הקדמית"
     },
@@ -183,7 +183,7 @@ window.QUESTIONS_VASC_WHITE = [
     "correctIndex": 2,
     "explanation": "ה-ACA מספק את האזורים המדיאליים של הקורטקס הסומטו-סנסורי, בהם מיוצגות הרגליים, ולכן פגיעה בו עלולה לגרום לנימול ברגליים.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 84,
       "section": "האספקה הקדמית"
     },
@@ -202,7 +202,7 @@ window.QUESTIONS_VASC_WHITE = [
     "correctIndex": 3,
     "explanation": "ה-MCA מספק אזורים לטרליים יותר של הקורטקס הסומטו-סנסורי, בהם מיוצגות הידיים.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 84,
       "section": "האספקה הקדמית"
     },
@@ -221,7 +221,7 @@ window.QUESTIONS_VASC_WHITE = [
     "correctIndex": 3,
     "explanation": "בגלל הריבוי בפיצולים באזור זה, דופן כלי הדם חלש יותר, מה שהופך את הצומת למועד לפורענות, בפרט על רקע לחץ דם גבוה.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 84,
       "section": "האספקה הקדמית"
     },
@@ -240,7 +240,7 @@ window.QUESTIONS_VASC_WHITE = [
     "correctIndex": 1,
     "explanation": "שני ה-Vertebral arteries נכנסים דרך ה-Foramen magnum ומיד מתאחדים לעורק אחד בשם Basilar artery.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 85,
       "section": "האספקה האחורית"
     },
@@ -259,7 +259,7 @@ window.QUESTIONS_VASC_WHITE = [
     "correctIndex": 0,
     "explanation": "דרך ה-Basilar artery זורמת כמות דם גדולה מאוד, עד כדי שהוא משאיר את חותמו על גבי הפונס - ה-Basilar groove.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 85,
       "section": "האספקה האחורית"
     },
@@ -278,7 +278,7 @@ window.QUESTIONS_VASC_WHITE = [
     "correctIndex": 2,
     "explanation": "האספקה האחורית, דרך ה-PCA, מזינה את אזורי הקורטקס הויזואלי, ולכן פגיעה בה יכולה לבוא לידי ביטוי בסימפטומים ראייתיים.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 85,
       "section": "האספקה האחורית"
     },
@@ -297,7 +297,7 @@ window.QUESTIONS_VASC_WHITE = [
     "correctIndex": 1,
     "explanation": "ה-Anterior communicating artery הוא עורק אי-זוגי שמקשר בין ה-Anterior cerebral arteries משני הצדדים.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 85,
       "section": "Cerebral Arterial Circle (of Willis)"
     },
@@ -316,7 +316,7 @@ window.QUESTIONS_VASC_WHITE = [
     "correctIndex": 0,
     "explanation": "ה-Posterior communicating arteries הם זוג עורקים שמקשרים בין ה-MCA וה-PCA, אחד בכל צד.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 85,
       "section": "Cerebral Arterial Circle (of Willis)"
     },
@@ -335,7 +335,7 @@ window.QUESTIONS_VASC_WHITE = [
     "correctIndex": 2,
     "explanation": "למרות שמטרת המעגל היא ליצור גיבוי לאספקת הדם, בפועל רק ל-30-40% מהאוכלוסייה יש זרימה מלאה בכל הכיוונים.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 85,
       "section": "Cerebral Arterial Circle (of Willis)"
     },
@@ -354,7 +354,7 @@ window.QUESTIONS_VASC_WHITE = [
     "correctIndex": 3,
     "explanation": "ה-Ophthalmic artery מתפצל ישירות מה-Internal carotid artery, ומלווה את עצב הראייה לתוך גלגל העין.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 86,
       "section": "סעיפים נוספים"
     },
@@ -373,7 +373,7 @@ window.QUESTIONS_VASC_WHITE = [
     "correctIndex": 2,
     "explanation": "ה-Anterior choroidal artery נותן מוצא ל-Choroid plexus של החדר הלטרלי, וסעיפיו מספקים גם Optic chiasm, Optic tract, Uncus, Hippocampus, Amygdala, גרעיני הבסיס ו-Internal capsule.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 86,
       "section": "סעיפים נוספים"
     },
@@ -392,7 +392,7 @@ window.QUESTIONS_VASC_WHITE = [
     "correctIndex": 1,
     "explanation": "ה-Posterior choroidal artery שייך לאספקה האחורית, ונותן מוצא ל-Choroid plexus של החדר השלישי, ומספק גם את התלמוס, הפורניקס וה-Tectum of midbrain.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 86,
       "section": "סעיפים נוספים"
     },
@@ -411,7 +411,7 @@ window.QUESTIONS_VASC_WHITE = [
     "correctIndex": 3,
     "explanation": "ה-Superior cerebellar artery מתפצל מיד לפני פיצול ה-Basilar לשני ה-PCAs, ובינו לבין ה-PCA עובר CN3 Oculomotor nerve.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 87,
       "section": "אספקת הדם לצרבלום"
     },
@@ -430,7 +430,7 @@ window.QUESTIONS_VASC_WHITE = [
     "correctIndex": 3,
     "explanation": "ה-PICA הוא סעיף שמתפצל ישירות מה-Vertebral artery, ומספק דם לאזורים הפוסטריוריים של הצרבלום.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 87,
       "section": "אספקת הדם לצרבלום"
     },
@@ -449,7 +449,7 @@ window.QUESTIONS_VASC_WHITE = [
     "correctIndex": 1,
     "explanation": "ה-Labyrinthine artery הוא עורק קטן שמלווה את עצב השמיעה ומספק את אזור האוזן הפנימית.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 87,
       "section": "אספקת הדם לצרבלום"
     },
@@ -468,7 +468,7 @@ window.QUESTIONS_VASC_WHITE = [
     "correctIndex": 0,
     "explanation": "ה-Anterior spinal artery הוא עורק אי-זוגי שנוצר מזוג סעיפים היוצאים מה-Vertebral arteries מימין ומשמאל, המתאחדים ועוברים באזור ה-Ventral median fissure.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 88,
       "section": "אספקת הדם למוח השדרה"
     },
@@ -487,7 +487,7 @@ window.QUESTIONS_VASC_WHITE = [
     "correctIndex": 1,
     "explanation": "בנוסף לעורקים האורכיים, יש גם Segmental / Radicular arteries - עורקים רוחביים שמקיפים את חוט השדרה בגבהים שונים ותורמים לאספקת הדם שלו.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 88,
       "section": "אספקת הדם למוח השדרה"
     },
@@ -506,7 +506,7 @@ window.QUESTIONS_VASC_WHITE = [
     "correctIndex": 1,
     "explanation": "שבץ באזור ה-MCA יחסית נפוץ בגלל ריבוי הפיצולים בצומת שבין ה-Internal carotid ל-MCA, שמחליש את דופן כלי הדם.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 89,
       "section": "הקשר בין אספקת הדם לתפקוד"
     },
@@ -525,7 +525,7 @@ window.QUESTIONS_VASC_WHITE = [
     "correctIndex": 1,
     "explanation": "שבץ ב-MCA שמאל עלול לגרום גם לפגיעה מוטורית וגם לפגיעה שפתית, כיוון שהמיספרה שמאל היא לרוב הדומיננטית מבחינת שפה.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 89,
       "section": "הקשר בין אספקת הדם לתפקוד"
     },
@@ -544,7 +544,7 @@ window.QUESTIONS_VASC_WHITE = [
     "correctIndex": 0,
     "explanation": "ה-ACA מספק דם בעיקר למשטח המדיאלי, ולכן הסימפטומים הקלאסיים לשבץ בו כוללים תופעות ברגליים, שמיוצגות מדיאלית יחסית בקורטקס הסומטו-סנסורי.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 89,
       "section": "הקשר בין אספקת הדם לתפקוד"
     },
@@ -563,7 +563,7 @@ window.QUESTIONS_VASC_WHITE = [
     "correctIndex": 3,
     "explanation": "מבחינת החלוקה הפונקציונלית, יש שלושה סוגים עיקריים: Association fibers, Projection fibers ו-Commissural fibers.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 43,
       "section": "החומר הלבן"
     },
@@ -582,7 +582,7 @@ window.QUESTIONS_VASC_WHITE = [
     "correctIndex": 1,
     "explanation": "Association fibers מקשרים באופן דו-כיווני בין אזורים קורטיקליים, רק בתוך אותה המיספרה.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 43,
       "section": "החומר הלבן"
     },
@@ -601,7 +601,7 @@ window.QUESTIONS_VASC_WHITE = [
     "correctIndex": 1,
     "explanation": "ה-Superior longitudinal fasciculus מקשר בין כל האונות, על אף שלא כל אקסון עובר בהכרח דרך ארבעתן.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 44,
       "section": "Association fibers"
     },
@@ -620,7 +620,7 @@ window.QUESTIONS_VASC_WHITE = [
     "correctIndex": 3,
     "explanation": "ה-Arcuate fibers הם תת-קבוצה של ה-Superior longitudinal fasciculus שמקשרים בין אזורי השפה, וורניקה וברוקה.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 44,
       "section": "Association fibers"
     },
@@ -639,7 +639,7 @@ window.QUESTIONS_VASC_WHITE = [
     "correctIndex": 1,
     "explanation": "ה-Cingulum מגיע מה-Subcallosal area, עובר מעל ה-Corpus callosum, יורד דרך האיסתמוס של ה-Cingulate gyrus ומגיע עד ה-Parahippocampal gyrus.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 44,
       "section": "Association fibers"
     },
@@ -658,7 +658,7 @@ window.QUESTIONS_VASC_WHITE = [
     "correctIndex": 0,
     "explanation": "מכיוון שהאונה הפריאטלית לא נמצאת בפן האנפריורי של המוח, אין סיבים אינפריוריים המגיעים אליה.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 44,
       "section": "Association fibers"
     },
@@ -677,7 +677,7 @@ window.QUESTIONS_VASC_WHITE = [
     "correctIndex": 3,
     "explanation": "סיבי U קצרים ומקשרים בין שני gyri צמודים, או בין שני gyri שמופרדים לכל היותר ע\"י gyrus אחד נוסף.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 44,
       "section": "Association fibers"
     },
@@ -696,7 +696,7 @@ window.QUESTIONS_VASC_WHITE = [
     "correctIndex": 0,
     "explanation": "סיבי ה-Corona radiata יורדים ומתמרכזים, וההתכנסות שלהם מתרחשת באזור שנקרא Cerebral peduncle / Crus cerebri.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 44,
       "section": "Projection fibers"
     },
@@ -715,7 +715,7 @@ window.QUESTIONS_VASC_WHITE = [
     "correctIndex": 0,
     "explanation": "סדר המבנים מלטרלי למדיאלי הוא: Insula, Extreme capsule, Claustrum, External capsule, Lentiform nucleus, Internal capsule - כך שה-Internal capsule הוא הכי מדיאלי מבין האפשרויות.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 45,
       "section": "חלוקה אנטומית בחתך הוריזונטלי"
     },
@@ -734,7 +734,7 @@ window.QUESTIONS_VASC_WHITE = [
     "correctIndex": 1,
     "explanation": "הזרוע האנטריורית של ה-Internal capsule תחומה בין ה-Lentiform לבין ה-Caudate nucleus, ואילו הזרוע הפוסטריורית תחומה בין ה-Lentiform לתלמוס.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 45,
       "section": "חלוקה אנטומית בחתך הוריזונטלי"
     },
@@ -753,7 +753,7 @@ window.QUESTIONS_VASC_WHITE = [
     "correctIndex": 0,
     "explanation": "ה-Frontopontine fibers מוליכים מידע מוטורי לא-שרירי, כמו ויסות דיוק וכוח התנועה. פגיעה בהם לא תגרום לשיתוק אלא לפגיעה בדיוק התנועה.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 45,
       "section": "חלוקה אנטומית בחתך הוריזונטלי"
     },
@@ -772,7 +772,7 @@ window.QUESTIONS_VASC_WHITE = [
     "correctIndex": 3,
     "explanation": "סיבי ה-Corticospinal נמצאים בזרוע הפוסטריורית, כשהציר האנטריורי-פוסטריורי שלה מייצג את הציר הסופריורי-אינפריורי של הגוף - פגיעה באזור הפוסטריורי גורמת לשיתוק בגף התחתון.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 45,
       "section": "חלוקה אנטומית בחתך הוריזונטלי"
     },
@@ -791,7 +791,7 @@ window.QUESTIONS_VASC_WHITE = [
     "correctIndex": 1,
     "explanation": "ה-Corticonuclear fibers נמצאים באזור ה-Genu של ה-Internal capsule, הכיפוף שבין הזרוע האנטריורית לפוסטריורית.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 45,
       "section": "חלוקה אנטומית בחתך הוריזונטלי"
     },
@@ -810,7 +810,7 @@ window.QUESTIONS_VASC_WHITE = [
     "correctIndex": 3,
     "explanation": "אספקת הדם ל-Internal capsule מגיעה דרך ה-Anterior perforated substance, המחורר כיוון שדרכו עוברים כלי הדם אל הסיבים של הקפסולה.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 46,
       "section": "Projection fibers"
     },
@@ -829,7 +829,7 @@ window.QUESTIONS_VASC_WHITE = [
     "correctIndex": 0,
     "explanation": "ה-Forceps minor הם סיבים שהולכים מצד לצד דרך ה-Genu של הקורפוס קלוסום, ומקשרים בעיקר אזורים פרונטליים.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 47,
       "section": "Commissural fibers"
     },
@@ -848,7 +848,7 @@ window.QUESTIONS_VASC_WHITE = [
     "correctIndex": 2,
     "explanation": "ה-Forceps major עוברים מצד לצד דרך ה-Splenium של הקורפוס קלוסום, ומקשרים את שתי האונות האוקסיפיטליות.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 47,
       "section": "Commissural fibers"
     },
@@ -867,7 +867,7 @@ window.QUESTIONS_VASC_WHITE = [
     "correctIndex": 2,
     "explanation": "הטפטום וה-Optic radiation צמודים אך מאונכים זה לזה במהלכם - סיבי הטפטום יורדים למטה וה-Optic radiation הולך אחורה, כשהטפטום מדיאלי יותר.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 47,
       "section": "Commissural fibers"
     },
@@ -886,7 +886,7 @@ window.QUESTIONS_VASC_WHITE = [
     "correctIndex": 0,
     "explanation": "בהיעדר Corpus callosum, מידע שמגיע רק לאוזן ימין לא עובר לצד שמאל של המוח, שהוא הצד הדומיננטי בהבנת שפה ברוב האנשים.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 48,
       "section": "Commissural fibers"
     },
@@ -905,7 +905,7 @@ window.QUESTIONS_VASC_WHITE = [
     "correctIndex": 2,
     "explanation": "ה-Anterior commissure מקשרת בין שתי האונות הטמפורליות. היא צמודה ל-Lentiform nucleus, אך אין קשר תפקודי בין השניים.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 48,
       "section": "Commissural fibers"
     },
@@ -924,7 +924,7 @@ window.QUESTIONS_VASC_WHITE = [
     "correctIndex": 1,
     "explanation": "ה-Posterior commissure מקשרת בין צד ימין ושמאל של גזע המוח, ומאפשרת בין היתר את הסנכרון בין אישון ימין ושמאל ברפלקס האור.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 48,
       "section": "Commissural fibers"
     },
@@ -943,7 +943,7 @@ window.QUESTIONS_VASC_WHITE = [
     "correctIndex": 3,
     "explanation": "ברוקה חקר מטופל שלא הצליח לייצר שפה, וכשהמטופל נפטר גילה פגיעה גדולה ומשמעותית ב-Inferior frontal gyrus של המיספרה שמאל.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 107,
       "section": "שיטות מתקדמות למיפוי מוחי"
     },
@@ -962,7 +962,7 @@ window.QUESTIONS_VASC_WHITE = [
     "correctIndex": 2,
     "explanation": "היתרונות המרכזיים של CT לעומת MRI הם משך הזמן והעלות, אך החיסרון המשמעותי הוא החשיפה לקרינה המייננת, שעלולה ליצור נזק תאי.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 107,
       "section": "שיטות מתקדמות למיפוי מוחי"
     },
@@ -981,7 +981,7 @@ window.QUESTIONS_VASC_WHITE = [
     "correctIndex": 2,
     "explanation": "בסריקת T1 השומן הוא בוהק ולבן, רקמות חלבוניות אפורות, ומים חופשיים (כמו CSF) הם שחורים - כך שהחומר הלבן נראה לבן והחומר האפור נראה אפור.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 107,
       "section": "שיטות מתקדמות למיפוי מוחי"
     },

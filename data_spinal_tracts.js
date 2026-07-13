@@ -12,7 +12,7 @@ window.QUESTIONS_SPINAL_TRACTS = [
     "correctIndex": 3,
     "explanation": "השורשים הוונטרליים כוללים מידע מוטורי בלבד, לעומת השורשים הדורסליים שכוללים מידע סנסורי.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 6,
       "section": "מוח השדרה (Spinal cord)"
     },
@@ -31,7 +31,7 @@ window.QUESTIONS_SPINAL_TRACTS = [
     "correctIndex": 3,
     "explanation": "בניגוד ל-Roots, ה-Rami שמתפצלים מהעצב השדרתי המעורב כוללים גם מידע מוטורי וגם מידע סנסורי.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 6,
       "section": "מוח השדרה (Spinal cord)"
     },
@@ -50,7 +50,7 @@ window.QUESTIONS_SPINAL_TRACTS = [
     "correctIndex": 2,
     "explanation": "התאים בגנגליון הם נוירונים מסוג Pseudo-unipolar, עם אקסון אחד שמגיע מהפריפריה ואקסון שני שנכנס לחוט השדרה.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 6,
       "section": "מוח השדרה (Spinal cord)"
     },
@@ -69,7 +69,7 @@ window.QUESTIONS_SPINAL_TRACTS = [
     "correctIndex": 3,
     "explanation": "יש 7 חוליות צוואריות (C1-C7) אך 8 סגמנטים צוואריים (C1-C8).",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 5,
       "section": "חוליות וסגמנטים"
     },
@@ -88,7 +88,7 @@ window.QUESTIONS_SPINAL_TRACTS = [
     "correctIndex": 3,
     "explanation": "סגמנט C8 יוצא בין חוליות C7 ל-T1, שכן יש 8 סגמנטים צוואריים אך רק 7 חוליות צוואריות.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 5,
       "section": "חוליות וסגמנטים"
     },
@@ -107,7 +107,7 @@ window.QUESTIONS_SPINAL_TRACTS = [
     "correctIndex": 0,
     "explanation": "בשונה מהצוואר, בתורקלי ובלומברי כל סגמנט יוצא מתחת לחוליה המתאימה לו.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 5,
       "section": "חוליות וסגמנטים"
     },
@@ -126,7 +126,7 @@ window.QUESTIONS_SPINAL_TRACTS = [
     "correctIndex": 0,
     "explanation": "בניגוד לחוליות הסקרליות, אין Intervertebral foramina בין החוליות הקוקסיגיאליות, ולכן יש סגמנט קוקסיגיאלי אחד בלבד.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 5,
       "section": "חוליות וסגמנטים"
     },
@@ -145,7 +145,7 @@ window.QUESTIONS_SPINAL_TRACTS = [
     "correctIndex": 1,
     "explanation": "Transverse foramen הוא חריר נוסף שקיים רק בחוליות הצוואריות, ודרכו עוברים ה-Vertebral arteries.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 5,
       "section": "התעלה השדרתית ותכולתה"
     },
@@ -164,7 +164,7 @@ window.QUESTIONS_SPINAL_TRACTS = [
     "correctIndex": 0,
     "explanation": "בחוט השדרה החומר האפור פנימי יותר והחומר הלבן חיצוני יותר, הפוך מאשר במוח הגולגולת.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 6,
       "section": "מוח השדרה (Spinal cord)"
     },
@@ -183,7 +183,7 @@ window.QUESTIONS_SPINAL_TRACTS = [
     "correctIndex": 3,
     "explanation": "הקרניים הדורסליות מגיעות עד קצה חוט השדרה, בעוד שהקרניים הוונטרליות לא מגיעות עד לקצה.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 6,
       "section": "מוח השדרה (Spinal cord)"
     },
@@ -202,7 +202,7 @@ window.QUESTIONS_SPINAL_TRACTS = [
     "correctIndex": 0,
     "explanation": "ה-Ventral median fissure עבה ובולט יותר מאשר ה-Dorsal median sulcus.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 6,
       "section": "מוח השדרה (Spinal cord)"
     },
@@ -221,7 +221,7 @@ window.QUESTIONS_SPINAL_TRACTS = [
     "correctIndex": 0,
     "explanation": "ה-Denticulate ligaments יוצרים 21 זוגות של רצועות משוננות לאורך חוט השדרה.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 7,
       "section": "קרומי המוח (Meninges)"
     },
@@ -240,7 +240,7 @@ window.QUESTIONS_SPINAL_TRACTS = [
     "correctIndex": 2,
     "explanation": "הרצועות המשוננות חזקות יותר ככל שמתקדמים רוסטרלית (למעלה) בחוט השדרה.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 7,
       "section": "קרומי המוח (Meninges)"
     },
@@ -259,7 +259,7 @@ window.QUESTIONS_SPINAL_TRACTS = [
     "correctIndex": 2,
     "explanation": "בבוגר, הסגמנט האחרון של חוט השדרה נמצא בגובה חוליות L1-L2, וקצה זה נקרא Conus medullaris.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 7,
       "section": "קרומי המוח (Meninges)"
     },
@@ -278,7 +278,7 @@ window.QUESTIONS_SPINAL_TRACTS = [
     "correctIndex": 3,
     "explanation": "הארכנואיד והדורה ממשיכים כלפי מטה עד גובה S1-S2, שם השק הדורלי נסגר.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 8,
       "section": "קרומי המוח (Meninges)"
     },
@@ -297,7 +297,7 @@ window.QUESTIONS_SPINAL_TRACTS = [
     "correctIndex": 0,
     "explanation": "אזור L3-L4 הוא האזור שבו נהוג לבצע ניקור מותני, כיוון שבו נמצאים בעיקר שורשי ה-Cauda equina ולא חוט השדרה עצמו.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 8,
       "section": "קרומי המוח (Meninges)"
     },
@@ -316,7 +316,7 @@ window.QUESTIONS_SPINAL_TRACTS = [
     "correctIndex": 3,
     "explanation": "שורשי העצבים האינפריוריים ממשיכים לרדת קאודלית עד יציאתם מתחת לחוליה המתאימה, ויוצרים יחד את ה-Cauda equina.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 8,
       "section": "קרומי המוח (Meninges)"
     },
@@ -335,7 +335,7 @@ window.QUESTIONS_SPINAL_TRACTS = [
     "correctIndex": 0,
     "explanation": "ה-Cervical enlargement הוא התעבות של חוט השדרה באזור סגמנטים C4-T1.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 8,
       "section": "מוח השדרה (Spinal cord)"
     },
@@ -354,7 +354,7 @@ window.QUESTIONS_SPINAL_TRACTS = [
     "correctIndex": 1,
     "explanation": "ה-Lumbar/Lumbosacral enlargement הוא התעבות של חוט השדרה באזור סגמנטים L2-S3.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 8,
       "section": "מוח השדרה (Spinal cord)"
     },
@@ -373,7 +373,7 @@ window.QUESTIONS_SPINAL_TRACTS = [
     "correctIndex": 3,
     "explanation": "כיוון שהשליטה המוטורית על הגפיים דורשת כמות גדולה יותר של נוירונים, חוט השדרה מתעבה באזורים שמספקים להן עצבוב.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 8,
       "section": "מוח השדרה (Spinal cord)"
     },
@@ -392,7 +392,7 @@ window.QUESTIONS_SPINAL_TRACTS = [
     "correctIndex": 0,
     "explanation": "ה-Lateral funiculus נמצא בין הקרן הוונטרלית לדורסלית, בעוד ה-Anterior & Posterior funiculi נמצאים בין קו האמצע לקרניים.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 8,
       "section": "חתך רוחב של חוט השדרה"
     },
@@ -411,7 +411,7 @@ window.QUESTIONS_SPINAL_TRACTS = [
     "correctIndex": 0,
     "explanation": "ה-gracilis נמצא מדיאלית וכולל מידע סנסורי מהגפיים התחתונות, וה-cuneatus נמצא לטרלית וכולל מידע מהגפיים העליונות.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 8,
       "section": "חתך רוחב של חוט השדרה"
     },
@@ -430,7 +430,7 @@ window.QUESTIONS_SPINAL_TRACTS = [
     "correctIndex": 2,
     "explanation": "הציר הוונטרלי-דורסלי של חוט השדרה מייצג ציר מוטורי-סנסורי: מסילות וונטרליות מוטוריות, מסילות דורסליות סנסוריות.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 9,
       "section": "חתך רוחב של חוט השדרה"
     },
@@ -449,7 +449,7 @@ window.QUESTIONS_SPINAL_TRACTS = [
     "correctIndex": 1,
     "explanation": "החומר האפור מחולק ל-10 שכבות על שם רקסד, הנבדלות זו מזו בצפיפות ובסוגי התאים.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 9,
       "section": "Laminae of Rexed"
     },
@@ -468,7 +468,7 @@ window.QUESTIONS_SPINAL_TRACTS = [
     "correctIndex": 1,
     "explanation": "שכבה 10 אינה שכבה של חומר אפור אלא מורכבת מאקסונים חסרי מעטפת מיאלין שחוצים מצד אחד של חוט השדרה לצד השני.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 9,
       "section": "Laminae of Rexed"
     },
@@ -487,7 +487,7 @@ window.QUESTIONS_SPINAL_TRACTS = [
     "correctIndex": 0,
     "explanation": "שכבה 9 כוללת נוירונים מוטוריים, שם עושה הנוירון המוטורי העליון סינפסה על הנוירון המוטורי התחתון.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 9,
       "section": "Laminae of Rexed"
     },
@@ -506,7 +506,7 @@ window.QUESTIONS_SPINAL_TRACTS = [
     "correctIndex": 1,
     "explanation": "ברפלקס זה מעורבים שלושה נוירונים: נוירון סנסורי, אינטר-נוירון ונוירון מוטורי.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 10,
       "section": "קשת הרפלקס"
     },
@@ -525,7 +525,7 @@ window.QUESTIONS_SPINAL_TRACTS = [
     "correctIndex": 1,
     "explanation": "במוח השדרה, בניגוד למוח הגולגולת, ה-Epidural space הוא חלל פיזיולוגי המלא בשומן ובכלי דם.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 7,
       "section": "קרומי המוח (Meninges)"
     },
@@ -544,7 +544,7 @@ window.QUESTIONS_SPINAL_TRACTS = [
     "correctIndex": 2,
     "explanation": "ה-Subarachnoid space הוא חלל פיזיולוגי המלא בנוזל מוחי-שדרתי (CSF), כלי דם ושורשיות של עצבים ספינליים.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 7,
       "section": "קרומי המוח (Meninges)"
     },
@@ -563,7 +563,7 @@ window.QUESTIONS_SPINAL_TRACTS = [
     "correctIndex": 1,
     "explanation": "הפיה שעוטפת את צינור העצבים ממשיכה כלפי מטה מעבר ל-Conus medullaris כמבנה דק בשם Filum terminale.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 7,
       "section": "קרומי המוח (Meninges)"
     },
@@ -582,7 +582,7 @@ window.QUESTIONS_SPINAL_TRACTS = [
     "correctIndex": 0,
     "explanation": "המסילות העולות הן ה-Spinothalamic tract (תחושות פרימיטיביות) וה-Medial lemniscus tract (תחושות מתקדמות).",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 102,
       "section": "מסילות עצביות עולות ויורדות"
     },
@@ -601,7 +601,7 @@ window.QUESTIONS_SPINAL_TRACTS = [
     "correctIndex": 1,
     "explanation": "ה-Spinothalamic tract מספקת מידע בנוגע לתחושות הפרימיטיביות: מגע גס, כאב וטמפרטורה.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 102,
       "section": "מסילות עצביות עולות ויורדות"
     },
@@ -620,7 +620,7 @@ window.QUESTIONS_SPINAL_TRACTS = [
     "correctIndex": 0,
     "explanation": "ה-Medial lemniscus tract מספקת מידע בנוגע לתחושות מתקדמות: מגע עדין ופרופריוצפציה (בשונה מה-Spinothalamic, שמעבירה מגע גס, כאב וטמפרטורה).",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 102,
       "section": "מסילות עצביות עולות ויורדות"
     },
@@ -639,7 +639,7 @@ window.QUESTIONS_SPINAL_TRACTS = [
     "correctIndex": 0,
     "explanation": "ה-Corticobulbar tract מעצבב שרירים באזור הראש, וה-Corticospinal tract מעצבב את השרירים בפריפריה.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 102,
       "section": "מסילות עצביות עולות ויורדות"
     },
@@ -658,7 +658,7 @@ window.QUESTIONS_SPINAL_TRACTS = [
     "correctIndex": 1,
     "explanation": "ה-Lateral corticospinal tract מעצבבת שרירי שלד דיסטליים, כמו הגפיים.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 102,
       "section": "מסילות עצביות עולות ויורדות"
     },
@@ -677,7 +677,7 @@ window.QUESTIONS_SPINAL_TRACTS = [
     "correctIndex": 2,
     "explanation": "ה-Anterior corticospinal tract מעצבבת שרירי שלד פרוקסימליים, כמו שרירי הבטן והגב.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 102,
       "section": "מסילות עצביות עולות ויורדות"
     },
@@ -696,7 +696,7 @@ window.QUESTIONS_SPINAL_TRACTS = [
     "correctIndex": 1,
     "explanation": "הנוירונים המוטוריים העליונים נמצאים בשכבה 5 של M1, הקורטקס המוטורי הראשוני.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 102,
       "section": "המסילות המוטורית היורדות"
     },
@@ -715,7 +715,7 @@ window.QUESTIONS_SPINAL_TRACTS = [
     "correctIndex": 2,
     "explanation": "הנוירונים העליונים מכונים גם Alpha motor neuron או Pyramidal neuron of Betz (תא Betz).",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 102,
       "section": "המסילות המוטורית היורדות"
     },
@@ -734,7 +734,7 @@ window.QUESTIONS_SPINAL_TRACTS = [
     "correctIndex": 3,
     "explanation": "נוירונים מוטוריים תחתונים של ה-Corticospinal tract נמצאים בחומר האפור בעיקר בשכבת Rexed 9, ומעט בשכבה 8.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 102,
       "section": "המסילות המוטורית היורדות"
     },
@@ -753,7 +753,7 @@ window.QUESTIONS_SPINAL_TRACTS = [
     "correctIndex": 0,
     "explanation": "הנוירונים המוטוריים העליונים עוברים דרך הפירמידות של המדולה אובלונגטה, ושם חוצים צד ב-Pyramidal decussation.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 102,
       "section": "המסילות המוטורית היורדות"
     },
@@ -772,7 +772,7 @@ window.QUESTIONS_SPINAL_TRACTS = [
     "correctIndex": 0,
     "explanation": "הסוף של המסילה משותף בין ה-Corticobulbar וה-Corticospinal - כל נוירון מוטורי תחתון נגמר ב-Neuromuscular junction (NMJ), ולכן מכונים יחד 'Final common pathway'.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 102,
       "section": "המסילות המוטורית היורדות"
     },
@@ -791,7 +791,7 @@ window.QUESTIONS_SPINAL_TRACTS = [
     "correctIndex": 1,
     "explanation": "במפגש בין הנוירון המוטורי לסיבי השריר מופרש אצטילכולין ע\"י הנוירון הפרה-סינפטי, הגורם לכיווץ תא השריר.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 102,
       "section": "המסילות המוטורית היורדות"
     },
@@ -810,7 +810,7 @@ window.QUESTIONS_SPINAL_TRACTS = [
     "correctIndex": 2,
     "explanation": "המסילה הלטרלית חוצה צד ומעצבבת את השרירים בצורה קונטרה-לטרלית.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 103,
       "section": "ה-Corticospinal tract בחתכים"
     },
@@ -829,7 +829,7 @@ window.QUESTIONS_SPINAL_TRACTS = [
     "correctIndex": 0,
     "explanation": "בניגוד למסילה הלטרלית, המסילה האנטריורית מעצבבת בצורה איפסי-לטרלית או בי-לטרלית.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 103,
       "section": "ה-Corticospinal tract בחתכים"
     },
@@ -848,7 +848,7 @@ window.QUESTIONS_SPINAL_TRACTS = [
     "correctIndex": 1,
     "explanation": "ה-Lateral corticospinal tract עוברת בחוט השדרה דרך ה-Lateral funiculus.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 103,
       "section": "ה-Corticospinal tract בחתכים"
     },
@@ -867,7 +867,7 @@ window.QUESTIONS_SPINAL_TRACTS = [
     "correctIndex": 3,
     "explanation": "ה-Anterior corticospinal tract עוברת דרך ה-Ventral funiculus.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 103,
       "section": "ה-Corticospinal tract בחתכים"
     },
@@ -886,7 +886,7 @@ window.QUESTIONS_SPINAL_TRACTS = [
     "correctIndex": 2,
     "explanation": "המסילות העולות מסתיימות בקורטקס הסומטו-סנסורי הראשוני ב-Postcentral gyrus (BA1-BA3).",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 102,
       "section": "מסילות עצביות עולות ויורדות"
     },
@@ -905,7 +905,7 @@ window.QUESTIONS_SPINAL_TRACTS = [
     "correctIndex": 3,
     "explanation": "המסילות היורדות מתחילות בקורטקס המוטורי הראשוני ב-Precentral gyrus (BA4).",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 102,
       "section": "מסילות עצביות עולות ויורדות"
     },
@@ -924,7 +924,7 @@ window.QUESTIONS_SPINAL_TRACTS = [
     "correctIndex": 1,
     "explanation": "המסילות עוברות דרך חוט השדרה למעט ה-Corticobulbar, שנגמרת בגזע המוח.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 102,
       "section": "מסילות עצביות עולות ויורדות"
     },
@@ -943,7 +943,7 @@ window.QUESTIONS_SPINAL_TRACTS = [
     "correctIndex": 0,
     "explanation": "התלמוס מתחלק באופן גס לשלושה חלקים ע\"י ה-Internal medullary lamina: חלק אנטריורי, חלק לטרלי וחלק מדיאלי.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 103,
       "section": "המסילות הסנסוריות העולות"
     },
@@ -962,7 +962,7 @@ window.QUESTIONS_SPINAL_TRACTS = [
     "correctIndex": 1,
     "explanation": "VPM (מדיאלי) אחראי על תחושות סומטו-סנסוריות מהראש ומקבל מידע בעיקר מ-CNV Trigeminal nerve, ואילו VPL (לטרלי) מקבל את רוב המידע מהמסילות העולות מהגוף.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 103,
       "section": "המסילות הסנסוריות העולות"
     },
@@ -981,7 +981,7 @@ window.QUESTIONS_SPINAL_TRACTS = [
     "correctIndex": 1,
     "explanation": "האקסונים הסנסוריים נכנסים מהשורש הדורסלי לקרן הדורסלית דרך מסילה קצרה הנקראת Dorsolateral fasciculus, המכונה גם Tract of Lissauer.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 104,
       "section": "ה-Spinothalamic tract בחתכים"
     },
@@ -1000,7 +1000,7 @@ window.QUESTIONS_SPINAL_TRACTS = [
     "correctIndex": 0,
     "explanation": "הנוירון הראשון עושה סינפסה על נוירון סנסורי שני שנמצא בקרן הדורסלית האיפסי-לטרלית, בעיקר בשכבות 2-3 (Substantia gelatinosa).",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 104,
       "section": "ה-Spinothalamic tract בחתכים"
     },
@@ -1019,7 +1019,7 @@ window.QUESTIONS_SPINAL_TRACTS = [
     "correctIndex": 3,
     "explanation": "הנוירון הסנסורי השני שולח אקסון ל-Lateral funiculus בצד הקונטרה-לטרלי כבר בחוט השדרה, מיד אחרי הסינפסה הראשונה.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 104,
       "section": "ה-Spinothalamic tract בחתכים"
     },
@@ -1038,7 +1038,7 @@ window.QUESTIONS_SPINAL_TRACTS = [
     "correctIndex": 2,
     "explanation": "הנוירון השני עובר לצד הקונטרה-לטרלי במהלך קשתי בגזע המוח (Arcuate fibers), ולכן מכונה Arcuate fiber.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 105,
       "section": "ה-Medial lemniscus tract בחתכים"
     },
@@ -1057,7 +1057,7 @@ window.QUESTIONS_SPINAL_TRACTS = [
     "correctIndex": 1,
     "explanation": "ההבדל המשמעותי הוא מיקום ה-Decussation: ב-Spinothalamic מתרחש בחוט השדרה, וב-Medial lemniscus בגזע המוח.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 105,
       "section": "ה-Medial lemniscus tract בחתכים"
     },
@@ -1076,7 +1076,7 @@ window.QUESTIONS_SPINAL_TRACTS = [
     "correctIndex": 0,
     "explanation": "האקסון הראשון מתחיל לעלות רוסטרלית דרך ה-Dorsal funiculus בצד האיפסי-לטרלי של חוט השדרה, ללא סינפסה או חצית צד בקרן הדורסלית.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 104,
       "section": "ה-Medial lemniscus tract בחתכים"
     },
@@ -1095,7 +1095,7 @@ window.QUESTIONS_SPINAL_TRACTS = [
     "correctIndex": 0,
     "explanation": "הנוירון הראשון עולה עד למדולה אובלונגטה, שם הוא עושה סינפסה על נוירון שני ב-Nucleus gracilis / cuneatus.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 105,
       "section": "ה-Medial lemniscus tract בחתכים"
     },
@@ -1114,7 +1114,7 @@ window.QUESTIONS_SPINAL_TRACTS = [
     "correctIndex": 0,
     "explanation": "כישור השריר מעוצבב ע\"י נוירון מוטורי בשם Gamma-motor neuron.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 105,
       "section": "חוש הפרופריוצפציה"
     },
@@ -1133,7 +1133,7 @@ window.QUESTIONS_SPINAL_TRACTS = [
     "correctIndex": 0,
     "explanation": "איבר הגולג'י בגיד הוא חיישן שמזהה כמה מתח (Tension) יש על השריר.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 105,
       "section": "חוש הפרופריוצפציה"
     },
@@ -1152,7 +1152,7 @@ window.QUESTIONS_SPINAL_TRACTS = [
     "correctIndex": 2,
     "explanation": "מהכישור ומאיבר הגולג'י מועבר מידע דרך נוירונים סנסוריים ל-Medial lemniscus tract.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 105,
       "section": "חוש הפרופריוצפציה"
     },
@@ -1171,7 +1171,7 @@ window.QUESTIONS_SPINAL_TRACTS = [
     "correctIndex": 3,
     "explanation": "קרום הארכנואיד הוא השכבה האמצעית, מעטפת שקופה שצמודה לדורה מבפנים.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 7,
       "section": "קרומי המוח (Meninges)"
     },

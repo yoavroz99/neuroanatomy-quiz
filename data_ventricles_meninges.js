@@ -12,7 +12,7 @@ window.QUESTIONS_VENTRICLES_MENINGES = [
     "correctIndex": 0,
     "explanation": "החדרים הלטרליים מתפתחים מה-Telencephalon, כמו המוח הגדול (בניגוד לחדר השלישי שמתפתח מה-Diencephalon ולחדר הרביעי שמתפתח מה-Hindbrain).",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 49,
       "section": "מערכת חדרי המוח"
     },
@@ -31,7 +31,7 @@ window.QUESTIONS_VENTRICLES_MENINGES = [
     "correctIndex": 3,
     "explanation": "החדר השלישי נמצא בקו האמצע, בין שני התלמי, מתחת לאזור המרכזי של החדרים הלטרליים.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 49,
       "section": "מערכת חדרי המוח"
     },
@@ -50,7 +50,7 @@ window.QUESTIONS_VENTRICLES_MENINGES = [
     "correctIndex": 1,
     "explanation": "החדר הרביעי נמצא בין הצרבלום, הפונס והמדולה אובלונגטה.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 49,
       "section": "מערכת חדרי המוח"
     },
@@ -69,7 +69,7 @@ window.QUESTIONS_VENTRICLES_MENINGES = [
     "correctIndex": 2,
     "explanation": "ה-Temporal / Inferior horn הוא האזור התחתון האנטריורי של החדר, שנמצא באונה הטמפורלית.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 49,
       "section": "החדרים הלטרליים"
     },
@@ -88,7 +88,7 @@ window.QUESTIONS_VENTRICLES_MENINGES = [
     "correctIndex": 3,
     "explanation": "ה-Septum pellucidum, היריעה הדקה שמקשרת בין הקורפוס קלוסום לפורניקס, הוא הקיר המדיאלי של החלקים האנטריוריים של החדר הלטרלי.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 49,
       "section": "גבולות החדר הלטרלי"
     },
@@ -107,7 +107,7 @@ window.QUESTIONS_VENTRICLES_MENINGES = [
     "correctIndex": 1,
     "explanation": "באזורים הפרונטליים ה-Caudate יוצר את הקיר הלטרלי, אך בקרן הטמפורלית הוא נמצא בתקרת החדר.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 50,
       "section": "גבולות החדר הלטרלי"
     },
@@ -126,7 +126,7 @@ window.QUESTIONS_VENTRICLES_MENINGES = [
     "correctIndex": 3,
     "explanation": "ה-Stria terminalis וה-Thalamostriatal vein נמצאים ברצפת החלק המרכזי (Body) של החדר הלטרלי, בין התלמוס ל-Caudate nucleus.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 50,
       "section": "גבולות החדר הלטרלי"
     },
@@ -145,7 +145,7 @@ window.QUESTIONS_VENTRICLES_MENINGES = [
     "correctIndex": 2,
     "explanation": "ה-Tapetum, אלומת סיבים קומיסורלית שעוברת דרך הקורפוס קלוסום ויורדת לכיוון האונה האוקסיפיטלית, יוצרת את הקיר הלטרלי וחלק מהתקרה של הקרן האוקסיפיטלית.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 50,
       "section": "גבולות החדר הלטרלי"
     },
@@ -164,7 +164,7 @@ window.QUESTIONS_VENTRICLES_MENINGES = [
     "correctIndex": 0,
     "explanation": "ה-Hippocampus יוצר את רצפת הקרן הטמפורלית; במהלך ההתפתחות העוברית הוא מתקפל ותופס את רוב המרחב שם.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 50,
       "section": "גבולות החדר הלטרלי"
     },
@@ -183,7 +183,7 @@ window.QUESTIONS_VENTRICLES_MENINGES = [
     "correctIndex": 0,
     "explanation": "ה-Bulb of occipital horn נוצר מה-Splenium of corpus callosum (Forceps major), שנדחף לתוך החדר.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 50,
       "section": "מאפיינים נוספים של החדר הלטרלי"
     },
@@ -202,7 +202,7 @@ window.QUESTIONS_VENTRICLES_MENINGES = [
     "correctIndex": 0,
     "explanation": "ה-Calcar avis הוא מבנה שנוצר כ-Impression של ה-Calcarine sulcus על פני הקרן האוקסיפיטלית.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 50,
       "section": "מאפיינים נוספים של החדר הלטרלי"
     },
@@ -221,7 +221,7 @@ window.QUESTIONS_VENTRICLES_MENINGES = [
     "correctIndex": 2,
     "explanation": "ה-Collateral eminence נוצר כ-Impression של ה-Collateral sulcus, והבליטה ממשיכה גם אל תוך הקרן הטמפורלית ומהווה חלק מהרצפה שלה.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 50,
       "section": "מאפיינים נוספים של החדר הלטרלי"
     },
@@ -240,7 +240,7 @@ window.QUESTIONS_VENTRICLES_MENINGES = [
     "correctIndex": 3,
     "explanation": "המעבר בין החדרים הלטרליים לחדר השלישי הוא דרך שני ה-Interventricular foramina of Monro.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 50,
       "section": "מאפיינים נוספים של החדר הלטרלי"
     },
@@ -259,7 +259,7 @@ window.QUESTIONS_VENTRICLES_MENINGES = [
     "correctIndex": 1,
     "explanation": "ה-Fornix מהווה את תקרת החדר השלישי; ה-Tela choroidea סוגרת דווקא את הקיר הפוסטריורי (ואף חלק מהתקרה בפן הסופריורי, בצמוד לפורניקס).",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 51,
       "section": "החדר השלישי"
     },
@@ -278,7 +278,7 @@ window.QUESTIONS_VENTRICLES_MENINGES = [
     "correctIndex": 2,
     "explanation": "ה-Tela choroidea, יריעה שקופה, סוגרת את הקיר הפוסטריורי של החדר השלישי.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 51,
       "section": "החדר השלישי"
     },
@@ -297,7 +297,7 @@ window.QUESTIONS_VENTRICLES_MENINGES = [
     "correctIndex": 0,
     "explanation": "לפי המקור, ה-Habenula וה-Pineal gland נמצאים מחוץ לחדר השלישי, בסמוך ל-Tela choroidea שסוגרת את קירו הפוסטריורי.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 51,
       "section": "החדר השלישי"
     },
@@ -316,7 +316,7 @@ window.QUESTIONS_VENTRICLES_MENINGES = [
     "correctIndex": 1,
     "explanation": "בחלק האנטריורי, ה-Anterior commissure נמתח בין שני הפורניקסים, ויחד הם מהווים את הגבול האנטריורי של החדר השלישי.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 51,
       "section": "החדר השלישי"
     },
@@ -335,7 +335,7 @@ window.QUESTIONS_VENTRICLES_MENINGES = [
     "correctIndex": 0,
     "explanation": "ה-Massa intermedia היא אזור המשכיות בין שני התלמי במרכז החדר השלישי, ולכן אין שם חלל בין התלמי (נראה כ'חור' במרכז החדר).",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 51,
       "section": "החדר השלישי"
     },
@@ -354,7 +354,7 @@ window.QUESTIONS_VENTRICLES_MENINGES = [
     "correctIndex": 3,
     "explanation": "המעבר בין החדר השלישי לחדר הרביעי הוא דרך ה-Cerebral aqueduct of Sylvius, אזור צר שעובר ב-Midbrain.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 51,
       "section": "החדר השלישי"
     },
@@ -373,7 +373,7 @@ window.QUESTIONS_VENTRICLES_MENINGES = [
     "correctIndex": 2,
     "explanation": "ה-Pons וה-Medulla oblongata יוצרים את רצפת החדר הרביעי, המכונה גם Rhomboid fossa.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 52,
       "section": "החדר הרביעי"
     },
@@ -392,7 +392,7 @@ window.QUESTIONS_VENTRICLES_MENINGES = [
     "correctIndex": 2,
     "explanation": "למרות שבבני אדם הצרבלום נמצא מאחורי החדר, המנח שלו דורסלי (בבעלי חיים הוא מעל החדר), ולכן הוא מוגדר כתקרה.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 52,
       "section": "החדר הרביעי"
     },
@@ -411,7 +411,7 @@ window.QUESTIONS_VENTRICLES_MENINGES = [
     "correctIndex": 2,
     "explanation": "ה-Obex הוא הקצה התחתון של המעוין (Rhomboid fossa) ברצפת החדר הרביעי.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 52,
       "section": "החדר הרביעי"
     },
@@ -430,7 +430,7 @@ window.QUESTIONS_VENTRICLES_MENINGES = [
     "correctIndex": 2,
     "explanation": "ה-Area postrema הוא אזור עם BBB יותר 'מתירני', המזהה בדם חומרים שעלולים להזיק למוח ומפעיל כתגובה רפלקס הקאה.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 52,
       "section": "החדר הרביעי"
     },
@@ -449,7 +449,7 @@ window.QUESTIONS_VENTRICLES_MENINGES = [
     "correctIndex": 2,
     "explanation": "ה-Locus caeruleus הוא אזור עשיר בגרעינים נוראדרנרגיים ברצפת החדר הרביעי, והריכוז הגבוה של הנוירוטרנסמיטר מעניק לו גוון כחלחל.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 52,
       "section": "החדר הרביעי"
     },
@@ -468,7 +468,7 @@ window.QUESTIONS_VENTRICLES_MENINGES = [
     "correctIndex": 0,
     "explanation": "ה-CSF מיוצר בכל החדרים ע\"י ה-Choroid plexus, למעט בקרן הפרונטלית ובקרן האוקסיפיטלית של החדרים הלטרליים, שם אין ייצור CSF.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 53,
       "section": "Cerebrospinal fluid"
     },
@@ -487,7 +487,7 @@ window.QUESTIONS_VENTRICLES_MENINGES = [
     "correctIndex": 2,
     "explanation": "לאחר שה-CSF זורם דרך כל החדרים ברצף, נקודות הניקוז אל ה-Subarachnoid space (Lateral ו-Median apertures) נמצאות אך ורק בחדר הרביעי.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 53,
       "section": "Cerebrospinal fluid"
     },
@@ -506,7 +506,7 @@ window.QUESTIONS_VENTRICLES_MENINGES = [
     "correctIndex": 0,
     "explanation": "בחדר הרביעי יש שתי נקודות ניקוז: שני Lateral apertures בצדדים (סביב הצרבלום), ו-Median aperture אי-זוגי במרכז ה-Inferior medullary velum.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 53,
       "section": "Cerebrospinal fluid"
     },
@@ -525,7 +525,7 @@ window.QUESTIONS_VENTRICLES_MENINGES = [
     "correctIndex": 1,
     "explanation": "נקודות קטנות בקרום הארכנואיד בשם Arachnoid granulations סופגות את ה-CSF מה-Subarachnoid space ומעבירות אותו למערכת הסינוסים הורידיים.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 53,
       "section": "Cerebrospinal fluid"
     },
@@ -544,7 +544,7 @@ window.QUESTIONS_VENTRICLES_MENINGES = [
     "correctIndex": 2,
     "explanation": "בכל רגע נתון יש כ-150-280cc של CSF, והוא מתחלף בין 3 ל-4 פעמים ביממה.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 53,
       "section": "Cerebrospinal fluid"
     },
@@ -563,7 +563,7 @@ window.QUESTIONS_VENTRICLES_MENINGES = [
     "correctIndex": 1,
     "explanation": "Arnold-Chiari malformation היא גדילה פתולוגית של ה-Tonsils של הצרבלום, הגורמת לחסימת ניקוז ה-CSF מהחדר הרביעי, ועלולה לגרום ל-Hydrocephalus בעוברים ותינוקות.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 53,
       "section": "Cerebrospinal fluid"
     },
@@ -582,7 +582,7 @@ window.QUESTIONS_VENTRICLES_MENINGES = [
     "correctIndex": 1,
     "explanation": "צינור העצבים עטוף בשק דורה, שעמוק לו נמצא הארכנואיד, ועמוק אליו נמצאת הפיה.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 96,
       "section": "קרומי המוח וה-CSF"
     },
@@ -601,7 +601,7 @@ window.QUESTIONS_VENTRICLES_MENINGES = [
     "correctIndex": 2,
     "explanation": "ב-Dural sinus יש היפרדות של שתי שכבות הדורה ליצירת חלל שמכיל דם ורידי, ומהווה את מערכת הניקוז הורידי של מערכת העצבים המרכזית.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 96,
       "section": "Dura mater"
     },
@@ -620,7 +620,7 @@ window.QUESTIONS_VENTRICLES_MENINGES = [
     "correctIndex": 2,
     "explanation": "ה-Falx cerebri הוא מבנה דורלי שנכנס לעומק ה-Longitudinal fissure, ומפריד בין שתי המיספרות הסרברום.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 96,
       "section": "מבנים דורליים"
     },
@@ -639,7 +639,7 @@ window.QUESTIONS_VENTRICLES_MENINGES = [
     "correctIndex": 1,
     "explanation": "ה-Tentorium cerebelli מחלק את האנדוקרניום ל-Supratentorial compartment (בו האונה האוקסיפיטלית) ו-Infratentorial compartment (בו הצרבלום).",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 96,
       "section": "מבנים דורליים"
     },
@@ -658,7 +658,7 @@ window.QUESTIONS_VENTRICLES_MENINGES = [
     "correctIndex": 0,
     "explanation": "ה-Incisura הוא הגבול החד של ה-Tentorium cerebelli, שבו הדורה לא חוצצת לחלוטין אלא מאפשרת המשכיות בין הסרברום לצרבלום; דרך החור עובר גזע המוח.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 96,
       "section": "מבנים דורליים"
     },
@@ -677,7 +677,7 @@ window.QUESTIONS_VENTRICLES_MENINGES = [
     "correctIndex": 0,
     "explanation": "ה-Diaphragma sellae הוא שכבת דורה שעוטפת את ההיפופיזה בתוך ה-Sella turcica, כאשר ההיפופיזה אינה כלואה לחלוטין (יש המשכיות להיפותלמוס דרך ה-Infundibulum שלא עטוף).",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 96,
       "section": "מבנים דורליים"
     },
@@ -696,7 +696,7 @@ window.QUESTIONS_VENTRICLES_MENINGES = [
     "correctIndex": 2,
     "explanation": "ה-Confluence of sinuses היא נקודת מפגש פוסטריורית על קו האמצע, שבה מסתיים ה-Superior sagittal sinus.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 97,
       "section": "סינוסים דורליים"
     },
@@ -715,7 +715,7 @@ window.QUESTIONS_VENTRICLES_MENINGES = [
     "correctIndex": 2,
     "explanation": "ה-Sigmoid sinus הוא סינוס מפותל שהמשכי ל-Transverse sinus, ונשפך ל-Jugular vein.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 97,
       "section": "סינוסים דורליים"
     },
@@ -734,7 +734,7 @@ window.QUESTIONS_VENTRICLES_MENINGES = [
     "correctIndex": 3,
     "explanation": "כל הורידים העמוקים (כמו ה-Thalamostriatic vein) מתנקזים ל-Great cerebral vein of Galen, שנשפך לתוך ה-Straight sinus.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 98,
       "section": "מסלולי ניקוז דם"
     },
@@ -753,7 +753,7 @@ window.QUESTIONS_VENTRICLES_MENINGES = [
     "correctIndex": 0,
     "explanation": "Epidural hematoma הוא דימום שנאגר במרווח האפידורלי בין הדורה לגולגולת, ולרוב נובע מקרע בעורקים שמספקים דם לקרומי המוח.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 98,
       "section": "פתולוגיות"
     },
@@ -772,7 +772,7 @@ window.QUESTIONS_VENTRICLES_MENINGES = [
     "correctIndex": 0,
     "explanation": "Subdural hematoma נאגר במרווח הסאב-דורלי בין הדורה לארכנואיד ונובע לרוב מקריעת ורידים, ולכן הוא בדרך כלל פחות מסוכן מהמטומה אפידורלית שנובעת מדימום עורקי.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 98,
       "section": "פתולוגיות"
     },
@@ -791,7 +791,7 @@ window.QUESTIONS_VENTRICLES_MENINGES = [
     "correctIndex": 2,
     "explanation": "ה-Arachnoid trabeculae נמצאים ב-Subarachnoid space ומקשרים בין הארכנואיד לפיה, ומקנים יציבות מכנית לחלל שביניהם לאורך כל צינור העצבים.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 99,
       "section": "Arachnoid"
     },
@@ -810,7 +810,7 @@ window.QUESTIONS_VENTRICLES_MENINGES = [
     "correctIndex": 2,
     "explanation": "ה-Choroidal arteries שיוצרות את הפלקסוס מקבלות מעטפת של פיה ואפנדימה, המאפשרת את סינון הדם העורקי לתוך חדרי המוח ליצירת CSF.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 99,
       "section": "Arachnoid"
     },
@@ -829,7 +829,7 @@ window.QUESTIONS_VENTRICLES_MENINGES = [
     "correctIndex": 3,
     "explanation": "ה-Arachnoid villi (הנאספים ל-Arachnoid granulations) הם מבנים קטנים של ארכנואיד הנכנסים לסינוסים הדורליים, בעלי ממברנה בררנית שמאפשרת מעבר CSF מהסאב-ארכנואיד לסינוסים אך לא מעבר דם לכיוון ההפוך.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 99,
       "section": "Arachnoid"
     },
@@ -848,7 +848,7 @@ window.QUESTIONS_VENTRICLES_MENINGES = [
     "correctIndex": 2,
     "explanation": "ההפרעה בניקוז CSF שגורמת ל-Hydrocephalus יכולה להתרחש בחסימת המעברים בין החדרים (Foramina/Aqueduct), בחסימת אחד ה-Apertures בחדר הרביעי, או בפגיעה במנגנון הניקוז של ה-Arachnoid villi.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 100,
       "section": "פתולוגיות"
     },
@@ -867,7 +867,7 @@ window.QUESTIONS_VENTRICLES_MENINGES = [
     "correctIndex": 1,
     "explanation": "הטיפול בהידרוצפלוס כולל פתיחת החסימה, או יצירת מנגנון ניקוז אלטרנטיבי כמו התקנת Shunt שמנקז את ה-CSF לבטן.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 100,
       "section": "פתולוגיות"
     },
@@ -886,7 +886,7 @@ window.QUESTIONS_VENTRICLES_MENINGES = [
     "correctIndex": 1,
     "explanation": "המפרצת בעצמה לא בהכרח גורמת לנזק, אך היא מחלישה מאוד את דופן כלי הדם ומעלה משמעותית את הסיכון לדימום.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 100,
       "section": "פתולוגיות"
     },
@@ -905,7 +905,7 @@ window.QUESTIONS_VENTRICLES_MENINGES = [
     "correctIndex": 2,
     "explanation": "מכיוון שה-Subarachnoid space הוא חלל שקיים באופן תקין, דימום אליו אינו נחשב 'דימום סגור' (Hematoma), אך הוא מסוכן גם בפגיעה באספקת דם downstream וגם בטוקסיות הדם לנוירונים.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 101,
       "section": "פתולוגיות"
     },
@@ -924,7 +924,7 @@ window.QUESTIONS_VENTRICLES_MENINGES = [
     "correctIndex": 3,
     "explanation": "Intracerebral hemorrhage הוא דימום לתוך הרקמה המוחית עצמה, הנובע מקריעה של כלי דם שמספק את הרקמה.",
     "reference": {
-      "doc": "סיכום נוירואנטומיה - נגה למפל",
+      "doc": "נגה למפל",
       "page": 101,
       "section": "פתולוגיות"
     },
