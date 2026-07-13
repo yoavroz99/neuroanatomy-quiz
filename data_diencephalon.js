@@ -906,7 +906,7 @@ window.QUESTIONS_DIENCEPHALON = [
     "explanation": "ה-Optic tract נמשך מה-Optic chiasm ומסתיים ב-Lateral geniculate body.",
     "reference": {
       "doc": "נגה למפל",
-      "page": 39,
+      "page": 54,
       "section": "חתך 1 - האספקט הוונטרלי"
     },
     "source": "summary"
@@ -925,7 +925,7 @@ window.QUESTIONS_DIENCEPHALON = [
     "explanation": "צמוד ל-Infundibulum (גזע בלוטת ההיפופיזה) ניתן לראות את שני ה-Mamillary bodies.",
     "reference": {
       "doc": "נגה למפל",
-      "page": 39,
+      "page": 54,
       "section": "חתך 1 - האספקט הוונטרלי"
     },
     "source": "summary"
@@ -944,7 +944,7 @@ window.QUESTIONS_DIENCEPHALON = [
     "explanation": "שני ה-Habenular triangles נראים צמודים בקו האמצע לבלוטת הפינאל (Pineal gland) במבט הדורסלי.",
     "reference": {
       "doc": "נגה למפל",
-      "page": 41,
+      "page": 56,
       "section": "חתך 2 - האספקט הדורסלי"
     },
     "source": "summary"
@@ -963,7 +963,7 @@ window.QUESTIONS_DIENCEPHALON = [
     "explanation": "גרעיני ה-Medial & lateral geniculate bodies נמצאים לטרלית ל-Habenular trigone.",
     "reference": {
       "doc": "נגה למפל",
-      "page": 41,
+      "page": 56,
       "section": "חתך 2 - האספקט הדורסלי"
     },
     "source": "summary"

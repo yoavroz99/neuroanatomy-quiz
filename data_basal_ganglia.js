@@ -868,7 +868,7 @@ window.QUESTIONS_BASAL_GANGLIA = [
     "explanation": "ה-Lentiform nucleus הוא גרעין גדול של חומר אפור, השייך לגרעיני הבסיס.",
     "reference": {
       "doc": "נגה למפל",
-      "page": 44,
+      "page": 45,
       "section": "חלוקה אנטומית בחתך הוריזונטלי"
     },
     "source": "summary"
@@ -887,7 +887,7 @@ window.QUESTIONS_BASAL_GANGLIA = [
     "explanation": "ה-Internal capsule הוא אזור חומר לבן שנמצא מדיאלית ללנטיפורם, לעומת ה-External capsule שנמצא לטרלית לו.",
     "reference": {
       "doc": "נגה למפל",
-      "page": 44,
+      "page": 45,
       "section": "חלוקה אנטומית בחתך הוריזונטלי"
     },
     "source": "summary"
@@ -925,7 +925,7 @@ window.QUESTIONS_BASAL_GANGLIA = [
     "explanation": "במערכת גרעיני הבסיס, פגיעה תגרום להפרעות מוטוריות מאוד ספציפיות שקל יותר לבחון ולמדוד, בשונה מהמערכת הלימבית.",
     "reference": {
       "doc": "נגה למפל",
-      "page": 68,
+      "page": 72,
       "section": "המערכת הלימבית"
     },
     "source": "summary"

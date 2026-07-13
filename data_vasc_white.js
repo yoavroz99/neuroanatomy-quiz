@@ -89,7 +89,7 @@ window.QUESTIONS_VASC_WHITE = [
     "explanation": "ה-Internal carotid artery נכנס לגולגולת דרך ה-Carotid canal, הנמצא בקרבת הפתח של עצב הראייה.",
     "reference": {
       "doc": "נגה למפל",
-      "page": 84,
+      "page": 83,
       "section": "האספקה הקדמית"
     },
     "source": "summary"
@@ -184,7 +184,7 @@ window.QUESTIONS_VASC_WHITE = [
     "explanation": "ה-ACA מספק את האזורים המדיאליים של הקורטקס הסומטו-סנסורי, בהם מיוצגות הרגליים, ולכן פגיעה בו עלולה לגרום לנימול ברגליים.",
     "reference": {
       "doc": "נגה למפל",
-      "page": 84,
+      "page": 89,
       "section": "האספקה הקדמית"
     },
     "source": "summary"
@@ -602,7 +602,7 @@ window.QUESTIONS_VASC_WHITE = [
     "explanation": "ה-Superior longitudinal fasciculus מקשר בין כל האונות, על אף שלא כל אקסון עובר בהכרח דרך ארבעתן.",
     "reference": {
       "doc": "נגה למפל",
-      "page": 44,
+      "page": 43,
       "section": "Association fibers"
     },
     "source": "summary"
@@ -621,7 +621,7 @@ window.QUESTIONS_VASC_WHITE = [
     "explanation": "ה-Arcuate fibers הם תת-קבוצה של ה-Superior longitudinal fasciculus שמקשרים בין אזורי השפה, וורניקה וברוקה.",
     "reference": {
       "doc": "נגה למפל",
-      "page": 44,
+      "page": 43,
       "section": "Association fibers"
     },
     "source": "summary"

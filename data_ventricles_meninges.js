@@ -32,7 +32,7 @@ window.QUESTIONS_VENTRICLES_MENINGES = [
     "explanation": "החדר השלישי נמצא בקו האמצע, בין שני התלמי, מתחת לאזור המרכזי של החדרים הלטרליים.",
     "reference": {
       "doc": "נגה למפל",
-      "page": 49,
+      "page": 51,
       "section": "מערכת חדרי המוח"
     },
     "source": "summary"
@@ -51,7 +51,7 @@ window.QUESTIONS_VENTRICLES_MENINGES = [
     "explanation": "החדר הרביעי נמצא בין הצרבלום, הפונס והמדולה אובלונגטה.",
     "reference": {
       "doc": "נגה למפל",
-      "page": 49,
+      "page": 52,
       "section": "מערכת חדרי המוח"
     },
     "source": "summary"
@@ -184,7 +184,7 @@ window.QUESTIONS_VENTRICLES_MENINGES = [
     "explanation": "ה-Bulb of occipital horn נוצר מה-Splenium of corpus callosum (Forceps major), שנדחף לתוך החדר.",
     "reference": {
       "doc": "נגה למפל",
-      "page": 50,
+      "page": 51,
       "section": "מאפיינים נוספים של החדר הלטרלי"
     },
     "source": "summary"
@@ -203,7 +203,7 @@ window.QUESTIONS_VENTRICLES_MENINGES = [
     "explanation": "ה-Calcar avis הוא מבנה שנוצר כ-Impression של ה-Calcarine sulcus על פני הקרן האוקסיפיטלית.",
     "reference": {
       "doc": "נגה למפל",
-      "page": 50,
+      "page": 51,
       "section": "מאפיינים נוספים של החדר הלטרלי"
     },
     "source": "summary"
@@ -222,7 +222,7 @@ window.QUESTIONS_VENTRICLES_MENINGES = [
     "explanation": "ה-Collateral eminence נוצר כ-Impression של ה-Collateral sulcus, והבליטה ממשיכה גם אל תוך הקרן הטמפורלית ומהווה חלק מהרצפה שלה.",
     "reference": {
       "doc": "נגה למפל",
-      "page": 50,
+      "page": 51,
       "section": "מאפיינים נוספים של החדר הלטרלי"
     },
     "source": "summary"
@@ -241,7 +241,7 @@ window.QUESTIONS_VENTRICLES_MENINGES = [
     "explanation": "המעבר בין החדרים הלטרליים לחדר השלישי הוא דרך שני ה-Interventricular foramina of Monro.",
     "reference": {
       "doc": "נגה למפל",
-      "page": 50,
+      "page": 51,
       "section": "מאפיינים נוספים של החדר הלטרלי"
     },
     "source": "summary"
@@ -336,7 +336,7 @@ window.QUESTIONS_VENTRICLES_MENINGES = [
     "explanation": "ה-Massa intermedia היא אזור המשכיות בין שני התלמי במרכז החדר השלישי, ולכן אין שם חלל בין התלמי (נראה כ'חור' במרכז החדר).",
     "reference": {
       "doc": "נגה למפל",
-      "page": 51,
+      "page": 52,
       "section": "החדר השלישי"
     },
     "source": "summary"
@@ -355,7 +355,7 @@ window.QUESTIONS_VENTRICLES_MENINGES = [
     "explanation": "המעבר בין החדר השלישי לחדר הרביעי הוא דרך ה-Cerebral aqueduct of Sylvius, אזור צר שעובר ב-Midbrain.",
     "reference": {
       "doc": "נגה למפל",
-      "page": 51,
+      "page": 52,
       "section": "החדר השלישי"
     },
     "source": "summary"
@@ -621,7 +621,7 @@ window.QUESTIONS_VENTRICLES_MENINGES = [
     "explanation": "ה-Falx cerebri הוא מבנה דורלי שנכנס לעומק ה-Longitudinal fissure, ומפריד בין שתי המיספרות הסרברום.",
     "reference": {
       "doc": "נגה למפל",
-      "page": 96,
+      "page": 97,
       "section": "מבנים דורליים"
     },
     "source": "summary"
@@ -640,7 +640,7 @@ window.QUESTIONS_VENTRICLES_MENINGES = [
     "explanation": "ה-Tentorium cerebelli מחלק את האנדוקרניום ל-Supratentorial compartment (בו האונה האוקסיפיטלית) ו-Infratentorial compartment (בו הצרבלום).",
     "reference": {
       "doc": "נגה למפל",
-      "page": 96,
+      "page": 97,
       "section": "מבנים דורליים"
     },
     "source": "summary"
@@ -659,7 +659,7 @@ window.QUESTIONS_VENTRICLES_MENINGES = [
     "explanation": "ה-Incisura הוא הגבול החד של ה-Tentorium cerebelli, שבו הדורה לא חוצצת לחלוטין אלא מאפשרת המשכיות בין הסרברום לצרבלום; דרך החור עובר גזע המוח.",
     "reference": {
       "doc": "נגה למפל",
-      "page": 96,
+      "page": 97,
       "section": "מבנים דורליים"
     },
     "source": "summary"
@@ -678,7 +678,7 @@ window.QUESTIONS_VENTRICLES_MENINGES = [
     "explanation": "ה-Diaphragma sellae הוא שכבת דורה שעוטפת את ההיפופיזה בתוך ה-Sella turcica, כאשר ההיפופיזה אינה כלואה לחלוטין (יש המשכיות להיפותלמוס דרך ה-Infundibulum שלא עטוף).",
     "reference": {
       "doc": "נגה למפל",
-      "page": 96,
+      "page": 97,
       "section": "מבנים דורליים"
     },
     "source": "summary"
@@ -754,7 +754,7 @@ window.QUESTIONS_VENTRICLES_MENINGES = [
     "explanation": "Epidural hematoma הוא דימום שנאגר במרווח האפידורלי בין הדורה לגולגולת, ולרוב נובע מקרע בעורקים שמספקים דם לקרומי המוח.",
     "reference": {
       "doc": "נגה למפל",
-      "page": 98,
+      "page": 99,
       "section": "פתולוגיות"
     },
     "source": "summary"
@@ -773,7 +773,7 @@ window.QUESTIONS_VENTRICLES_MENINGES = [
     "explanation": "Subdural hematoma נאגר במרווח הסאב-דורלי בין הדורה לארכנואיד ונובע לרוב מקריעת ורידים, ולכן הוא בדרך כלל פחות מסוכן מהמטומה אפידורלית שנובעת מדימום עורקי.",
     "reference": {
       "doc": "נגה למפל",
-      "page": 98,
+      "page": 99,
       "section": "פתולוגיות"
     },
     "source": "summary"
@@ -830,7 +830,7 @@ window.QUESTIONS_VENTRICLES_MENINGES = [
     "explanation": "ה-Arachnoid villi (הנאספים ל-Arachnoid granulations) הם מבנים קטנים של ארכנואיד הנכנסים לסינוסים הדורליים, בעלי ממברנה בררנית שמאפשרת מעבר CSF מהסאב-ארכנואיד לסינוסים אך לא מעבר דם לכיוון ההפוך.",
     "reference": {
       "doc": "נגה למפל",
-      "page": 99,
+      "page": 100,
       "section": "Arachnoid"
     },
     "source": "summary"

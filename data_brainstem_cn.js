@@ -32,7 +32,7 @@ window.QUESTIONS_BRAINSTEM_CN = [
     "explanation": "המדולה אובלונגטה היא המשכית לחוט השדרה, והגבול ביניהם הוא ה-Foramen magnum.",
     "reference": {
       "doc": "נגה למפל",
-      "page": 55,
+      "page": 56,
       "section": "חתך 1 – האספקט הוונטרלי"
     },
     "source": "summary"
@@ -51,7 +51,7 @@ window.QUESTIONS_BRAINSTEM_CN = [
     "explanation": "ה-CN4 Trochlear nerve הוא היחיד שיוצא מהחלק הדורסלי של גזע המוח.",
     "reference": {
       "doc": "נגה למפל",
-      "page": 54,
+      "page": 55,
       "section": "חתך 1 – האספקט הוונטרלי"
     },
     "source": "summary"
@@ -70,7 +70,7 @@ window.QUESTIONS_BRAINSTEM_CN = [
     "explanation": "CN3 יוצא מגזע המוח מתוך ה-Interpeduncular fossa, החלל שבין שני ה-Cerebral peduncles.",
     "reference": {
       "doc": "נגה למפל",
-      "page": 54,
+      "page": 55,
       "section": "חתך 1 – האספקט הוונטרלי"
     },
     "source": "summary"
@@ -127,7 +127,7 @@ window.QUESTIONS_BRAINSTEM_CN = [
     "explanation": "CN12 יוצא החוצה מדיאלית יחסית, בין ה-Pyramid ל-Olive.",
     "reference": {
       "doc": "נגה למפל",
-      "page": 55,
+      "page": 56,
       "section": "חתך 1 – האספקט הוונטרלי"
     },
     "source": "summary"
@@ -146,7 +146,7 @@ window.QUESTIONS_BRAINSTEM_CN = [
     "explanation": "מלמעלה למטה, בין Olive ל-Inferior cerebellar peduncle יוצאים CN9 Glossopharyngeal, CN10 Vagus ו-CN11 Accessory.",
     "reference": {
       "doc": "נגה למפל",
-      "page": 55,
+      "page": 56,
       "section": "חתך 1 – האספקט הוונטרלי"
     },
     "source": "summary"
@@ -203,7 +203,7 @@ window.QUESTIONS_BRAINSTEM_CN = [
     "explanation": "ה-Superior colliculi שייכים למערכת הראייה ואחראים על רפלקסים ברמת גזע המוח.",
     "reference": {
       "doc": "נגה למפל",
-      "page": 56,
+      "page": 57,
       "section": "חתך 2 – האספקט הדורסלי"
     },
     "source": "summary"
@@ -222,7 +222,7 @@ window.QUESTIONS_BRAINSTEM_CN = [
     "explanation": "הבליטה נוצרת ע\"י סיבים של ה-Facial nerve שעוברים מתחת לפני השטח באזור ה-Medial eminence.",
     "reference": {
       "doc": "נגה למפל",
-      "page": 57,
+      "page": 58,
       "section": "חתך 2 – האספקט הדורסלי"
     },
     "source": "summary"
@@ -241,7 +241,7 @@ window.QUESTIONS_BRAINSTEM_CN = [
     "explanation": "ה-Vestibular area, לטרלית ל-Medial eminence, אחראית על שיווי משקל.",
     "reference": {
       "doc": "נגה למפל",
-      "page": 57,
+      "page": 58,
       "section": "חתך 2 – האספקט הדורסלי"
     },
     "source": "summary"
@@ -279,7 +279,7 @@ window.QUESTIONS_BRAINSTEM_CN = [
     "explanation": "ה-Superior cerebellar peduncle הוא הקישור השלישי בין הצרבלום וגזע המוח, ומקשר אותו ל-Midbrain.",
     "reference": {
       "doc": "נגה למפל",
-      "page": 58,
+      "page": 59,
       "section": "חתך 2 – האספקט הדורסלי"
     },
     "source": "summary"
@@ -298,7 +298,7 @@ window.QUESTIONS_BRAINSTEM_CN = [
     "explanation": "ה-Cerebral aqueduct הוא מיצר שעובר דרך ה-Midbrain ומקשר בין החדר השלישי לחדר הרביעי.",
     "reference": {
       "doc": "נגה למפל",
-      "page": 59,
+      "page": 60,
       "section": "חתך 3 – מידסגיטלי"
     },
     "source": "summary"
@@ -317,7 +317,7 @@ window.QUESTIONS_BRAINSTEM_CN = [
     "explanation": "ה-Median aperture of Magendie הוא פתח ניקוז אי-זוגי של החדר הרביעי, הנמצא על קו האמצע.",
     "reference": {
       "doc": "נגה למפל",
-      "page": 59,
+      "page": 60,
       "section": "חתך 3 – מידסגיטלי"
     },
     "source": "summary"
@@ -336,7 +336,7 @@ window.QUESTIONS_BRAINSTEM_CN = [
     "explanation": "ה-Periaqueductal grey (PAG) הוא גרעין חומר אפור שמקיף את ה-Cerebral aqueduct.",
     "reference": {
       "doc": "נגה למפל",
-      "page": 60,
+      "page": 61,
       "section": "חתך 4 – חתך רוחב דרך ה-Midbrain"
     },
     "source": "summary"
@@ -355,7 +355,7 @@ window.QUESTIONS_BRAINSTEM_CN = [
     "explanation": "ה-Substantia nigra כולל נוירונים דופמינרגיים, המעניקים לו את צבעו השחור.",
     "reference": {
       "doc": "נגה למפל",
-      "page": 60,
+      "page": 61,
       "section": "חתך 4 – חתך רוחב דרך ה-Midbrain"
     },
     "source": "summary"
@@ -374,7 +374,7 @@ window.QUESTIONS_BRAINSTEM_CN = [
     "explanation": "ה-Red nuclei נצבעים באדום בגלל הריכוז הגבוה של ברזל באזור זה.",
     "reference": {
       "doc": "נגה למפל",
-      "page": 60,
+      "page": 61,
       "section": "חתך 4 – חתך רוחב דרך ה-Midbrain"
     },
     "source": "summary"
@@ -507,7 +507,7 @@ window.QUESTIONS_BRAINSTEM_CN = [
     "explanation": "לאחר ה-Optic chiasm, המידע ב-Optic tracts כבר מחולק לימין ולשמאל לפי שדות ראייה, ולא לפי העין שקלטה אותו.",
     "reference": {
       "doc": "נגה למפל",
-      "page": 76,
+      "page": 77,
       "section": "CNII – Optic nerve"
     },
     "source": "summary"
@@ -792,7 +792,7 @@ window.QUESTIONS_BRAINSTEM_CN = [
     "explanation": "המרכיב הסנסורי של CNVII מביא תחושת טעם (לא מגע) מ-2/3 הקדמיים של הלשון.",
     "reference": {
       "doc": "נגה למפל",
-      "page": 79,
+      "page": 81,
       "section": "CNVII – Facial nerve"
     },
     "source": "summary"
@@ -868,7 +868,7 @@ window.QUESTIONS_BRAINSTEM_CN = [
     "explanation": "המרכיב האוטונומי של CN9 חש את הרכב הדם ב-Carotid body.",
     "reference": {
       "doc": "נגה למפל",
-      "page": 80,
+      "page": 81,
       "section": "CNIX – Glossopharyngeal nerve"
     },
     "source": "summary"
@@ -963,7 +963,7 @@ window.QUESTIONS_BRAINSTEM_CN = [
     "explanation": "CNIX Glossopharyngeal n. מספק לשליש האחורי של הלשון גם עצבוב סומטו-סנסורי וגם עצבוב סנסורי של טעם.",
     "reference": {
       "doc": "נגה למפל",
-      "page": 82,
+      "page": 81,
       "section": "סיכום – העצבים הקרניאליים"
     },
     "source": "summary"

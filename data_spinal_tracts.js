@@ -51,7 +51,7 @@ window.QUESTIONS_SPINAL_TRACTS = [
     "explanation": "התאים בגנגליון הם נוירונים מסוג Pseudo-unipolar, עם אקסון אחד שמגיע מהפריפריה ואקסון שני שנכנס לחוט השדרה.",
     "reference": {
       "doc": "נגה למפל",
-      "page": 6,
+      "page": 7,
       "section": "מוח השדרה (Spinal cord)"
     },
     "source": "summary"
@@ -127,7 +127,7 @@ window.QUESTIONS_SPINAL_TRACTS = [
     "explanation": "בניגוד לחוליות הסקרליות, אין Intervertebral foramina בין החוליות הקוקסיגיאליות, ולכן יש סגמנט קוקסיגיאלי אחד בלבד.",
     "reference": {
       "doc": "נגה למפל",
-      "page": 5,
+      "page": 6,
       "section": "חוליות וסגמנטים"
     },
     "source": "summary"
@@ -222,7 +222,7 @@ window.QUESTIONS_SPINAL_TRACTS = [
     "explanation": "ה-Denticulate ligaments יוצרים 21 זוגות של רצועות משוננות לאורך חוט השדרה.",
     "reference": {
       "doc": "נגה למפל",
-      "page": 7,
+      "page": 8,
       "section": "קרומי המוח (Meninges)"
     },
     "source": "summary"
@@ -241,7 +241,7 @@ window.QUESTIONS_SPINAL_TRACTS = [
     "explanation": "הרצועות המשוננות חזקות יותר ככל שמתקדמים רוסטרלית (למעלה) בחוט השדרה.",
     "reference": {
       "doc": "נגה למפל",
-      "page": 7,
+      "page": 8,
       "section": "קרומי המוח (Meninges)"
     },
     "source": "summary"
@@ -260,7 +260,7 @@ window.QUESTIONS_SPINAL_TRACTS = [
     "explanation": "בבוגר, הסגמנט האחרון של חוט השדרה נמצא בגובה חוליות L1-L2, וקצה זה נקרא Conus medullaris.",
     "reference": {
       "doc": "נגה למפל",
-      "page": 7,
+      "page": 8,
       "section": "קרומי המוח (Meninges)"
     },
     "source": "summary"
@@ -336,7 +336,7 @@ window.QUESTIONS_SPINAL_TRACTS = [
     "explanation": "ה-Cervical enlargement הוא התעבות של חוט השדרה באזור סגמנטים C4-T1.",
     "reference": {
       "doc": "נגה למפל",
-      "page": 8,
+      "page": 9,
       "section": "מוח השדרה (Spinal cord)"
     },
     "source": "summary"
@@ -355,7 +355,7 @@ window.QUESTIONS_SPINAL_TRACTS = [
     "explanation": "ה-Lumbar/Lumbosacral enlargement הוא התעבות של חוט השדרה באזור סגמנטים L2-S3.",
     "reference": {
       "doc": "נגה למפל",
-      "page": 8,
+      "page": 9,
       "section": "מוח השדרה (Spinal cord)"
     },
     "source": "summary"
@@ -374,7 +374,7 @@ window.QUESTIONS_SPINAL_TRACTS = [
     "explanation": "כיוון שהשליטה המוטורית על הגפיים דורשת כמות גדולה יותר של נוירונים, חוט השדרה מתעבה באזורים שמספקים להן עצבוב.",
     "reference": {
       "doc": "נגה למפל",
-      "page": 8,
+      "page": 9,
       "section": "מוח השדרה (Spinal cord)"
     },
     "source": "summary"
@@ -393,7 +393,7 @@ window.QUESTIONS_SPINAL_TRACTS = [
     "explanation": "ה-Lateral funiculus נמצא בין הקרן הוונטרלית לדורסלית, בעוד ה-Anterior & Posterior funiculi נמצאים בין קו האמצע לקרניים.",
     "reference": {
       "doc": "נגה למפל",
-      "page": 8,
+      "page": 9,
       "section": "חתך רוחב של חוט השדרה"
     },
     "source": "summary"
@@ -412,7 +412,7 @@ window.QUESTIONS_SPINAL_TRACTS = [
     "explanation": "ה-gracilis נמצא מדיאלית וכולל מידע סנסורי מהגפיים התחתונות, וה-cuneatus נמצא לטרלית וכולל מידע מהגפיים העליונות.",
     "reference": {
       "doc": "נגה למפל",
-      "page": 8,
+      "page": 9,
       "section": "חתך רוחב של חוט השדרה"
     },
     "source": "summary"
@@ -450,7 +450,7 @@ window.QUESTIONS_SPINAL_TRACTS = [
     "explanation": "החומר האפור מחולק ל-10 שכבות על שם רקסד, הנבדלות זו מזו בצפיפות ובסוגי התאים.",
     "reference": {
       "doc": "נגה למפל",
-      "page": 9,
+      "page": 10,
       "section": "Laminae of Rexed"
     },
     "source": "summary"
@@ -469,7 +469,7 @@ window.QUESTIONS_SPINAL_TRACTS = [
     "explanation": "שכבה 10 אינה שכבה של חומר אפור אלא מורכבת מאקסונים חסרי מעטפת מיאלין שחוצים מצד אחד של חוט השדרה לצד השני.",
     "reference": {
       "doc": "נגה למפל",
-      "page": 9,
+      "page": 10,
       "section": "Laminae of Rexed"
     },
     "source": "summary"
@@ -488,7 +488,7 @@ window.QUESTIONS_SPINAL_TRACTS = [
     "explanation": "שכבה 9 כוללת נוירונים מוטוריים, שם עושה הנוירון המוטורי העליון סינפסה על הנוירון המוטורי התחתון.",
     "reference": {
       "doc": "נגה למפל",
-      "page": 9,
+      "page": 10,
       "section": "Laminae of Rexed"
     },
     "source": "summary"
@@ -564,7 +564,7 @@ window.QUESTIONS_SPINAL_TRACTS = [
     "explanation": "הפיה שעוטפת את צינור העצבים ממשיכה כלפי מטה מעבר ל-Conus medullaris כמבנה דק בשם Filum terminale.",
     "reference": {
       "doc": "נגה למפל",
-      "page": 7,
+      "page": 8,
       "section": "קרומי המוח (Meninges)"
     },
     "source": "summary"
@@ -944,7 +944,7 @@ window.QUESTIONS_SPINAL_TRACTS = [
     "explanation": "התלמוס מתחלק באופן גס לשלושה חלקים ע\"י ה-Internal medullary lamina: חלק אנטריורי, חלק לטרלי וחלק מדיאלי.",
     "reference": {
       "doc": "נגה למפל",
-      "page": 103,
+      "page": 104,
       "section": "המסילות הסנסוריות העולות"
     },
     "source": "summary"
@@ -963,7 +963,7 @@ window.QUESTIONS_SPINAL_TRACTS = [
     "explanation": "VPM (מדיאלי) אחראי על תחושות סומטו-סנסוריות מהראש ומקבל מידע בעיקר מ-CNV Trigeminal nerve, ואילו VPL (לטרלי) מקבל את רוב המידע מהמסילות העולות מהגוף.",
     "reference": {
       "doc": "נגה למפל",
-      "page": 103,
+      "page": 104,
       "section": "המסילות הסנסוריות העולות"
     },
     "source": "summary"
@@ -1020,7 +1020,7 @@ window.QUESTIONS_SPINAL_TRACTS = [
     "explanation": "הנוירון הסנסורי השני שולח אקסון ל-Lateral funiculus בצד הקונטרה-לטרלי כבר בחוט השדרה, מיד אחרי הסינפסה הראשונה.",
     "reference": {
       "doc": "נגה למפל",
-      "page": 104,
+      "page": 105,
       "section": "ה-Spinothalamic tract בחתכים"
     },
     "source": "summary"
@@ -1077,7 +1077,7 @@ window.QUESTIONS_SPINAL_TRACTS = [
     "explanation": "האקסון הראשון מתחיל לעלות רוסטרלית דרך ה-Dorsal funiculus בצד האיפסי-לטרלי של חוט השדרה, ללא סינפסה או חצית צד בקרן הדורסלית.",
     "reference": {
       "doc": "נגה למפל",
-      "page": 104,
+      "page": 105,
       "section": "ה-Medial lemniscus tract בחתכים"
     },
     "source": "summary"

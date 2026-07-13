@@ -487,6 +487,21 @@ const EXAM = {
   label: "סימולציית מבחן",
 };
 
+const COUNT_PRESETS = [10, 20, 30, 40];
+
+// Picks a sensible default preset/mode given how many questions are
+// available across the currently selected topics.
+function pickDefaultCount(available) {
+  if (available <= 0) return { mode: "20", value: 20 };
+  const fitting = COUNT_PRESETS.filter((p) => p <= available);
+  if (fitting.length > 0) {
+    const preferred = fitting.includes(20) ? 20 : Math.max(...fitting);
+    return { mode: String(preferred), value: preferred };
+  }
+  // No preset fits (available < 10) -> fall back to custom.
+  return { mode: "custom", value: available };
+}
+
 const HISTORY_KEY = "neuroquiz_history_v1";
 const MIN_ATTEMPTS_FOR_RANKING = 3;
 const REPEAT_MISTAKE_THRESHOLD = 2;
@@ -650,6 +665,7 @@ function Home({ onStart }) {
   const allTopicKeys = React.useMemo(() => TOPICS.map((t) => t.key), []);
   const [selectedTopics, setSelectedTopics] = React.useState(() => new Set(allTopicKeys));
   const [totalCount, setTotalCount] = React.useState(20);
+  const [countMode, setCountMode] = React.useState("20"); // "10" | "20" | "30" | "40" | "custom"
   const didInit = React.useRef(false);
 
   function countFor(key) {
@@ -667,7 +683,9 @@ function Home({ onStart }) {
   React.useEffect(() => {
     if (!didInit.current) {
       didInit.current = true;
-      setTotalCount(Math.max(1, Math.min(20, available || 1)));
+      const d = pickDefaultCount(available);
+      setCountMode(d.mode);
+      setTotalCount(Math.max(1, Math.min(d.value, Math.max(1, available))));
       return;
     }
     setTotalCount((prev) => {
@@ -696,6 +714,16 @@ function Home({ onStart }) {
     const max = Math.max(1, available);
     if (isNaN(v)) { setTotalCount(1); return; }
     setTotalCount(Math.max(1, Math.min(v, max)));
+  }
+
+  function handlePresetChange(e) {
+    const v = e.target.value;
+    setCountMode(v);
+    if (v !== "custom") {
+      const n = parseInt(v, 10);
+      const max = Math.max(1, available);
+      setTotalCount(Math.max(1, Math.min(n, max)));
+    }
   }
 
   function startPractice() {
@@ -740,14 +768,10 @@ function Home({ onStart }) {
 
       <div className="section-label">כמה שאלות בסך הכול?</div>
       <div style={{ display: "flex", alignItems: "center", gap: "12px", marginBottom: "6px", flexWrap: "wrap" }}>
-        <input
-          type="number"
-          min={1}
-          max={Math.max(1, available)}
-          value={totalCount}
-          onChange={handleCountChange}
+        <select
+          value={countMode}
+          onChange={handlePresetChange}
           style={{
-            width: "90px",
             padding: "10px 12px",
             borderRadius: "10px",
             border: "1.5px solid var(--border)",
@@ -755,8 +779,33 @@ function Home({ onStart }) {
             color: "var(--text)",
             fontSize: "0.95rem",
             fontFamily: "inherit",
+            cursor: "pointer",
           }}
-        />
+        >
+          {COUNT_PRESETS.map((p) => (
+            <option key={p} value={String(p)}>{p}</option>
+          ))}
+          <option value="custom">מותאם אישית</option>
+        </select>
+        {countMode === "custom" && (
+          <input
+            type="number"
+            min={1}
+            max={Math.max(1, available)}
+            value={totalCount}
+            onChange={handleCountChange}
+            style={{
+              width: "90px",
+              padding: "10px 12px",
+              borderRadius: "10px",
+              border: "1.5px solid var(--border)",
+              background: "var(--bg-elevated)",
+              color: "var(--text)",
+              fontSize: "0.95rem",
+              fontFamily: "inherit",
+            }}
+          />
+        )}
         <span style={{ color: "var(--text-dim)", fontSize: "0.85rem" }}>
           מתוך {available} שאלות זמינות בנושאים שנבחרו
         </span>

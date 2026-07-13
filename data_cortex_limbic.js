@@ -203,7 +203,7 @@ window.QUESTIONS_CORTEX_LIMBIC = [
     "explanation": "המכסה התחתון של האינסולה הוא ה-Superior temporal gyrus, הפיתול העליון של האונה הטמפורלית.",
     "reference": {
       "doc": "נגה למפל",
-      "page": 15,
+      "page": 16,
       "section": "Insula"
     },
     "source": "summary"
@@ -222,7 +222,7 @@ window.QUESTIONS_CORTEX_LIMBIC = [
     "explanation": "המכסה העליון של האינסולה הוא ה-Inferior frontal gyrus, הפיתול התחתון של האונה הפרונטלית.",
     "reference": {
       "doc": "נגה למפל",
-      "page": 15,
+      "page": 16,
       "section": "Insula"
     },
     "source": "summary"
@@ -241,7 +241,7 @@ window.QUESTIONS_CORTEX_LIMBIC = [
     "explanation": "באינסולה יש שלושה Short gyri קדמית לחריץ המרכזי, ושני Long gyri אחורית לו.",
     "reference": {
       "doc": "נגה למפל",
-      "page": 15,
+      "page": 16,
       "section": "Insula"
     },
     "source": "summary"
@@ -260,7 +260,7 @@ window.QUESTIONS_CORTEX_LIMBIC = [
     "explanation": "ה-Limen הוא קודקוד האינסולה, הנמצא בחלקה הקדמי התחתון.",
     "reference": {
       "doc": "נגה למפל",
-      "page": 15,
+      "page": 16,
       "section": "Insula"
     },
     "source": "summary"
@@ -298,7 +298,7 @@ window.QUESTIONS_CORTEX_LIMBIC = [
     "explanation": "ה-Cingulate gyrus נמצא מתחת ל-Cingulate sulcus ואינו משויך לאונה בודדת.",
     "reference": {
       "doc": "נגה למפל",
-      "page": 16,
+      "page": 17,
       "section": "המשטח המדיאלי של ההמיספרה"
     },
     "source": "summary"
@@ -355,7 +355,7 @@ window.QUESTIONS_CORTEX_LIMBIC = [
     "explanation": "ה-Parahippocampal gyrus הוא פיתול שמקיף את ההיפוקמפוס, מבנה השייך למערכת הלימבית.",
     "reference": {
       "doc": "נגה למפל",
-      "page": 17,
+      "page": 18,
       "section": "המשטח המדיאלי – מבנים נוספים"
     },
     "source": "summary"
@@ -374,7 +374,7 @@ window.QUESTIONS_CORTEX_LIMBIC = [
     "explanation": "ה-Uncus, בליטה בקצה הקדמי של ה-Parahippocampal gyrus, הוא מיקום ה-Primary olfactory cortex.",
     "reference": {
       "doc": "נגה למפל",
-      "page": 17,
+      "page": 18,
       "section": "המשטח המדיאלי – מבנים נוספים"
     },
     "source": "summary"
@@ -393,7 +393,7 @@ window.QUESTIONS_CORTEX_LIMBIC = [
     "explanation": "ה-Rhinal sulcus תוחם את ה-Uncus וחלקים מה-Parahippocampal gyrus, וה-Collateral sulcus המשכי לו.",
     "reference": {
       "doc": "נגה למפל",
-      "page": 17,
+      "page": 18,
       "section": "המשטח המדיאלי – מבנים נוספים"
     },
     "source": "summary"
@@ -412,7 +412,7 @@ window.QUESTIONS_CORTEX_LIMBIC = [
     "explanation": "Medial occipitotemporal gyrus = Fusiform gyrus, פיתול התחום בין ה-Collateral & Occipitotemporal sulci.",
     "reference": {
       "doc": "נגה למפל",
-      "page": 17,
+      "page": 18,
       "section": "המשטח המדיאלי – מבנים נוספים"
     },
     "source": "summary"
@@ -431,7 +431,7 @@ window.QUESTIONS_CORTEX_LIMBIC = [
     "explanation": "ב-Fusiform gyrus נמצא ה-FFA, האזור האמון על זיהוי פרצופים.",
     "reference": {
       "doc": "נגה למפל",
-      "page": 17,
+      "page": 18,
       "section": "המשטח המדיאלי – מבנים נוספים"
     },
     "source": "summary"
@@ -488,7 +488,7 @@ window.QUESTIONS_CORTEX_LIMBIC = [
     "explanation": "ה-Fornix הוא אלומת סיבים השייכת למערכת הלימבית, ונמצא כאזור חומר לבן מתחת ל-Corpus callosum.",
     "reference": {
       "doc": "נגה למפל",
-      "page": 18,
+      "page": 19,
       "section": "מבנים תת-קורטיקליים במשטח המדיאלי"
     },
     "source": "summary"
@@ -507,7 +507,7 @@ window.QUESTIONS_CORTEX_LIMBIC = [
     "explanation": "ה-Septum pellucidum מחיצה שנמתחת בין Corpus callosum ל-Fornix ומפרידה בין החדרים הלטרליים; מכילה חומר לבן וגם אפור.",
     "reference": {
       "doc": "נגה למפל",
-      "page": 18,
+      "page": 19,
       "section": "מבנים תת-קורטיקליים במשטח המדיאלי"
     },
     "source": "summary"
@@ -526,7 +526,7 @@ window.QUESTIONS_CORTEX_LIMBIC = [
     "explanation": "רוב איברי החישה שולחים מידע קודם לתלמוס, אך חוש הריח יוצא דופן ומגיע ישירות לקורטקס דרך ה-Lateral olfactory stria.",
     "reference": {
       "doc": "נגה למפל",
-      "page": 18,
+      "page": 19,
       "section": "מבנים תת-קורטיקליים במשטח המדיאלי"
     },
     "source": "summary"
@@ -697,7 +697,7 @@ window.QUESTIONS_CORTEX_LIMBIC = [
     "explanation": "ה-External pyramidal layer, בעלת תאים גדולים דמויי-משולש, אחראית על הוצאת פלט להמיספרה השנייה.",
     "reference": {
       "doc": "נגה למפל",
-      "page": 26,
+      "page": 27,
       "section": "שכבות הנאוקורטקס"
     },
     "source": "summary"
@@ -716,7 +716,7 @@ window.QUESTIONS_CORTEX_LIMBIC = [
     "explanation": "ה-Internal granular layer (שכבה 4), מגורענת וצפופה, אחראית על קליטת מידע מהתלמוס.",
     "reference": {
       "doc": "נגה למפל",
-      "page": 26,
+      "page": 27,
       "section": "שכבות הנאוקורטקס"
     },
     "source": "summary"
@@ -735,7 +735,7 @@ window.QUESTIONS_CORTEX_LIMBIC = [
     "explanation": "ה-Internal pyramidal layer (שכבה 5), בעלת תאים גדולים דמויי-משולש, מוציאה פלט לגזע המוח ולחוט השדרה.",
     "reference": {
       "doc": "נגה למפל",
-      "page": 26,
+      "page": 27,
       "section": "שכבות הנאוקורטקס"
     },
     "source": "summary"
@@ -754,7 +754,7 @@ window.QUESTIONS_CORTEX_LIMBIC = [
     "explanation": "ל-Archicortex, הכולל את ה-Hippocampus, יש שלוש שכבות בלבד: מולקולרית, פירמידלית ופולימורפית, ללא שכבה גרנולרית.",
     "reference": {
       "doc": "נגה למפל",
-      "page": 26,
+      "page": 28,
       "section": "שאר חלקי הקורטקס"
     },
     "source": "summary"
@@ -773,7 +773,7 @@ window.QUESTIONS_CORTEX_LIMBIC = [
     "explanation": "ה-Paleocortex, שכולל בין היתר את מערכת ההרחה, ה-Parahippocampal gyrus וה-Uncus, בעל 4-5 שכבות בלבד.",
     "reference": {
       "doc": "נגה למפל",
-      "page": 26,
+      "page": 28,
       "section": "שאר חלקי הקורטקס"
     },
     "source": "summary"
@@ -811,7 +811,7 @@ window.QUESTIONS_CORTEX_LIMBIC = [
     "explanation": "האזור לא מקבל כמעט מידע סנסורי מהתלמוס, ולכן שכבה 4 (Internal granular) שלו כמעט לא קיימת - מכאן הכינוי 'אגרנולרי'.",
     "reference": {
       "doc": "נגה למפל",
-      "page": 27,
+      "page": 28,
       "section": "התאמה בין מבנה לתפקיד"
     },
     "source": "summary"
@@ -830,7 +830,7 @@ window.QUESTIONS_CORTEX_LIMBIC = [
     "explanation": "שכבה 5 בקורטקס המוטורי הראשוני מאופיינת בתאי Betz, תאים פירמידליים גדולים וייחודיים.",
     "reference": {
       "doc": "נגה למפל",
-      "page": 27,
+      "page": 28,
       "section": "התאמה בין מבנה לתפקיד"
     },
     "source": "summary"
@@ -849,7 +849,7 @@ window.QUESTIONS_CORTEX_LIMBIC = [
     "explanation": "אזורים אסוציאטיביים מקבלים אינפוטים מסוגים ואזורים שונים, ועושים אינטגרציה של המידע לצורך ייצוג מורכב.",
     "reference": {
       "doc": "נגה למפל",
-      "page": 28,
+      "page": 29,
       "section": "לוקליזציה פונקציונלית של הקורטקס"
     },
     "source": "summary"
@@ -868,7 +868,7 @@ window.QUESTIONS_CORTEX_LIMBIC = [
     "explanation": "ה-Premotor cortex אחראי על התנעת תכניות מוטוריות שכבר נלמדו ואינן דורשות מחשבה רבה בביצוען.",
     "reference": {
       "doc": "נגה למפל",
-      "page": 29,
+      "page": 30,
       "section": "המערכת המוטורית"
     },
     "source": "summary"
@@ -944,7 +944,7 @@ window.QUESTIONS_CORTEX_LIMBIC = [
     "explanation": "Hemispatial cortical neglect נובע מפגיעה בקורטקס סומטו-סנסורי שניוני ובא לידי ביטוי גם בהזנחה מוטורית, כמו ציור חלקי של שעון.",
     "reference": {
       "doc": "נגה למפל",
-      "page": 31,
+      "page": 32,
       "section": "המערכת הסומטו-סנסורית"
     },
     "source": "summary"
@@ -963,7 +963,7 @@ window.QUESTIONS_CORTEX_LIMBIC = [
     "explanation": "Astereognosis נובעת מפגיעה שניונית (לא אסוציאטיבית) בקורטקס הסומטו-סנסורי, כשהייצוג הראשוני עדיין תקין.",
     "reference": {
       "doc": "נגה למפל",
-      "page": 31,
+      "page": 32,
       "section": "המערכת הסומטו-סנסורית"
     },
     "source": "summary"
@@ -1058,7 +1058,7 @@ window.QUESTIONS_CORTEX_LIMBIC = [
     "explanation": "בכיאזמה האופטית עובר חלק מהמידע צד, כך שאחריה כל שדה הראייה הימני עובר להמיספרה השמאלית.",
     "reference": {
       "doc": "נגה למפל",
-      "page": 32,
+      "page": 33,
       "section": "הלטרליות של הראייה"
     },
     "source": "summary"
@@ -1115,7 +1115,7 @@ window.QUESTIONS_CORTEX_LIMBIC = [
     "explanation": "Simple cells מגיבים לקווים באוריינטציה ובמיקום מסוימים, בעוד Complex cells מגיבים לכל קו באוריינטציה המתאימה בלי תלות במיקום.",
     "reference": {
       "doc": "נגה למפל",
-      "page": 34,
+      "page": 35,
       "section": "הרכבת הייצוג הויזואלי הגבוה"
     },
     "source": "summary"
@@ -1134,7 +1134,7 @@ window.QUESTIONS_CORTEX_LIMBIC = [
     "explanation": "הערוץ הדורסלי נכנס לאונה הפריאטלית ועוסק בשאלת המיקום, לעומת הערוץ הוונטרלי הנכנס לאונה הטמפורלית ועוסק בזיהוי הגירוי.",
     "reference": {
       "doc": "נגה למפל",
-      "page": 34,
+      "page": 35,
       "section": "הרכבת הייצוג הויזואלי הגבוה"
     },
     "source": "summary"
@@ -1153,7 +1153,7 @@ window.QUESTIONS_CORTEX_LIMBIC = [
     "explanation": "בפרוסופגנוזיה הייצוג הראשוני של הפרצוף תקין, אך לא ניתן להרכיב ייצוג גבוה שלו כתוצאה מהפרעה ב-Fusiform face area.",
     "reference": {
       "doc": "נגה למפל",
-      "page": 35,
+      "page": 36,
       "section": "Visual Agnosia"
     },
     "source": "summary"
@@ -1172,7 +1172,7 @@ window.QUESTIONS_CORTEX_LIMBIC = [
     "explanation": "למרות שהאדם חווה עיוורון מודע עקב פגיעה באזורים הויזואליים הגבוהים, רפלקסים העוברים דרך גזע המוח אינם תלויים בקורטקס.",
     "reference": {
       "doc": "נגה למפל",
-      "page": 35,
+      "page": 36,
       "section": "Visual Agnosia"
     },
     "source": "summary"
@@ -1191,7 +1191,7 @@ window.QUESTIONS_CORTEX_LIMBIC = [
     "explanation": "הקורטקס הגוסטטורי הראשוני נמצא ב-BA43, בקרבת האזור הקורטיקלי שקולט מידע סומטו-סנסורי מהפנים.",
     "reference": {
       "doc": "נגה למפל",
-      "page": 35,
+      "page": 36,
       "section": "מערכת הטעם"
     },
     "source": "summary"
@@ -1248,7 +1248,7 @@ window.QUESTIONS_CORTEX_LIMBIC = [
     "explanation": "ה-DLPFC אחראי על זכרון העבודה, התנהגות מוכוונת מטרה וקבלת החלטות.",
     "reference": {
       "doc": "נגה למפל",
-      "page": 36,
+      "page": 37,
       "section": "Prefrontal cortex"
     },
     "source": "summary"
@@ -1267,7 +1267,7 @@ window.QUESTIONS_CORTEX_LIMBIC = [
     "explanation": "ה-VMPFC (הקורטקס האורביטופרונטלי) אחראי על יכולות חברתיות וויסות רגשי, ומיאלינם מתרחש בגילאים 2-4.",
     "reference": {
       "doc": "נגה למפל",
-      "page": 36,
+      "page": 37,
       "section": "Prefrontal cortex"
     },
     "source": "summary"
@@ -1590,7 +1590,7 @@ window.QUESTIONS_CORTEX_LIMBIC = [
     "explanation": "מחלות נוירודגנרטיביות באות לידי ביטוי ב-Gyri דלים עם Sulci רחבים והיפוקמפוס דק.",
     "reference": {
       "doc": "נגה למפל",
-      "page": 73,
+      "page": 74,
       "section": "פתולוגיות"
     },
     "source": "summary"
