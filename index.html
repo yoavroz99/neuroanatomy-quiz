@@ -1,0 +1,1188 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>נוירואנטומיה — כלי תרגול</title>
+
+<script src="https://unpkg.com/react@18/umd/react.production.min.js" crossorigin></script>
+<script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" crossorigin></script>
+<script src="https://unpkg.com/@babel/standalone/babel.min.js" crossorigin></script>
+
+<!-- question data (plain script tags so this works over file://) -->
+<script src="data_spinal_tracts.js"></script>
+<script src="data_cortex_limbic.js"></script>
+<script src="data_diencephalon.js"></script>
+<script src="data_basal_ganglia.js"></script>
+<script src="data_brainstem_cn.js"></script>
+<script src="data_cerebellum.js"></script>
+<script src="data_ventricles_meninges.js"></script>
+<script src="data_vasc_white.js"></script>
+
+<style>
+  :root {
+    --bg: #0f1420;
+    --bg-elevated: #171e2e;
+    --card: #1c2436;
+    --card-hover: #222c42;
+    --border: #2b3550;
+    --text: #e8ecf5;
+    --text-dim: #9aa5bd;
+    --text-faint: #6b7593;
+    --accent: #7c9eff;
+    --accent-dim: #3d4d80;
+    --correct: #4ade80;
+    --correct-bg: rgba(74, 222, 128, 0.12);
+    --wrong: #f87171;
+    --wrong-bg: rgba(248, 113, 113, 0.12);
+    --neutral-select: #ffd166;
+    --neutral-select-bg: rgba(255, 209, 102, 0.14);
+    --radius: 14px;
+    --shadow: 0 4px 24px rgba(0,0,0,0.35);
+  }
+
+  * { box-sizing: border-box; }
+
+  html, body {
+    margin: 0;
+    padding: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: "Segoe UI", "Heebo", Arial, sans-serif;
+    min-height: 100vh;
+  }
+
+  #root { min-height: 100vh; }
+
+  body {
+    background-image:
+      radial-gradient(circle at 15% 10%, rgba(124,158,255,0.08), transparent 40%),
+      radial-gradient(circle at 85% 90%, rgba(124,158,255,0.06), transparent 40%);
+  }
+
+  .app-shell {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px 16px 60px;
+  }
+
+  .top-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    margin-bottom: 24px;
+    flex-wrap: wrap;
+  }
+
+  .brand {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 700;
+    font-size: 1.25rem;
+    cursor: pointer;
+  }
+  .brand .logo-dot {
+    width: 12px; height: 12px; border-radius: 50%;
+    background: linear-gradient(135deg, var(--accent), #a78bfa);
+    box-shadow: 0 0 12px rgba(124,158,255,0.7);
+  }
+
+  .tabs {
+    display: flex;
+    gap: 6px;
+    background: var(--bg-elevated);
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    padding: 4px;
+  }
+  .tab-btn {
+    border: none;
+    background: transparent;
+    color: var(--text-dim);
+    padding: 8px 16px;
+    border-radius: 999px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: 600;
+    transition: all .15s ease;
+  }
+  .tab-btn:hover { color: var(--text); }
+  .tab-btn.active {
+    background: var(--accent);
+    color: #0f1420;
+  }
+
+  .card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 24px;
+    box-shadow: var(--shadow);
+  }
+
+  h1 { font-size: 1.5rem; margin: 0 0 6px; }
+  h2 { font-size: 1.2rem; margin: 0 0 14px; }
+  p.subtitle { color: var(--text-dim); margin: 0 0 20px; line-height: 1.6; }
+
+  .section-label {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--text-faint);
+    margin: 22px 0 10px;
+    font-weight: 700;
+  }
+  .section-label:first-child { margin-top: 0; }
+
+  .topic-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+  }
+
+  .topic-card {
+    background: var(--bg-elevated);
+    border: 1.5px solid var(--border);
+    border-radius: 10px;
+    padding: 14px 16px;
+    cursor: pointer;
+    text-align: right;
+    color: var(--text);
+    font-size: 0.95rem;
+    font-weight: 600;
+    transition: all .15s ease;
+  }
+  .topic-card:hover { border-color: var(--accent-dim); background: var(--card-hover); }
+  .topic-card.selected {
+    border-color: var(--accent);
+    background: rgba(124,158,255,0.1);
+    box-shadow: 0 0 0 1px var(--accent) inset;
+  }
+  .topic-card .count {
+    display: block;
+    color: var(--text-faint);
+    font-weight: 400;
+    font-size: 0.8rem;
+    margin-top: 4px;
+  }
+
+  .mode-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 14px;
+  }
+  .mode-card {
+    background: var(--bg-elevated);
+    border: 1.5px solid var(--border);
+    border-radius: 12px;
+    padding: 18px;
+    text-align: right;
+    cursor: pointer;
+    transition: all .15s ease;
+  }
+  .mode-card:hover { border-color: var(--accent); transform: translateY(-2px); }
+  .mode-card h3 { margin: 0 0 6px; font-size: 1.05rem; }
+  .mode-card p { margin: 0; color: var(--text-dim); font-size: 0.85rem; line-height: 1.5; }
+  .mode-card .icon { font-size: 1.6rem; margin-bottom: 8px; display: block; }
+
+  button.btn {
+    font-family: inherit;
+    border: none;
+    border-radius: 10px;
+    padding: 11px 20px;
+    font-size: 0.95rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all .15s ease;
+  }
+  .btn-primary { background: var(--accent); color: #0f1420; }
+  .btn-primary:hover { filter: brightness(1.1); }
+  .btn-primary:disabled { opacity: 0.4; cursor: not-allowed; filter: none; }
+  .btn-secondary { background: var(--bg-elevated); color: var(--text); border: 1px solid var(--border); }
+  .btn-secondary:hover { border-color: var(--accent-dim); }
+  .btn-danger { background: transparent; color: var(--wrong); border: 1px solid var(--wrong); }
+  .btn-danger:hover { background: var(--wrong-bg); }
+  .btn-ghost { background: transparent; color: var(--text-dim); border: 1px solid var(--border); }
+  .btn-ghost:hover { color: var(--text); border-color: var(--accent-dim); }
+
+  .quiz-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .quiz-progress {
+    color: var(--text-dim);
+    font-size: 0.9rem;
+    font-weight: 600;
+  }
+  .quiz-progress .topic-chip {
+    display: inline-block;
+    background: var(--accent-dim);
+    color: var(--accent);
+    padding: 2px 10px;
+    border-radius: 999px;
+    font-size: 0.75rem;
+    margin-inline-start: 8px;
+  }
+
+  .progress-bar-track {
+    height: 6px;
+    background: var(--bg-elevated);
+    border-radius: 999px;
+    overflow: hidden;
+    margin-bottom: 20px;
+  }
+  .progress-bar-fill {
+    height: 100%;
+    background: linear-gradient(90deg, var(--accent), #a78bfa);
+    transition: width .2s ease;
+  }
+
+  .question-text {
+    font-size: 1.15rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    font-weight: 600;
+  }
+
+  .options-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+
+  .option-btn {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    text-align: right;
+    width: 100%;
+    background: var(--bg-elevated);
+    border: 1.5px solid var(--border);
+    border-radius: 10px;
+    padding: 14px 16px;
+    color: var(--text);
+    font-size: 0.98rem;
+    cursor: pointer;
+    transition: all .12s ease;
+    font-family: inherit;
+    line-height: 1.5;
+  }
+  .option-btn:hover:not(:disabled) { border-color: var(--accent-dim); background: var(--card-hover); }
+  .option-btn:disabled { cursor: default; }
+  .option-letter {
+    flex-shrink: 0;
+    width: 28px; height: 28px;
+    border-radius: 50%;
+    background: var(--bg);
+    border: 1.5px solid var(--border);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: var(--text-dim);
+  }
+
+  .option-btn.selected-neutral { border-color: var(--neutral-select); background: var(--neutral-select-bg); }
+  .option-btn.selected-neutral .option-letter { border-color: var(--neutral-select); color: var(--neutral-select); }
+
+  .option-btn.correct { border-color: var(--correct); background: var(--correct-bg); }
+  .option-btn.correct .option-letter { border-color: var(--correct); background: var(--correct); color: #0f1420; }
+
+  .option-btn.wrong { border-color: var(--wrong); background: var(--wrong-bg); }
+  .option-btn.wrong .option-letter { border-color: var(--wrong); background: var(--wrong); color: #0f1420; }
+
+  .reveal-box {
+    border-radius: 10px;
+    padding: 16px 18px;
+    margin-bottom: 20px;
+    border: 1.5px solid;
+    line-height: 1.6;
+  }
+  .reveal-box.is-correct { border-color: var(--correct); background: var(--correct-bg); }
+  .reveal-box.is-wrong { border-color: var(--wrong); background: var(--wrong-bg); }
+  .reveal-box .verdict {
+    font-weight: 800;
+    margin-bottom: 6px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .reveal-box .explanation { color: var(--text); font-size: 0.92rem; margin-bottom: 8px; }
+  .reveal-box .reference {
+    font-size: 0.8rem;
+    color: var(--text-faint);
+    border-top: 1px solid rgba(255,255,255,0.08);
+    padding-top: 8px;
+    margin-top: 8px;
+  }
+
+  .quiz-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  .quiz-footer .left-actions, .quiz-footer .right-actions {
+    display: flex; gap: 8px; flex-wrap: wrap;
+  }
+
+  .results-summary {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 12px;
+    margin-bottom: 22px;
+  }
+  .stat-tile {
+    background: var(--bg-elevated);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 16px;
+    text-align: center;
+  }
+  .stat-tile .value { font-size: 1.7rem; font-weight: 800; }
+  .stat-tile .label { font-size: 0.78rem; color: var(--text-faint); margin-top: 4px; }
+  .stat-tile.correct .value { color: var(--correct); }
+  .stat-tile.wrong .value { color: var(--wrong); }
+
+  .filter-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 16px;
+  }
+  .toggle-switch {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    user-select: none;
+    font-size: 0.9rem;
+    color: var(--text-dim);
+  }
+  .toggle-switch input { accent-color: var(--accent); width: 16px; height: 16px; }
+
+  .result-item {
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 16px 18px;
+    margin-bottom: 12px;
+    background: var(--bg-elevated);
+  }
+  .result-item .status-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 0.75rem;
+    font-weight: 800;
+    padding: 3px 10px;
+    border-radius: 999px;
+    margin-bottom: 10px;
+  }
+  .status-badge.correct { background: var(--correct-bg); color: var(--correct); }
+  .status-badge.wrong { background: var(--wrong-bg); color: var(--wrong); }
+  .status-badge.unanswered { background: rgba(154,165,189,0.15); color: var(--text-faint); }
+
+  .result-item .q-text { font-weight: 700; margin-bottom: 10px; line-height: 1.5; }
+  .result-item .answer-line { font-size: 0.88rem; margin-bottom: 4px; line-height: 1.5; }
+  .result-item .answer-line b { color: var(--text); }
+  .result-item .explanation { font-size: 0.88rem; color: var(--text-dim); margin: 8px 0; line-height: 1.6; }
+  .result-item .reference { font-size: 0.78rem; color: var(--text-faint); border-top: 1px solid var(--border); padding-top: 8px; margin-top: 8px; }
+
+  .empty-state {
+    text-align: center;
+    color: var(--text-faint);
+    padding: 40px 20px;
+  }
+
+  .insights-grid {
+    display: grid;
+    gap: 20px;
+  }
+  .topic-row {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 10px 0;
+    border-bottom: 1px solid var(--border);
+  }
+  .topic-row:last-child { border-bottom: none; }
+  .topic-row .t-name { flex: 1; font-weight: 600; font-size: 0.92rem; }
+  .topic-row .t-stats { font-size: 0.8rem; color: var(--text-faint); min-width: 110px; text-align: left; }
+  .bar-track {
+    flex: 2;
+    height: 8px;
+    background: var(--bg);
+    border-radius: 999px;
+    overflow: hidden;
+  }
+  .bar-fill { height: 100%; border-radius: 999px; }
+
+  .mistake-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    background: var(--bg-elevated);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 12px 14px;
+    margin-bottom: 8px;
+  }
+  .mistake-item .m-info { font-size: 0.85rem; }
+  .mistake-item .m-topic { color: var(--text-faint); font-size: 0.75rem; }
+  .mistake-item .m-count { color: var(--wrong); font-weight: 700; }
+
+  .focus-box {
+    background: linear-gradient(135deg, rgba(124,158,255,0.1), rgba(167,139,250,0.08));
+    border: 1.5px solid var(--accent-dim);
+    border-radius: 12px;
+    padding: 18px;
+    margin-bottom: 22px;
+  }
+  .focus-box h3 { margin: 0 0 10px; font-size: 1rem; }
+  .focus-box ul { margin: 0; padding-inline-start: 20px; line-height: 1.8; font-size: 0.9rem; }
+
+  footer.app-footer {
+    text-align: center;
+    color: var(--text-faint);
+    font-size: 0.78rem;
+    margin-top: 40px;
+    line-height: 1.6;
+  }
+
+  @media (max-width: 520px) {
+    .card { padding: 16px; }
+    .quiz-footer { flex-direction: column; align-items: stretch; }
+    .quiz-footer .left-actions, .quiz-footer .right-actions { justify-content: center; }
+  }
+</style>
+</head>
+<body>
+<div id="root"></div>
+
+<script type="text/plain" id="app-source">
+
+// ---------- Config ----------
+
+const TOPICS = [
+  { key: "spinal_tracts", label: "חוט השדרה ומסילות", global: "QUESTIONS_SPINAL_TRACTS" },
+  { key: "cortex_limbic", label: "קורטקס, המיספרות ולימבי", global: "QUESTIONS_CORTEX_LIMBIC" },
+  { key: "diencephalon", label: "דיאנצפלון", global: "QUESTIONS_DIENCEPHALON" },
+  { key: "basal_ganglia", label: "גרעיני הבסיס", global: "QUESTIONS_BASAL_GANGLIA" },
+  { key: "brainstem_cn", label: "גזע המוח ועצבים קרניאליים", global: "QUESTIONS_BRAINSTEM_CN" },
+  { key: "cerebellum", label: "צרבלום", global: "QUESTIONS_CEREBELLUM" },
+  { key: "ventricles_meninges", label: "חדרים, קרומים ו-CSF", global: "QUESTIONS_VENTRICLES_MENINGES" },
+  { key: "vasc_white", label: "אספקת דם, חומר לבן ודימות", global: "QUESTIONS_VASC_WHITE" },
+];
+
+const EXAM = {
+  size: 36,
+  label: "סימולציית מבחן",
+};
+
+const HISTORY_KEY = "neuroquiz_history_v1";
+const MIN_ATTEMPTS_FOR_RANKING = 3;
+const REPEAT_MISTAKE_THRESHOLD = 2;
+const OPTION_LETTERS = ["א", "ב", "ג", "ד"];
+
+function topicLabel(key) {
+  const t = TOPICS.find((t) => t.key === key);
+  return t ? t.label : key;
+}
+
+function getTopicPool(key) {
+  const t = TOPICS.find((t) => t.key === key);
+  if (!t) return [];
+  return window[t.global] || [];
+}
+
+function getAllQuestions() {
+  let all = [];
+  TOPICS.forEach((t) => {
+    all = all.concat(window[t.global] || []);
+  });
+  return all;
+}
+
+function shuffleArray(arr) {
+  const a = arr.slice();
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
+// ---------- Persistence / Insights ----------
+
+function loadHistory() {
+  try {
+    const raw = localStorage.getItem(HISTORY_KEY);
+    if (!raw) return [];
+    const parsed = JSON.parse(raw);
+    return Array.isArray(parsed) ? parsed : [];
+  } catch (e) {
+    return [];
+  }
+}
+
+function saveHistory(history) {
+  try {
+    localStorage.setItem(HISTORY_KEY, JSON.stringify(history));
+  } catch (e) {
+    // ignore quota errors
+  }
+}
+
+function recordAttempt(attempt) {
+  const history = loadHistory();
+  history.push(attempt);
+  saveHistory(history);
+}
+
+function recordAttempts(attempts) {
+  const history = loadHistory();
+  const merged = history.concat(attempts);
+  saveHistory(merged);
+}
+
+function resetHistory() {
+  saveHistory([]);
+}
+
+function computeInsights() {
+  const history = loadHistory();
+
+  const perTopic = {};
+  TOPICS.forEach((t) => {
+    perTopic[t.key] = { topic: t.key, label: t.label, attempted: 0, correct: 0 };
+  });
+
+  const perQuestion = {}; // qid -> { attempted, wrong, topic }
+
+  history.forEach((h) => {
+    if (!perTopic[h.topic]) {
+      perTopic[h.topic] = { topic: h.topic, label: topicLabel(h.topic), attempted: 0, correct: 0 };
+    }
+    perTopic[h.topic].attempted += 1;
+    if (h.correct) perTopic[h.topic].correct += 1;
+
+    if (!perQuestion[h.qid]) {
+      perQuestion[h.qid] = { qid: h.qid, topic: h.topic, attempted: 0, wrong: 0 };
+    }
+    perQuestion[h.qid].attempted += 1;
+    if (!h.correct) perQuestion[h.qid].wrong += 1;
+  });
+
+  const topicStats = Object.values(perTopic).map((t) => ({
+    ...t,
+    pct: t.attempted > 0 ? Math.round((t.correct / t.attempted) * 100) : null,
+  }));
+
+  const rankable = topicStats.filter((t) => t.attempted >= MIN_ATTEMPTS_FOR_RANKING);
+  const weakest = rankable.slice().sort((a, b) => a.pct - b.pct);
+
+  const repeatMistakes = Object.values(perQuestion)
+    .filter((q) => q.wrong >= REPEAT_MISTAKE_THRESHOLD)
+    .sort((a, b) => b.wrong - a.wrong);
+
+  const totalAttempted = history.length;
+  const totalCorrect = history.filter((h) => h.correct).length;
+  const overallPct = totalAttempted > 0 ? Math.round((totalCorrect / totalAttempted) * 100) : null;
+
+  return {
+    topicStats,
+    weakest,
+    repeatMistakes,
+    totalAttempted,
+    totalCorrect,
+    overallPct,
+    hasData: totalAttempted > 0,
+  };
+}
+
+// ---------- Small UI atoms ----------
+
+function Tabs({ active, onChange }) {
+  const tabs = [
+    { key: "home", label: "בית" },
+    { key: "insights", label: "תובנות" },
+  ];
+  return (
+    <div className="tabs">
+      {tabs.map((t) => (
+        <button
+          key={t.key}
+          className={"tab-btn" + (active === t.key ? " active" : "")}
+          onClick={() => onChange(t.key)}
+        >
+          {t.label}
+        </button>
+      ))}
+    </div>
+  );
+}
+
+function Header({ view, onGoHome, onChangeTab }) {
+  return (
+    <div className="top-nav">
+      <div className="brand" onClick={onGoHome}>
+        <span className="logo-dot"></span>
+        <span>נוירואנטומיה</span>
+      </div>
+      {(view === "home" || view === "insights") && (
+        <Tabs active={view} onChange={onChangeTab} />
+      )}
+    </div>
+  );
+}
+
+// ---------- Home screen ----------
+
+function Home({ onStart }) {
+  const [selectedTopic, setSelectedTopic] = React.useState("all");
+  const [mode, setMode] = React.useState(null);
+
+  const allCount = React.useMemo(() => getAllQuestions().length, []);
+
+  function countFor(key) {
+    if (key === "all") return allCount;
+    return getTopicPool(key).length;
+  }
+
+  function handleModeClick(m) {
+    setMode(m);
+    if (m === "exam") {
+      onStart({ mode: "exam", topic: "all" });
+      return;
+    }
+    onStart({ mode: m, topic: selectedTopic });
+  }
+
+  return (
+    <div className="card">
+      <h1>כלי תרגול בנוירואנטומיה</h1>
+      <p className="subtitle">
+        בחרו נושא ומצב תרגול. כל השאלות כוללות הסבר ומקור לחזרה על החומר.
+      </p>
+
+      <div className="section-label">נושא</div>
+      <div className="topic-grid">
+        <div
+          className={"topic-card" + (selectedTopic === "all" ? " selected" : "")}
+          onClick={() => setSelectedTopic("all")}
+        >
+          כל הנושאים
+          <span className="count">{countFor("all")} שאלות</span>
+        </div>
+        {TOPICS.map((t) => (
+          <div
+            key={t.key}
+            className={"topic-card" + (selectedTopic === t.key ? " selected" : "")}
+            onClick={() => setSelectedTopic(t.key)}
+          >
+            {t.label}
+            <span className="count">{countFor(t.key)} שאלות</span>
+          </div>
+        ))}
+      </div>
+
+      <div className="section-label">מצב תרגול</div>
+      <div className="mode-grid">
+        <div className="mode-card" onClick={() => handleModeClick("practice")}>
+          <span className="icon">📘</span>
+          <h3>תרגול</h3>
+          <p>משוב מיידי אחרי כל שאלה — נכון/לא נכון, הסבר ומקור.</p>
+        </div>
+        <div className="mode-card" onClick={() => handleModeClick("test")}>
+          <span className="icon">📝</span>
+          <h3>מבחן תרגול</h3>
+          <p>ללא משוב תוך כדי — תוצאות מלאות בסוף בלבד.</p>
+        </div>
+        <div className="mode-card" onClick={() => handleModeClick("exam")}>
+          <span className="icon">🎯</span>
+          <h3>{EXAM.label}</h3>
+          <p>{EXAM.size} שאלות אקראיות מכל הנושאים, בדיוק כמו במבחן האמיתי.</p>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+// ---------- Quiz engine (practice / test / exam) ----------
+
+function buildQuestionSet(mode, topic) {
+  if (mode === "exam") {
+    const pool = shuffleArray(getAllQuestions());
+    return pool.slice(0, Math.min(EXAM.size, pool.length));
+  }
+  const pool = topic === "all" ? getAllQuestions() : getTopicPool(topic);
+  return shuffleArray(pool);
+}
+
+function Quiz({ session, onFinish, onExit }) {
+  const { mode, questions, isRetry } = session;
+  const isPracticeMode = mode === "practice";
+  const [idx, setIdx] = React.useState(0);
+  // answers[i] = { chosenIndex, answered } | undefined
+  const [answers, setAnswers] = React.useState(() => new Array(questions.length).fill(null));
+
+  const q = questions[idx];
+  const current = answers[idx];
+  const answeredCount = answers.filter((a) => a && a.answered).length;
+
+  function selectOption(optIndex) {
+    if (current && current.answered) return; // locked once answered
+    const isCorrect = optIndex === q.correctIndex;
+    const next = answers.slice();
+    next[idx] = { chosenIndex: optIndex, answered: true, correct: isCorrect };
+    setAnswers(next);
+
+    if (isPracticeMode) {
+      recordAttempt({
+        qid: q.id,
+        topic: q.topic,
+        correct: isCorrect,
+        chosenIndex: optIndex,
+        ts: Date.now(),
+        mode: mode,
+      });
+    }
+  }
+
+  function goTo(newIdx) {
+    if (newIdx < 0 || newIdx >= questions.length) return;
+    setIdx(newIdx);
+  }
+
+  function finishNow() {
+    if (!isPracticeMode) {
+      const attempts = questions
+        .map((qq, i) => {
+          const a = answers[i];
+          if (!a || !a.answered) return null;
+          return {
+            qid: qq.id,
+            topic: qq.topic,
+            correct: a.correct,
+            chosenIndex: a.chosenIndex,
+            ts: Date.now(),
+            mode: mode,
+          };
+        })
+        .filter(Boolean);
+      if (attempts.length > 0) recordAttempts(attempts);
+    }
+    onFinish({ questions, answers, mode, isRetry });
+  }
+
+  const showReveal = isPracticeMode && current && current.answered;
+
+  return (
+    <div className="card">
+      <div className="quiz-header">
+        <div className="quiz-progress">
+          שאלה {idx + 1} / {questions.length}
+          {mode !== "exam" && session.topic && session.topic !== "all" && (
+            <span className="topic-chip">{topicLabel(session.topic)}</span>
+          )}
+          {mode === "exam" && <span className="topic-chip">{EXAM.label}</span>}
+          {!isPracticeMode && (
+            <span className="topic-chip">נענו {answeredCount}/{questions.length}</span>
+          )}
+        </div>
+        <button className="btn btn-ghost" onClick={onExit}>יציאה</button>
+      </div>
+
+      <div className="progress-bar-track">
+        <div
+          className="progress-bar-fill"
+          style={{ width: ((idx + 1) / questions.length) * 100 + "%" }}
+        ></div>
+      </div>
+
+      <div className="question-text">{q.question}</div>
+
+      <div className="options-list">
+        {q.options.map((opt, i) => {
+          let cls = "option-btn";
+          if (isPracticeMode && current && current.answered) {
+            if (i === q.correctIndex) cls += " correct";
+            else if (i === current.chosenIndex) cls += " wrong";
+          } else if (current && current.answered && current.chosenIndex === i) {
+            cls += " selected-neutral";
+          }
+          return (
+            <button
+              key={i}
+              className={cls}
+              disabled={isPracticeMode && current && current.answered}
+              onClick={() => selectOption(i)}
+            >
+              <span className="option-letter">{OPTION_LETTERS[i]}</span>
+              <span>{opt}</span>
+            </button>
+          );
+        })}
+      </div>
+
+      {showReveal && (
+        <div className={"reveal-box " + (current.correct ? "is-correct" : "is-wrong")}>
+          <div className="verdict">
+            {current.correct ? "✓ תשובה נכונה" : "✗ תשובה שגויה"}
+          </div>
+          <div className="explanation">{q.explanation}</div>
+          <div className="reference">
+            מקור: {q.reference && q.reference.doc}
+            {q.reference && q.reference.page ? `, עמוד ${q.reference.page}` : ""}
+            {q.reference && q.reference.section ? ` — ${q.reference.section}` : ""}
+          </div>
+        </div>
+      )}
+
+      <div className="quiz-footer">
+        <div className="right-actions">
+          <button className="btn btn-secondary" onClick={() => goTo(idx - 1)} disabled={idx === 0}>
+            הקודם
+          </button>
+          <button
+            className="btn btn-primary"
+            onClick={() => (idx === questions.length - 1 ? finishNow() : goTo(idx + 1))}
+          >
+            {idx === questions.length - 1 ? "סיום" : "הבא"}
+          </button>
+        </div>
+        <div className="left-actions">
+          <button className="btn btn-danger" onClick={finishNow}>סיים עכשיו</button>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+// ---------- Results screen ----------
+
+function Results({ result, onRetryMistakes, onGoHome }) {
+  const { questions, answers, mode } = result;
+  const [mistakesOnly, setMistakesOnly] = React.useState(false);
+
+  const total = questions.length;
+  const correctCount = answers.filter((a) => a && a.answered && a.correct).length;
+  const wrongCount = answers.filter((a) => a && a.answered && !a.correct).length;
+  const unansweredCount = total - correctCount - wrongCount;
+  const scorePct = total > 0 ? Math.round((correctCount / total) * 100) : 0;
+
+  const missedQuestions = questions.filter((qq, i) => {
+    const a = answers[i];
+    return !a || !a.answered || !a.correct;
+  });
+
+  const visibleIndices = questions
+    .map((qq, i) => i)
+    .filter((i) => {
+      if (!mistakesOnly) return true;
+      const a = answers[i];
+      return !a || !a.answered || !a.correct;
+    });
+
+  return (
+    <div className="card">
+      <h1>תוצאות</h1>
+      <p className="subtitle">
+        {mode === "exam" ? EXAM.label : mode === "test" ? "מבחן תרגול" : "תרגול"} — סיכום הריצה
+      </p>
+
+      <div className="results-summary">
+        <div className="stat-tile">
+          <div className="value">{scorePct}%</div>
+          <div className="label">ציון</div>
+        </div>
+        <div className="stat-tile correct">
+          <div className="value">{correctCount}</div>
+          <div className="label">נכונות</div>
+        </div>
+        <div className="stat-tile wrong">
+          <div className="value">{wrongCount}</div>
+          <div className="label">שגויות</div>
+        </div>
+        <div className="stat-tile">
+          <div className="value">{unansweredCount}</div>
+          <div className="label">לא נענו</div>
+        </div>
+      </div>
+
+      <div className="filter-row">
+        <label className="toggle-switch">
+          <input
+            type="checkbox"
+            checked={mistakesOnly}
+            onChange={(e) => setMistakesOnly(e.target.checked)}
+          />
+          רק טעויות
+        </label>
+      </div>
+
+      {visibleIndices.length === 0 && (
+        <div className="empty-state">אין טעויות להצגה 🎉</div>
+      )}
+
+      {visibleIndices.map((i) => {
+        const qq = questions[i];
+        const a = answers[i];
+        const answered = a && a.answered;
+        const isCorrect = answered && a.correct;
+        const status = !answered ? "unanswered" : isCorrect ? "correct" : "wrong";
+        const statusLabel = !answered ? "לא נענתה" : isCorrect ? "נכון" : "שגוי";
+
+        return (
+          <div className="result-item" key={qq.id}>
+            <span className={"status-badge " + status}>{statusLabel}</span>
+            <div className="q-text">{qq.question}</div>
+
+            {!isCorrect && (
+              <div className="answer-line">
+                תשובה נכונה: <b>{OPTION_LETTERS[qq.correctIndex]}. {qq.options[qq.correctIndex]}</b>
+              </div>
+            )}
+            {answered && !isCorrect && (
+              <div className="answer-line">
+                התשובה שלך: {OPTION_LETTERS[a.chosenIndex]}. {qq.options[a.chosenIndex]}
+              </div>
+            )}
+
+            <div className="explanation">{qq.explanation}</div>
+            <div className="reference">
+              מקור: {qq.reference && qq.reference.doc}
+              {qq.reference && qq.reference.page ? `, עמוד ${qq.reference.page}` : ""}
+              {qq.reference && qq.reference.section ? ` — ${qq.reference.section}` : ""}
+              {" · נושא: " + topicLabel(qq.topic)}
+            </div>
+          </div>
+        );
+      })}
+
+      <div className="quiz-footer" style={{ marginTop: "10px" }}>
+        <div className="right-actions">
+          <button className="btn btn-secondary" onClick={onGoHome}>חזרה לבית</button>
+        </div>
+        <div className="left-actions">
+          {missedQuestions.length > 0 && (
+            <button className="btn btn-primary" onClick={() => onRetryMistakes(missedQuestions)}>
+              חזור על הטעויות ({missedQuestions.length})
+            </button>
+          )}
+        </div>
+      </div>
+    </div>
+  );
+}
+
+// ---------- Insights tab ----------
+
+function Insights({ onJumpToQuestion }) {
+  const [insights, setInsights] = React.useState(() => computeInsights());
+
+  function refresh() {
+    setInsights(computeInsights());
+  }
+
+  function handleReset() {
+    if (window.confirm("לאפס את כל נתוני ההתקדמות? פעולה זו אינה הפיכה.")) {
+      resetHistory();
+      refresh();
+    }
+  }
+
+  if (!insights.hasData) {
+    return (
+      <div className="card">
+        <h1>תובנות</h1>
+        <div className="empty-state">
+          עדיין אין נתונים. התחילו לתרגל כדי לראות כאן ניתוח התקדמות אישי.
+        </div>
+      </div>
+    );
+  }
+
+  const bottomTopics = insights.weakest.slice(0, 3);
+
+  return (
+    <div className="card">
+      <div className="quiz-header">
+        <h1 style={{ marginBottom: 0 }}>תובנות</h1>
+        <button className="btn btn-ghost" onClick={handleReset}>אפס נתונים</button>
+      </div>
+      <p className="subtitle">ניתוח ההתקדמות שלכם על בסיס כל הניסיונות שנשמרו במכשיר זה.</p>
+
+      <div className="results-summary">
+        <div className="stat-tile">
+          <div className="value">{insights.totalAttempted}</div>
+          <div className="label">סה"כ נענו</div>
+        </div>
+        <div className="stat-tile correct">
+          <div className="value">{insights.totalCorrect}</div>
+          <div className="label">נכונות</div>
+        </div>
+        <div className="stat-tile">
+          <div className="value">{insights.overallPct}%</div>
+          <div className="label">אחוז הצלחה כולל</div>
+        </div>
+      </div>
+
+      {(bottomTopics.length > 0 || insights.repeatMistakes.length > 0) && (
+        <div className="focus-box">
+          <h3>💡 מומלץ להתמקד</h3>
+          <ul>
+            {bottomTopics.map((t) => (
+              <li key={t.topic}>
+                <b>{t.label}</b> — {t.pct}% הצלחה ({t.correct}/{t.attempted})
+              </li>
+            ))}
+            {insights.repeatMistakes.length > 0 && (
+              <li>
+                {insights.repeatMistakes.length} שאלות שטעיתם בהן פעמיים ומעלה — כדאי לחזור עליהן
+              </li>
+            )}
+          </ul>
+        </div>
+      )}
+
+      <div className="section-label">דיוק לפי נושא</div>
+      <div className="insights-grid">
+        {insights.topicStats
+          .slice()
+          .sort((a, b) => (b.attempted || 0) - (a.attempted || 0))
+          .map((t) => (
+            <div className="topic-row" key={t.topic}>
+              <div className="t-name">{t.label}</div>
+              <div className="bar-track">
+                <div
+                  className="bar-fill"
+                  style={{
+                    width: (t.pct || 0) + "%",
+                    background: t.attempted === 0 ? "var(--border)"
+                      : t.pct >= 70 ? "var(--correct)"
+                      : t.pct >= 40 ? "var(--neutral-select)"
+                      : "var(--wrong)",
+                  }}
+                ></div>
+              </div>
+              <div className="t-stats">
+                {t.attempted === 0 ? "אין נתונים" : `${t.correct}/${t.attempted} · ${t.pct}%`}
+              </div>
+            </div>
+          ))}
+      </div>
+
+      {insights.repeatMistakes.length > 0 && (
+        <React.Fragment>
+          <div className="section-label">טעויות חוזרות</div>
+          {insights.repeatMistakes.map((m) => (
+            <div className="mistake-item" key={m.qid}>
+              <div className="m-info">
+                <div>{m.qid}</div>
+                <div className="m-topic">{topicLabel(m.topic)}</div>
+              </div>
+              <div>
+                <span className="m-count">{m.wrong} טעויות</span>
+                {" "}
+                <button className="btn btn-ghost" onClick={() => onJumpToQuestion(m)}>
+                  סקירה
+                </button>
+              </div>
+            </div>
+          ))}
+        </React.Fragment>
+      )}
+    </div>
+  );
+}
+
+// ---------- App root ----------
+
+function App() {
+  const [view, setView] = React.useState("home"); // home | insights | quiz | results
+  const [session, setSession] = React.useState(null);
+  const [result, setResult] = React.useState(null);
+
+  function startQuiz({ mode, topic }) {
+    const questions = buildQuestionSet(mode, topic);
+    if (questions.length === 0) {
+      window.alert("אין שאלות זמינות לנושא זה כרגע.");
+      return;
+    }
+    setSession({ mode, topic, questions, isRetry: false });
+    setResult(null);
+    setView("quiz");
+  }
+
+  function handleFinish(finishedResult) {
+    setResult(finishedResult);
+    setView("results");
+  }
+
+  function handleRetryMistakes(missedQuestions) {
+    setSession({ mode: "practice", topic: "all", questions: missedQuestions, isRetry: true });
+    setResult(null);
+    setView("quiz");
+  }
+
+  function goHome() {
+    setView("home");
+    setSession(null);
+    setResult(null);
+  }
+
+  function handleJumpToQuestion(mistake) {
+    // Jump into a focused practice session for this single repeated-mistake question.
+    const pool = getTopicPool(mistake.topic);
+    const q = pool.find((qq) => qq.id === mistake.qid);
+    if (!q) {
+      window.alert("השאלה לא נמצאה במאגר הנוכחי.");
+      return;
+    }
+    setSession({ mode: "practice", topic: mistake.topic, questions: [q], isRetry: true });
+    setResult(null);
+    setView("quiz");
+  }
+
+  return (
+    <div className="app-shell">
+      <Header view={view === "quiz" || view === "results" ? null : view} onGoHome={goHome} onChangeTab={setView} />
+
+      {view === "home" && <Home onStart={startQuiz} />}
+      {view === "insights" && <Insights onJumpToQuestion={handleJumpToQuestion} />}
+      {view === "quiz" && session && (
+        <Quiz session={session} onFinish={handleFinish} onExit={goHome} />
+      )}
+      {view === "results" && result && (
+        <Results result={result} onRetryMistakes={handleRetryMistakes} onGoHome={goHome} />
+      )}
+
+      <footer className="app-footer">
+        כלי תרגול פרטי לנוירואנטומיה — כל הנתונים נשמרים מקומית בדפדפן בלבד.
+      </footer>
+    </div>
+  );
+}
+
+ReactDOM.createRoot(document.getElementById("root")).render(<App />);
+
+</script>
+
+<script>
+(function () {
+  var src = document.getElementById("app-source").textContent;
+  var compiled = Babel.transform(src, { presets: [["react", { runtime: "classic" }]] }).code;
+  (0, eval)(compiled);
+})();
+</script>
+</body>
+</html>
